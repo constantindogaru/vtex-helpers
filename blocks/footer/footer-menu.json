@@ -1,0 +1,112 @@
+{
+    "vtex.menu@2.x:menu#footer": {
+        "props": {
+          "orientation": "vertical",
+          "blockClass":"mobileFooterMenu"
+        },
+        "children": [
+          "menu-item#dacris",
+          "menu-item#informatii-utile",
+          "menu-item#legal"
+        ]
+      },
+      "menu-item#dacris": {
+        "props": {
+          "id": "menu-item-dacris",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": null,
+            "noFollow": false,
+            "tagTitle": "Dacris",
+            "text": "Dacris"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#dacris"]
+    },
+    
+      "vtex.menu@2.x:submenu.accordion#dacris": {
+        "children": ["vtex.menu@2.x:menu#dacris-accordion"],
+        "props":{
+          "blockClass":"accordionCompanie"
+        }
+      },
+      "vtex.menu@2.x:menu#dacris-accordion": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#contacteaza-ne",
+            "menu-item#blogul-nostru",
+            "menu-item#despre-noi",
+            "menu-item#de-ce-client",
+            "menu-item#client-business"
+        ]
+      },
+      "menu-item#informatii-utile": {
+        "props": {
+          "id": "menu-item-informatii-utile",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": null,
+            "noFollow": false,
+            "tagTitle": "informatii-utile",
+            "text": "informatii-utile"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#informatii-utile"]
+    },
+    
+      "vtex.menu@2.x:submenu.accordion#informatii-utile": {
+        "children": ["vtex.menu@2.x:menu#informatii-utile-accordion"]
+      },
+      "vtex.menu@2.x:menu#informatii-utile-accordion": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#branduri-comercializate",
+            "menu-item#sesizari-reclamatii",
+            "menu-item#ANPC",
+            "menu-item#platforma-sol"
+        ]
+      },
+      "menu-item#legal": {
+        "props": {
+          "id": "menu-item-legal",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": null,
+            "noFollow": false,
+            "tagTitle": "legal",
+            "text": "legal"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#legal"]
+    },
+    
+      "vtex.menu@2.x:submenu.accordion#legal": {
+        "children": ["vtex.menu@2.x:menu#legal-accordion"]
+      },
+      "vtex.menu@2.x:menu#legal-accordion": {
+        "props": {
+          "orientation": "vertical"
+        },
+        "children": [
+            "menu-item#politica-cookies",
+        "menu-item#despre-cookies",
+        "menu-item#politica-de-retur",
+        "menu-item#prelucrarea-datelor",
+        "menu-item#termeni-si-conditii"
+        ]
+      }
+
+}

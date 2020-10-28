@@ -1,0 +1,463 @@
+{
+  "store.custom#branduri": {
+    "children": [
+      "flex-layout.row#hero-branduri",
+      "flex-layout.row#images-brands"
+    ]
+  },
+
+  "flex-layout.row#hero-branduri": {
+    "children":[
+      "flex-layout.col#hero-branduri"
+    ]
+  },
+
+  "flex-layout.col#hero-branduri": {
+    "children":[
+      "rich-text#hero-heading-branduri"
+    ],
+    "props": {
+      "blockClass":"col-hero-branduri"
+    }
+  },
+
+  "rich-text#hero-heading-branduri": {
+    "props": {
+      "text": "Brand-uri din portofoliul Dacris",
+      "blockClass": "heading-branduri",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#images-brands": {
+    "children":[
+      "flex-layout.col#col-img-branduri"
+    ],
+    "props":{
+      "blockClass":"rand-imagini-branduri"
+    }
+  },
+
+  "flex-layout.col#col-img-branduri": {
+    "children":[
+      "flex-layout.row#row1-img-brands",
+      "flex-layout.row#row2-img-brands",
+      "flex-layout.row#row3-img-brands",
+      "flex-layout.row#row4-img-brands",
+      "flex-layout.row#row5-img-brands",
+      "flex-layout.row#row6-img-brands",
+      "flex-layout.row#row7-img-brands"
+    ]
+  },
+  
+  "flex-layout.row#row1-img-brands": {
+    "children":[
+      "image#img-logo-pilot",
+      "image#img-logo-doublea",
+      "image#img-logo-hp",
+      "image#img-logo-noki",
+      "image#img-logo-sanify",
+      "image#img-logo-notte"
+    ],
+    "props":{
+      "blockClass":"row-img-brands"
+    }
+  },
+
+  "flex-layout.row#row2-img-brands": {
+    "children":[
+      "image#img-logo-tchibo",
+      "image#img-logo-segavredo",
+      "image#img-logo-rapesco",
+      "image#img-logo-esselte",
+      "image#img-logo-skag",
+      "image#img-logo-bioffice"
+    ],
+    "props":{
+      "blockClass":"row-img-brands"
+    }
+  },
+
+  "flex-layout.row#row3-img-brands": {
+    "children":[
+      "image#img-logo-toycolor",
+      "image#img-logo-casio",
+      "image#img-logo-fellowes",
+      "image#img-logo-3m",
+      "image#img-logo-uchida",
+      "image#img-logo-infonotes"
+    ],
+    "props":{
+      "blockClass":"row-img-brands"
+    }
+  },
+
+  "flex-layout.row#row4-img-brands": {
+    "children":[
+      "image#img-logo-staples",
+      "image#img-logo-tarifold",
+      "image#img-logo-beifa",
+      "image#img-logo-illy",
+      "image#img-logo-tork",
+      "image#img-logo-verbatim"
+    ],
+    "props":{
+      "blockClass":"row-img-brands"
+    }
+  },
+
+  "flex-layout.row#row5-img-brands": {
+    "children":[
+      "image#img-logo-leitz",
+      "image#img-logo-jacobs",
+      "image#img-logo-cep",
+      "image#img-logo-airwick",
+      "image#img-logo-3l",
+      "image#img-logo-madpax"
+    ],
+    "props":{
+      "blockClass":"row-img-brands"
+    }
+  },
+
+  "flex-layout.row#row6-img-brands": {
+    "children":[
+      "image#img-logo-brother",
+      "image#img-logo-duracell",
+      "image#img-logo-epson",
+      "image#img-logo-cocacola",
+      "image#img-logo-samsung",
+      "image#img-logo-apple"
+    ],
+    "props":{
+      "blockClass": "row-img-brands"
+    }
+  },
+
+  "flex-layout.row#row7-img-brands": {
+    "children":[
+      "image#img-logo-etilux",
+      "image#img-logo-sorex",
+      "image#img-logo-diversey",
+      "image#img-logo-slice",
+      "image#img-logo-new1",
+      "image#img-logo-new2"
+    ],
+    "props":{
+      "blockClass": "row-img-brands"
+    }
+  },
+
+  "image#img-logo-pilot": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-doublea": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-hp": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-noki": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-sanify": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-notte": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-tchibo": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-segavredo": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-rapesco": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-esselte": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-skag": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-bioffice": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-toycolor": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-casio": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-fellowes": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-3m": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-uchida": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-infonotes": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-staples": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-tarifold": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-beifa": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-illy": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-tork": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-verbatim": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-leitz": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-jacobs": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-cep": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-airwick": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-3l": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-madpax": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-brother": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-duracell": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-epson": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-cocacola": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-samsung": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-apple": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-etilux": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-sorex": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-diversey": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-slice": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-new1": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  },
+
+  "image#img-logo-new2": {
+    "props": {
+      "blockClass":"img-logo-brands",
+      "src": "assets/imagini/logo-pilot.jpg"
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,19 @@
+{
+    "store.custom#newsletter": {
+      "children": [
+        "flex-layout.row#hero-despre-noi",
+        "flex-layout.row#cine-suntem-despre-noi",
+        "flex-layout.row#partener-despre-noi",
+        "flex-layout.row#partener-cols-despre-noi",
+        "flex-layout.row#evolutie-dacris",
+        "flex-layout.row#echo-plus-despre-noi",
+        "flex-layout.row#suntem-prezenti-despre-noi",
+        "flex-layout.row#gandim-despre-noi",
+        "flex-layout.row#testimoniale-despre-noi",
+        "flex-layout.row#echipa-despre-noi"
+      ],
+      "props":{
+        "blockClass":"pagina-despre-noi"
+      }
+    }
+}

@@ -1,0 +1,330 @@
+{
+  "store.custom#campanie": {
+    "blocks": [
+      "search-result-layout.customQuery#top-vandute-campanie"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+  "search-result-layout.customQuery#top-vandute-campanie": {
+    "blocks": [
+      "search-result-layout.desktop#campanie",
+      "search-result-layout.mobile#campanie",
+      "search-not-found-layout"
+    ],
+    "props": {
+      "querySchema": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 10,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+
+  "search-result-layout.desktop#campanie": {
+    "children": [
+      "flex-layout.row#hero-links-campanie",
+      "flex-layout.row#row-header-campanie",
+      "rich-text#top-sell-title",
+      "flex-layout.row#result-campanie",
+      "rich-text#active-promo-title",
+      "flex-layout.row#brands-campanie"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+
+  "rich-text#active-promo-title": {
+    "props": {
+      "text": "",
+      "blockClass": ["shelfTitle","promo-title"],
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "htmlId":"test"
+    },
+    "title":"Titlu Promotii"
+  },
+
+  "flex-layout.row#row-header-campanie": {
+    "children":[
+      "list-context.image-list#home-banners-campanie"
+    ],
+    "props":{
+      "blockClass":["rand-header-campanie","homeBanners"]
+    },
+    "title":"Bannere campanie"
+  },
+
+  "flex-layout.row#result-campanie": {
+    "children": [
+      "flex-layout.col#result-campanie"
+    ],
+    "props": {
+      "blockClass":"rand-results-campanie"
+    }
+  },
+
+  "flex-layout.col#result-campanie": {
+    "children":[
+      "flex-layout.row#products-campanie",
+      "flex-layout.row#fetchmore-campanie"
+    ],
+    "props":{
+      "blockClass":"col-results-campanie"
+    }
+  },
+
+  "flex-layout.row#fetchmore-campanie": {
+    "props": {
+      "marginTop": 5,
+      "blockClass": "fetchmore-campanie"
+    },
+    "children": [
+      "search-fetch-more#fetchMoreCategorie"
+    ]
+  },
+
+  "flex-layout.row#products-campanie": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-result-layout.mobile#campanie": {
+    "children": [
+      "flex-layout.row#hero-links-campanie",
+      //"flex-layout.row#hero-campanie",
+      "flex-layout.row#row-header-campanie",
+      "rich-text#top-sell-title",
+      "flex-layout.row#contentmobile-campanie",
+      "rich-text#active-promo-title",
+      "flex-layout.row#brands-campanie"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#contentmobile-campanie": {
+    "children": [
+      "flex-layout.col#contentmobile-campanie"
+    ]
+  },
+  "flex-layout.col#contentmobile-campanie": {
+    "children": [
+      "search-content",
+      "flex-layout.row#fetchmore-campanie"
+    ],
+    "props": {
+      "blockClass": "col-content-campanie-mobile"
+    }
+  },
+  "flex-layout.row#hero-links-campanie": {
+    "children":[
+      "flex-layout.col#col-title-campanie",
+      "flex-layout.col#col-links-campanie"
+    ],
+    "props":{
+      "blockClass":"rand-links-campanie",
+      "colSizing": "auto"
+    }
+  },
+
+  "flex-layout.col#col-title-campanie": {
+    "children":[
+      "rich-text#title-campanie"
+    ],
+    "props":{
+      "width": "17%",
+      "preventVerticalStretch": "true"
+    }
+  },
+
+  "rich-text#title-campanie": {
+    "props":{
+      "text": "",
+      "blockClass":"title-campanie",
+      "preventVerticalStretch": "true"
+    },
+    "title":"Titlu campanie"
+  },
+
+
+  "flex-layout.col#col-links-campanie": {
+    "children":[
+      "responsive-layout.desktop#menu-campanie-desktop",
+      //"responsive-layout.tablet#menu-campanie-tablet",
+      "responsive-layout.mobile#menu-campanie-phone"
+    ],
+    "props":{
+      "width": "83%",
+      "preventVerticalStretch": "true",
+      "blockClass":"col-links-campanie"
+    }
+  },
+
+  "responsive-layout.tablet#menu-campanie-tablet":{
+    "children":[
+      "flex-layout.row#menu-campanie-mobile"
+    ]
+  },
+
+  "responsive-layout.mobile#menu-campanie-phone": {
+    "children":[
+      "flex-layout.row#menu-campanie-mobile"
+    ]
+  },
+
+  "flex-layout.row#menu-campanie-mobile": {
+    "children":[
+      "vtex.menu@2.x:menu#campanie-mobile"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#campanie-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"campanieMenu-mobile"
+    },
+    "title":"Menu campanie mobile",
+    "children": [
+      "menu-item#campanie-menu-mobile"
+    ]
+  },
+
+  "menu-item#campanie-menu-mobile": {
+    "props": {
+      "id": "menu-item-campanie-menu-mobile",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "meniuCampaniePrincipal",
+      "itemProps": {
+        "type": "internal",
+        "href": null,
+        "noFollow": false,
+        "tagTitle": "Meniu campanie",
+        "text": "Meniu"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#campanie-mobile"]
+  },
+
+  // "menu-item#campanie-menu-mobile-test": {
+  //   "props": {
+  //     "id": "menu-item-campanie-menu-mobile",
+  //     "type": "custom",
+  //     "iconId": null,
+  //     "highlight": false,
+  //     "itemProps": {
+  //       "type": "internal",
+  //       "href": null,
+  //       "noFollow": false,
+  //       "tagTitle": "Meniu campanie",
+  //       "text": "TEST"
+  //       }
+  //   }
+  // },
+
+  "vtex.menu@2.x:submenu.accordion#campanie-mobile": {
+    "children": ["vtex.menu@2.x:menu#campanie-accordion"],
+    "props":{
+      "blockClass":"accordionCampanie"
+    }
+  },
+
+  "vtex.menu@2.x:menu#campanie-accordion": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [],
+    "title":"Modifica aici meniul mobile"
+  },
+
+  "responsive-layout.desktop#menu-campanie-desktop": {
+    "children": [
+      "flex-layout.row#menu-campanie-desktop"
+    ]
+  },
+
+  "flex-layout.row#menu-campanie-desktop": {
+    "children":[
+      "vtex.menu@2.x:menu#campanie"
+    ]
+  },
+
+  "vtex.menu@2.x:menu#campanie": {
+    "props": {
+      "orientation": "horizontal",
+      "blockClass":"campanieMenu"
+    },
+    "title":"Meniu campanie desktop",
+    "children": []
+  },
+
+  "flex-layout.row#hero-campanie": {
+    "children": [
+        "flex-layout.col#hero-campanie"
+      ],
+      "props":{
+        "blockClass":"hero-campanie",
+        "preventVerticalStretch": "true",
+        "fullWidth": true
+      },
+      "title":"Hero row campanie"
+  },
+
+  "flex-layout.col#hero-campanie": {
+      "children": [
+        "list-context.image-list#campanie"
+      ],
+      "props":{
+        "blockClass":"col-img-hero-campanie"
+      },
+      "title":"Container banner campanie"
+  },
+
+  "list-context.image-list#campanie": {
+    "children": ["slider-layout#campanie-images"],
+    "props": {
+      "height": "100%",
+      "sliderLayoutConfig": {
+        "showPaginationDots": "never",
+        "showNavigationArrows": "never"
+      },
+      "images": [
+        {
+          "image": "",
+          "mobileImage": "",
+          "description": "Image Hero Campanie"
+        }
+      ]
+    },
+    "title":"Banner principal campanie"
+  },
+
+  "slider-layout#campanie-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

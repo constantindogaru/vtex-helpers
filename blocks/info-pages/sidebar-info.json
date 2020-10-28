@@ -1,0 +1,505 @@
+{
+    "flex-layout.col#sidebar-informational": {
+    "children": [
+      "responsive-layout.desktop#menu-sidebar-desktop"
+    ],
+    "props":{
+      "blockClass":"coloana-sidebar-informational",
+      "preventVerticalStretch": "true",
+      "width": "25%"
+    }
+  },
+
+  "responsive-layout.phone#menu-sidebar-mobile": {
+    "children": [
+      "flex-layout.row#menu-sidebar-mobile"
+    ]
+  },
+  
+  "flex-layout.row#menu-sidebar-mobile": {
+    "children":[
+      "vtex.menu@2.x:menu#sidebar-mobile"
+    ],
+    "props":{
+      "blockClass":"rowSidebarMobile"
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-mobile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"menuSidebarMobile"
+    },
+    "children": [
+      "menu-item#sidebar-mobile-dacris"
+    ]
+  },
+
+  "menu-item#sidebar-mobile-dacris": {
+    "props": {
+      "id": "menu-item-sidebar-mobile-dacris",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titleSidebarMobile",
+      "itemProps": {
+        "type": "internal",
+        "href": null,
+        "noFollow": false,
+        "tagTitle": "Dacris",
+        "text": "Dacris"
+        }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#sidebar-mobile-dacris"]
+  },
+
+  "vtex.menu@2.x:submenu.accordion#sidebar-mobile-dacris": {
+    "children": ["vtex.menu@2.x:menu#accordion-sidebar-dacris"]
+  },
+
+  "vtex.menu@2.x:menu#accordion-sidebar-dacris": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#sidebar-dacris-blog",
+      "menu-item#sidebar-dacris-despre",
+      "menu-item#sidebar-dacris-client",
+      "menu-item#sidebar-dacris-business",
+      "menu-item#sidebar-dacris-branduri"
+    ]
+  },
+
+  "responsive-layout.desktop#menu-sidebar-desktop": {
+    "children": [
+      "flex-layout.row#menu-sidebar-dacris",
+      "flex-layout.row#menu-sidebar-utile",
+      "flex-layout.row#menu-sidebar-legal",
+      "flex-layout.row#menu-sidebar-contact"
+    ]
+  },
+
+  "flex-layout.row#menu-sidebar-dacris": {
+    "children":[
+      "vtex.menu@2.x:menu#sidebar-dacris"
+    ],
+    "props":{
+      "blockClass":"rowSidebar"
+    },
+    "title":"Rand meniu sidebar Dacris"
+  },
+
+  "flex-layout.row#menu-sidebar-utile": {
+    "children":[
+      "vtex.menu@2.x:menu#sidebar-utile"
+    ],
+    "props":{
+      "blockClass":"rowSidebar"
+    },
+    "title":"Rand meniu sidebar Utile"
+  },
+
+  "flex-layout.row#menu-sidebar-legal": {
+    "children":[
+      "vtex.menu@2.x:menu#sidebar-legal"
+    ],
+    "props":{
+      "blockClass":"rowSidebar"
+    },
+    "title":"Rand meniu sidebar Legal"
+  },
+
+  "flex-layout.row#menu-sidebar-contact": {
+    "children":[
+      "vtex.menu@2.x:menu#sidebar-contact"
+    ],
+    "props":{
+      "blockClass":"rowSidebar"
+    },
+    "title":"Rand meniu sidebar Contact"
+  },
+
+  "vtex.menu@2.x:menu#sidebar-contact": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"sidebarMenu"
+    },
+    "title":"Sidebar menu Contact",
+    "children": [
+      "menu-item#sidebar-contact",
+      "menu-item#sidebar-contact-companie",
+      "menu-item#sidebar-contact-contact"
+    ]
+  },
+
+  "menu-item#sidebar-contact": {
+    "props": {
+      "id": "menu-item-sidebar-contact",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titluSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Contact",
+        "text": "Contact"
+      }
+    }
+  },
+
+  "menu-item#sidebar-contact-companie": {
+    "props": {
+      "id": "menu-item-sidebar-contact-companie",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact-dacris",
+        "noFollow": false,
+        "tagTitle": "Companie",
+        "text": "Companie"
+      }
+    }
+  },
+
+  "menu-item#sidebar-contact-contact": {
+    "props": {
+      "id": "menu-item-sidebar-contact-contact",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact",
+        "noFollow": false,
+        "tagTitle": "Contactează-ne",
+        "text": "Contactează-ne"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-legal": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"sidebarMenu"
+    },
+    "title":"Sidebar menu Legal",
+    "children": [
+      "menu-item#sidebar-legal",
+      "menu-item#sidebar-legal-despre-cookies",
+      "menu-item#sidebar-legal-retur",
+      "menu-item#sidebar-legal-date-caracter-personal",
+      "menu-item#sidebar-legal-termeni"
+    ]
+  },
+
+  "menu-item#sidebar-legal": {
+    "props": {
+      "id": "menu-item-sidebar-legal",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titluSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Legal",
+        "text": "Legal"
+      }
+    }
+  },
+
+  "menu-item#sidebar-legal-despre-cookies": {
+    "props": {
+      "id": "menu-item-sidebar-legal-despre-cookies",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/despre-cookies",
+        "noFollow": false,
+        "tagTitle": "Despre cookies",
+        "text": "Despre cookies"
+      }
+    }
+  },
+
+  "menu-item#sidebar-legal-retur": {
+    "props": {
+      "id": "menu-item-sidebar-legal-retur",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-retur",
+        "noFollow": false,
+        "tagTitle": "Politica de retur",
+        "text": "Politica de retur"
+      }
+    }
+  },
+
+  "menu-item#sidebar-legal-date-caracter-personal": {
+    "props": {
+      "id": "menu-item-sidebar-legal-date-caracter-personal",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/prelucrarea-datelor-cu-caracter-personal",
+        "noFollow": false,
+        "tagTitle": "Prelucrarea datelor cu caracter personal",
+        "text": "Prelucrarea datelor cu caracter personal"
+      }
+    }
+  },
+
+  "menu-item#sidebar-legal-termeni": {
+    "props": {
+      "id": "menu-item-sidebar-legal-termeni",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/termeni-si-conditii",
+        "noFollow": false,
+        "tagTitle": "Termeni și condiții",
+        "text": "Termeni și condiții"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-utile": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"sidebarMenu"
+    },
+    "title":"Sidebar menu Utile",
+    "children": [
+      "menu-item#sidebar-utile",
+      "menu-item#sidebar-utile-cookies",
+      "menu-item#sidebar-utile-reclamatii",
+      "menu-item#sidebar-utile-anpc",
+      "menu-item#sidebar-utile-platforma"
+    ]
+  },
+
+  "menu-item#sidebar-utile": {
+    "props": {
+      "id": "menu-item-sidebar-utile",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titluSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Informatii Utile",
+        "text": "Informatii Utile"
+      }
+    }
+  },
+
+
+
+  "menu-item#sidebar-utile-cookies": {
+    "props": {
+      "id": "menu-item-sidebar-utile-cookies",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/site-ul-dacris-net-utilizeaza-cookie-uri",
+        "noFollow": false,
+        "tagTitle": "Site-ul Dacris.net utilizează cookie-uri",
+        "text": "Site-ul Dacris.net utilizează cookie-uri"
+      }
+    }
+  },
+
+  "menu-item#sidebar-utile-reclamatii": {
+    "props": {
+      "id": "menu-item-sidebar-utile-reclamatii",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/sesizari-si-reclamatii",
+        "noFollow": false,
+        "tagTitle": "Sesizări și Reclamații",
+        "text": "Sesizări și Reclamații"
+      }
+    }
+  },
+
+  "menu-item#sidebar-utile-anpc": {
+    "props": {
+      "id": "menu-item-sidebar-utile-anpc",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://anpc.ro/",
+        "noFollow": false,
+        "tagTitle": "ANPC | 021-9551",
+        "text": "ANPC | 021-9551"
+      }
+    }
+  },
+
+  "menu-item#sidebar-utile-platforma": {
+    "props": {
+      "id": "menu-item-sidebar-utile-platforma",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN",
+        "noFollow": false,
+        "tagTitle": "Platforma SOL",
+        "text": "Platforma SOL"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#sidebar-dacris": {
+    "props": {
+      "orientation": "vertical",
+      "blockClass":"sidebarMenu"
+    },
+    "title":"Sidebar menu Dacris",
+    "children": [
+      "menu-item#sidebar-dacris",
+      "menu-item#sidebar-dacris-blog",
+      "menu-item#sidebar-dacris-despre",
+      "menu-item#sidebar-dacris-client",
+      "menu-item#sidebar-dacris-business",
+      "menu-item#sidebar-dacris-branduri"
+    ]
+  },
+
+  "menu-item#sidebar-dacris": {
+    "props": {
+      "id": "menu-item-sidebar-dacris",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "titluSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Dacris",
+        "text": "Dacris"
+      }
+    }
+  },
+
+  "menu-item#sidebar-dacris-blog": {
+    "props": {
+      "id": "menu-item-sidebar-dacris-despre",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "https://blog.dacris.net/",
+        "noFollow": false,
+        "tagTitle": "Blog",
+        "text": "Blog"
+      }
+    }
+  },
+
+  "menu-item#sidebar-dacris-despre": {
+    "props": {
+      "id": "menu-item-sidebar-dacris-despre",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/despre-noi",
+        "noFollow": false,
+        "tagTitle": "Despre noi",
+        "text": "Despre noi"
+      }
+    }
+  },
+
+  "menu-item#sidebar-dacris-client": {
+    "props": {
+      "id": "menu-item-sidebar-dacris-client",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/client-dacris",
+        "noFollow": false,
+        "tagTitle": "De ce să fii client Dacris?",
+        "text": "De ce să fii client Dacris?"
+      }
+    }
+  },
+
+  "menu-item#sidebar-dacris-business": {
+    "props": {
+      "id": "menu-item-sidebar-dacris-business",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/clienti-business",
+        "noFollow": false,
+        "tagTitle": "Ești client business?",
+        "text": "Ești client business?"
+      }
+    }
+  },
+
+  "menu-item#sidebar-dacris-branduri": {
+    "props": {
+      "id": "menu-item-sidebar-dacris-branduri",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "itemSidebar",
+      "itemProps": {
+        "type": "internal",
+        "href": "/branduri",
+        "noFollow": false,
+        "tagTitle": "Branduri comercializate de Dacris",
+        "text": "Branduri comercializate de Dacris"
+      }
+    }
+  }
+}

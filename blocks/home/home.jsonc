@@ -1,0 +1,44 @@
+{
+  "store.home": {
+    "blocks": [
+      "flex-layout.row#header",
+      "flex-layout.row#deals",
+      "rich-text#top-sell-title",
+      "list-context.product-list#top-vandute",
+      "timed-deals",
+      "flex-layout.row#three-cols",
+      "rich-text#recents-title",
+      "list-context.product-list#recents",
+      "flex-layout.row#footer-grid",
+      "flex-layout.row#brands"
+    ],
+    "title":"Homepage Content",
+    "parent": {
+        "challenge": "challenge.trade-policy-condition"
+      }
+  },
+  "challenge.trade-policy-condition": {
+    "props": {
+      "defaultContentVisibility": "hidden"
+    }
+  },
+  "rich-text#top-sell-title": {
+    "props": {
+      "text": "### Cele mai vândute produse",
+      "blockClass": "shelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title":"Titlu Shelf cele mai vandute"
+  },
+  "rich-text#recents-title": {
+    "props": {
+      "text": "### Cele mai noi produse",
+      "blockClass": "shelfTitle",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    },
+    "title":"Titlu Shelf cele mai noi"
+  }
+
+}

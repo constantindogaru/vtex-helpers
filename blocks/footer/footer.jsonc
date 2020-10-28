@@ -1,0 +1,183 @@
+{
+  "footer": {
+    "blocks": [
+      "footer-layout.desktop",
+      "footer-layout.mobile"
+    ]
+  },
+  "footer-layout.desktop": {
+    "children": [
+      "flex-layout.row#footer-desktop"
+    ],
+    "props": {
+      "blockClass": "footer-links"
+    }
+  },
+  "flex-layout.row#footer-desktop": {
+    "children": [
+      "logo#desktop",
+      "footer-spacer",
+      // "footer-spacer",
+      // "footer-spacer",
+      // "footer-spacer",
+      // "footer-spacer",
+      "vtex.menu@2.x:menu#menu-left",
+      "vtex.menu@2.x:menu#menu-center",
+      "vtex.menu@2.x:menu#menu-right",
+      "flex-layout.col#social-networks"
+    ],
+    "props": {
+      "blockClass": "menu-row",
+      "paddingTop": 6,
+      "paddingBottom": 6,
+      "colSizing":"auto",
+      "colGap":5,
+      "preventHorizontalStretch": true
+    }
+  },
+
+  "flex-layout.col#spacer":{
+    "children":[
+      "rich-text#spacer"
+    ],
+    "props":{
+      "blockClass":"footerSpacer"
+    }
+  },
+
+  "rich-text#spacer":{
+    "props":{
+      "text":""
+    }
+  },
+
+  "flex-layout.col#social-networks": {
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass":"footerCopySocialContainer"
+    },
+    "children": [
+      "rich-text#copyright",
+      "flex-layout.row#social-networks",
+      "flex-layout.row#price-shop",
+      "flex-layout.row#payment"
+      
+    ]
+  },
+  "flex-layout.row#price-shop":{
+    "props":{
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true,
+      "blockClass":"paymentIconsContainer"
+  },
+  "children":[
+    // "image#payment",
+    "sandbox#price",
+    "sandbox#shopmania"
+  ]
+  },
+  "flex-layout.row#payment":{
+    "props":{
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true,
+      "blockClass":"paymentIconsContainer"
+  },
+  "children":[
+    "image#payment"
+    // "sandbox#price",
+    // "sandbox#shopmania"
+  ]
+},
+"sandbox#shopmania":{
+  "props": {
+    "blockClass": "sandboxImg",
+    "width": "85px",
+    "height": 35,
+    "initialContent": "<a href=\"http://www.shopmania.ro/\" title=\"Viziteaza site-ul Dacris.net pe ShopMania\" onclick=\"target='_blank'; window.open('https://www.shopmania.ro/site/dacris.net'); return false;\" onkeypress=\"target='_blank'\"><img src=\"https://www.shopmania.ro/img/badge/ro/8.png?m=390826296\" style=\"border: 0;\" alt=\"Viziteaza site-ul Dacris.net pe ShopMania\" /></a>",
+    "allowCookies": true
+  }
+},
+  "sandbox#price":{
+    "props": {
+      "blockClass": "sandboxImg",
+      "width": "85px",
+      "height": 35,
+      "initialContent": "<a href=\"https://www.price.ro/\" target=\"_blank\"><img src=\"https://www.price.ro/logo_partener_2755.png\" alt=\"www.price.ro - your shopping expert\" border=\"0\" /></a>",
+      "allowCookies": true
+    }
+  },
+
+  "flex-layout.row#social-networks":{
+    "children":[
+      "image#fb",
+      "image#ig",
+      "image#in",
+      "image#yt"
+    ],
+    "props":{
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile":true,
+      "blockClass":"socialIconsContainer",
+      "horizontalAlign":"left"
+    }
+  },
+  "image#payment":{
+    "props":{
+      "src":"assets/icons/payment.png",
+      "blockClass":"paymentIcon"
+    }
+  },
+
+  "image#fb":{
+    "props":{
+      "src":"assets/icons/fb.png",
+      "blockClass":"socialIcon"
+    }
+  },
+
+  "image#ig":{
+    "props":{
+      "src":"assets/icons/ig.png",
+      "blockClass":"socialIcon"
+    }
+  },
+
+  "image#in":{
+    "props":{
+      "src":"assets/icons/in.png",
+      "blockClass":"socialIcon"
+    }
+  },
+
+  "image#yt":{
+    "props":{
+      "src":"assets/icons/yt.png",
+      "blockClass":"socialIcon"
+    }
+  },
+
+  "rich-text#copyright": {
+    "props": {
+      "text": "© 1994 - 2020 Toate drepturile rezervate Dacris Impex SRL",
+      "blockClass":"footerCopyright"
+    }
+  },
+
+
+   "footer-layout.mobile": {
+     "children": [
+       "flex-layout.row#footer-mobile"
+     ]
+   },
+
+   "flex-layout.row#footer-mobile":{
+     "children":[
+       "logo#desktop",
+       "vtex.menu@2.x:menu#footer",
+       "flex-layout.col#social-networks"
+     ],
+     "props":{
+       "blockClass":"mobileFooter"
+     }
+   }
+}

@@ -1,0 +1,1248 @@
+{
+  "menu-item#produsePentruScoala":{
+    "props": {
+      "id": "menu-item-instrumente-rollerCerneala",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["maineMenuWrapper", "megaMenu-produsePentruScoala"],
+      "itemProps": {
+        "type": "internal",
+        "href": "/produse-pentru-scoala",
+        "noFollow": false,
+        "tagTitle": "Produse pentru scoala",
+        "text": "Produse pentru scoala"
+      }
+    },
+  "blocks": [
+    "vtex.menu@2.x:submenu#produsePentruScoala"
+  ],
+  "title": "menu produsePentruScoala"
+  },
+  "vtex.menu@2.x:submenu#produsePentruScoala":{
+    "children": [
+      "flex-layout.row#produsePentruScoala"
+    ],
+    "props": {
+        "blockClass": "megaMenu-submenu-produsePentruScoala"
+    }
+  },
+  "flex-layout.row#produsePentruScoala":{
+    "children": [
+      "flex-layout.col#1-produsePentruScoala",
+      "flex-layout.col#2-produsePentruScoala",
+      "flex-layout.col#3-produsePentruScoala",
+      "flex-layout.col#4-produsePentruScoala"
+    ],
+    "props": {
+      "colSizing": "auto",
+      // "preventHorizontalStretch": true,
+      "blockClass": "megaMenu-submenu-produsePentruScoala"
+    }
+  },
+
+  "flex-layout.col#1-produsePentruScoala":{
+    "children": [
+      "vtex.menu@2.x:menu#produsePentruScoala-instrumente",
+      "vtex.menu@2.x:menu#produsePentruScoala-coloriaj"
+    ],
+    "props": {
+        "blockClass": "megaMenu-submenuCol-produsePentruScoala",
+        "width": "25%",
+        "preventVerticalStretch":true
+    }
+  },
+  "vtex.menu@2.x:menu#produsePentruScoala-instrumente":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-instrumente",
+          "menu-item#produsePentruScoala-instrumente-rollerGel",
+          "menu-item#produsePentruScoala-instrumente-rollerCerneala",
+          "menu-item#produsePentruScoala-instrumente-stilouri",
+          "menu-item#produsePentruScoala-instrumente-rezerve",
+          "menu-item#produsePentruScoala-instrumente-markere",
+          "menu-item#produsePentruScoala-instrumente-textMerkere",
+          "menu-item#produsePentruScoala-instrumente-creioaneClasice",
+          "menu-item#produsePentruScoala-instrumente-radiere",
+          "menu-item#produsePentruScoala-instrumente-pixuriBila",
+          "menu-item#produsePentruScoala-instrumente-ascutitori"
+      ]
+  },
+  "menu-item#produsePentruScoala-instrumente":{
+    "props": {
+      "id": "menu-item-instrumente-rollerCerneala",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        "noFollow": false,
+        "tagTitle": "Instrumente de scris pentru scolari",
+        "text": "Instrumente de scris pentru scolari"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-rollerGel":{
+    "props": {
+      "id": "menu-item-instrumente-rollerGel",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/303?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Rollere cu gel",
+        "text": "Rollere cu gel"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-rollerCerneala":{
+    "props": {
+      "id": "menu-item-instrumente-rollerCerneala",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/304?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Rollere cu cerneala lichida",
+        "text": "Rollere cu cerneala lichida"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-stilouri":{
+    "props": {
+      "id": "menu-item-instrumente-stilouri",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/305?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Stilouri",
+        "text": "Stilouri"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-rezerve":{
+    "props": {
+      "id": "menu-item-instrumente-rezerve",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/306?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Rezerve",
+        "text": "Rezerve"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-markere":{
+    "props": {
+      "id": "menu-item-instrumente-markere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/307?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Markere",
+        "text": "Markere"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-textMerkere":{
+    "props": {
+      "id": "menu-item-instrumente-textMerkere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/308?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Textmarkere si finelinere",
+        "text": "Textmarkere si finelinere"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-creioaneClasice":{
+    "props": {
+      "id": "menu-item-instrumente-creioaneClasice",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/309?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Creioane clasice si mecanice",
+        "text": "Creioane clasice si mecanice"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-radiere":{
+    "props": {
+      "id": "menu-item-instrumente-radiere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/310?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Radiere si benzi corectoare",
+        "text": "Radiere si benzi corectoare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-pixuriBila":{
+    "props": {
+      "id": "menu-item-instrumente-pixuriBila",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/311?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Pixuri cu bila",
+        "text": "Pixuri cu bila"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-instrumente-ascutitori":{
+    "props": {
+      "id": "menu-item-instrumente-ascutitori",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/312?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Ascutitori",
+        "text": "Ascutitori"
+      }
+    }
+  },
+  "vtex.menu@2.x:menu#produsePentruScoala-coloriaj":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-coloriaj",
+          "menu-item#produsePentruScoala-coloriaj-creioaneColorate",
+          "menu-item#produsePentruScoala-coloriaj-carioci",
+          "menu-item#produsePentruScoala-coloriaj-pictura",
+          "menu-item#produsePentruScoala-coloriaj-plastilina",
+          "menu-item#produsePentruScoala-coloriaj-creative",
+          "menu-item#produsePentruScoala-coloriaj-adezivi"
+      ]
+  },
+  "menu-item#produsePentruScoala-coloriaj":{
+    "props": {
+      "id": "menu-item-coloriaj",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/produse-pentru-scoala/coloriaj-si-activitati-creative",
+        "noFollow": false,
+        "tagTitle": "Coloriaj si activitati creative",
+        "text": "Coloriaj si activitati creative"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-coloriaj-creioaneColorate":{
+    "props": {
+      "id": "menu-item-coloriaj-creioaneColorate",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/313?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Creioane colorate",
+        "text": "Creioane colorate"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-coloriaj-carioci":{
+    "props": {
+      "id": "menu-item-coloriaj-carioci",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/314?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Carioci",
+        "text": "Carioci"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-coloriaj-pictura":{
+    "props": {
+      "id": "menu-item-coloriaj-pictura",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/315?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Pictura si accesorii",
+        "text": "Pictura si accesorii"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-coloriaj-plastilina":{
+    "props": {
+      "id": "menu-item-coloriaj-plastilina",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/316?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Plastilina si lut",
+        "text": "Plastilina si lut"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-coloriaj-creative":{
+    "props": {
+      "id": "menu-item-coloriaj-creative",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/317?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Seturi creative",
+        "text": "Seturi creative"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-coloriaj-adezivi":{
+    "props": {
+      "id": "menu-item-coloriaj-adezivi",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/318?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Adezivi",
+        "text": "Adezivi"
+      }
+    }
+  },
+
+
+
+  "flex-layout.col#2-produsePentruScoala":{
+    "children": [
+      "vtex.menu@2.x:menu#produsePentruScoala-ghiozdane",
+      "vtex.menu@2.x:menu#produsePentruScoala-frixion",
+      "vtex.menu@2.x:menu#produsePentruScoala-birouAcasa"
+    ],
+    "props": {
+        "blockClass": "megaMenu-submenuCol-produsePentruScoala",
+        "width": "25%",
+        "preventVerticalStretch":true
+    }
+  },
+  "vtex.menu@2.x:menu#produsePentruScoala-ghiozdane":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-ghiozdane",
+          "menu-item#produsePentruScoala-ghiozdane-genti",
+          "menu-item#produsePentruScoala-ghiozdane-penare"
+      ]
+  },
+  "menu-item#produsePentruScoala-ghiozdane":{
+    "props": {
+      "id": "menu-item-ghiozdane",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/produse-pentru-scoala/ghiozdane-penare-genti",
+        "noFollow": false,
+        "tagTitle": "Ghiozdane, penare, genti",
+        "text": "Ghiozdane, penare, genti"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-ghiozdane-genti":{
+    "props": {
+      "id": "menu-item-ghiozdane-genti",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/319?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Ghiozdane si genti",
+        "text": "Ghiozdane si genti"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-ghiozdane-penare":{
+    "props": {
+      "id": "menu-item-ghiozdane-penare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/320?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Penare",
+        "text": "Penare"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#produsePentruScoala-frixion":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-frixion",
+          "menu-item#produsePentruScoala-frixion-pacheteSpeciale",
+          "menu-item#produsePentruScoala-frixion-rollere",
+          "menu-item#produsePentruScoala-frixion-rezerve",
+          "menu-item#produsePentruScoala-frixion-textmarkere"
+      ]
+  },
+  "menu-item#produsePentruScoala-frixion":{
+    "props": {
+      "id": "menu-item-frixion",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/produse-pentru-scoala/frixion",
+        "noFollow": false,
+        "tagTitle": "Frixion",
+        "text": "Frixion"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-frixion-pacheteSpeciale":{
+    "props": {
+      "id": "menu-item-frixion-pacheteSpeciale",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/321?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Pachete speciale",
+        "text": "Pachete speciale"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-frixion-rollere":{
+    "props": {
+      "id": "menu-item-frixion-rollere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/322?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Rollere Frixion",
+        "text": "Rollere Frixion"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-frixion-rezerve":{
+    "props": {
+      "id": "menu-item-frixion-rezerve",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/323?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Rezerve Frixion",
+        "text": "Rezerve Frixion"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-frixion-textmarkere":{
+    "props": {
+      "id": "menu-item-frixion-textmarkere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/324?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Textmarkere Frixion",
+        "text": "Textmarkere Frixion"
+      }
+    }
+  },
+
+
+  "vtex.menu@2.x:menu#produsePentruScoala-birouAcasa":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          // "menu-item#produsePentruScoala-birouAcasa",
+          "menu-item#produsePentruScoala-birouAcasa-calculatoare",
+          "menu-item#produsePentruScoala-birouAcasa-geometrie",
+          "menu-item#produsePentruScoala-birouAcasa-capsatoare",
+          "menu-item#produsePentruScoala-birouAcasa-perforatoare",
+          "menu-item#produsePentruScoala-birouAcasa-capse",
+          "menu-item#produsePentruScoala-birouAcasa-ace",
+          "menu-item#produsePentruScoala-birouAcasa-benzi",
+          "menu-item#produsePentruScoala-birouAcasa-foarfece",
+          "menu-item#produsePentruScoala-birouAcasa-accesoriiScolare",
+          "menu-item#produsePentruScoala-birouAcasa-cosuri",
+          "menu-item#produsePentruScoala-birouAcasa-distrugatoare"
+      ]
+  },
+  "menu-item#produsePentruScoala-birouAcasa":{
+    "props": {
+      "id": "menu-item-birouAcasa",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        "href": "/produse-pentru-scoala/biroul-de-acasa",
+        "noFollow": false,
+        "tagTitle": "Biroul de acasa",
+        "text": "Biroul de acasa"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-calculatoare":{
+    "props": {
+      "id": "menu-item-birouAcasa-calculatoare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/325?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Calculatoare",
+        "text": "Calculatoare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-geometrie":{
+    "props": {
+      "id": "menu-item-birouAcasa-geometrie",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/326?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Instrumente de geometrie",
+        "text": "Instrumente de geometrie"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-capsatoare":{
+    "props": {
+      "id": "menu-item-birouAcasa-capsatoare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/327?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Capsatoare si decapsatoare",
+        "text": "Capsatoare si decapsatoare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-perforatoare":{
+    "props": {
+      "id": "menu-item-birouAcasa-perforatoare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/328?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Perforatoare",
+        "text": "Perforatoare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-capse":{
+    "props": {
+      "id": "menu-item-birouAcasa-capse",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/329?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Capse",
+        "text": "Capse"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-ace":{
+    "props": {
+      "id": "menu-item-birouAcasa-ace",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/330?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Ace, agrafe si clipsuri",
+        "text": "Ace, agrafe si clipsuri"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-benzi":{
+    "props": {
+      "id": "menu-item-birouAcasa-benzi",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/331?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Benzi adezive",
+        "text": "Benzi adezive"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-foarfece":{
+    "props": {
+      "id": "menu-item-birouAcasa-foarfece",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/332?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Foarfece si cuttere",
+        "text": "Foarfece si cuttere"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-accesoriiScolare":{
+    "props": {
+      "id": "menu-item-birouAcasa-accesoriiScolare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/333?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Accesorii scolare",
+        "text": "Accesorii scolare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-cosuri":{
+    "props": {
+      "id": "menu-item-birouAcasa-cosuri",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/334?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Cosuri pentru birou",
+        "text": "Cosuri pentru birou"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-birouAcasa-distrugatoare":{
+    "props": {
+      "id": "menu-item-birouAcasa-distrugatoare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/335?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Distrugatoare documente",
+        "text": "Distrugatoare documente"
+      }
+    }
+  },
+
+
+
+  "flex-layout.col#3-produsePentruScoala":{
+    "children": [
+      "vtex.menu@2.x:menu#produsePentruScoala-caieteScolare",
+      "vtex.menu@2.x:menu#produsePentruScoala-salaClasa"
+    ],
+    "props": {
+        "blockClass": "megaMenu-submenuCol-produsePentruScoala",
+        "width": "25%",
+        "preventVerticalStretch":true
+    }
+  },
+  "vtex.menu@2.x:menu#produsePentruScoala-caieteScolare":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-caieteScolare",
+          "menu-item#produsePentruScoala-caieteScolare-caiete",
+          "menu-item#produsePentruScoala-caieteScolare-caieteSpeciale",
+          "menu-item#produsePentruScoala-caieteScolare-tipizare",
+          "menu-item#produsePentruScoala-caieteScolare-blocDesen",
+          "menu-item#produsePentruScoala-caieteScolare-blocNotes",
+          "menu-item#produsePentruScoala-caieteScolare-cartoane",
+          "menu-item#produsePentruScoala-caieteScolare-hartieCopiator",
+          "menu-item#produsePentruScoala-caieteScolare-hartieFlipchart",
+          "menu-item#produsePentruScoala-caieteScolare-hartieMilimetrica",
+          "menu-item#produsePentruScoala-caieteScolare-notiteCuburi"
+      ]
+  },
+  "menu-item#produsePentruScoala-caieteScolare":{
+    "props": {
+      "id": "menu-item-caieteScolare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/produse-pentru-scoala/caiete-scolare-si-hartie",
+        "noFollow": false,
+        "tagTitle": "Caiete scolare si hartie",
+        "text": "Caiete scolare si hartie"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-caiete":{
+    "props": {
+      "id": "menu-item-caieteScolare-caiete",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/336?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Caiete scolare",
+        "text": "Caiete scolare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-caieteSpeciale":{
+    "props": {
+      "id": "menu-item-caieteScolare-caieteSpeciale",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/337?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Caiete speciale",
+        "text": "Caiete speciale"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-tipizare":{
+    "props": {
+      "id": "menu-item-caieteScolare-tipizare",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/338?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Tipizate scolare",
+        "text": "Tipizate scolare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-blocDesen":{
+    "props": {
+      "id": "menu-item-caieteScolare-blocDesen",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/339?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Bloc desen",
+        "text": "Bloc desen"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-blocNotes":{
+    "props": {
+      "id": "menu-item-caieteScolare-blocNotes",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/340?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Bloc notes",
+        "text": "Bloc notes"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-cartoane":{
+    "props": {
+      "id": "menu-item-caieteScolare-cartoane",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/341?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Cartoane",
+        "text": "Cartoane"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-hartieCopiator":{
+    "props": {
+      "id": "menu-item-caieteScolare-hartieCopiator",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/342?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Hartie copiator",
+        "text": "Hartie copiator"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-hartieFlipchart":{
+    "props": {
+      "id": "menu-item-caieteScolare-hartieFlipchart",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/343?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Hartie flipchart",
+        "text": "Hartie flipchart"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-hartieMilimetrica":{
+    "props": {
+      "id": "menu-item-caieteScolare-hartieMilimetrica",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/344?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Hartie milimetrica",
+        "text": "Hartie milimetrica"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-caieteScolare-notiteCuburi":{
+    "props": {
+      "id": "menu-item-caieteScolare-notiteCuburi",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/345?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Notite si cuburi din hartie",
+        "text": "Notite si cuburi din hartie"
+      }
+    }
+  },
+
+  
+  "vtex.menu@2.x:menu#produsePentruScoala-salaClasa":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-salaClasa",
+          "menu-item#produsePentruScoala-salaClasa-table",
+          "menu-item#produsePentruScoala-salaClasa-panouri",
+          "menu-item#produsePentruScoala-salaClasa-flipchart",
+          "menu-item#produsePentruScoala-salaClasa-accesorii",
+          "menu-item#produsePentruScoala-salaClasa-plannere",
+          "menu-item#produsePentruScoala-salaClasa-harti",
+          "menu-item#produsePentruScoala-salaClasa-cuiere",
+          "menu-item#produsePentruScoala-salaClasa-solutii"
+      ]
+  },
+  "menu-item#produsePentruScoala-salaClasa":{
+    "props": {
+      "id": "menu-item-salaClasa",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/produse-pentru-scoala/sala-de-clasa",
+        "noFollow": false,
+        "tagTitle": "Sala de clasa",
+        "text": "Sala de clasa"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-table":{
+    "props": {
+      "id": "menu-item-salaClasa-table",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/346?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Table",
+        "text": "Table"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-panouri":{
+    "props": {
+      "id": "menu-item-salaClasa-panouri",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/347?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Panouri",
+        "text": "Panouri"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-flipchart":{
+    "props": {
+      "id": "menu-item-salaClasa-flipchart",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/348?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Flipchart-uri",
+        "text": "Flipchart-uri"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-accesorii":{
+    "props": {
+      "id": "menu-item-salaClasa-accesorii",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/349?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Accesorii panouri si table",
+        "text": "Accesorii panouri si table"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-plannere":{
+    "props": {
+      "id": "menu-item-salaClasa-plannere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/350?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Plannere",
+        "text": "Plannere"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-harti":{
+    "props": {
+      "id": "menu-item-salaClasa-harti",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/351?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Harti de perete",
+        "text": "Harti de perete"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-cuiere":{
+    "props": {
+      "id": "menu-item-salaClasa-cuiere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/352?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Cuiere si carlige",
+        "text": "Cuiere si carlige"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-salaClasa-solutii":{
+    "props": {
+      "id": "menu-item-salaClasa-solutii",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/353?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Solutii de prezentare",
+        "text": "Solutii de prezentare"
+      }
+    }
+  },
+
+
+
+  "flex-layout.col#4-produsePentruScoala":{
+    "children": [
+      "vtex.menu@2.x:menu#produsePentruScoala-mobilierScolar"
+    ],
+    "props": {
+        "blockClass": "megaMenu-submenuCol-produsePentruScoala",
+        "width": "25%",
+        "preventVerticalStretch":true
+    }
+  },
+  "vtex.menu@2.x:menu#produsePentruScoala-mobilierScolar":{
+    "props": {
+      "blockClass": "submenu-produsePentruScoala"
+      },
+      "children": [
+          "menu-item#produsePentruScoala-mobilierScolar",
+          "menu-item#produsePentruScoala-mobilierScolar-banci",
+          "menu-item#produsePentruScoala-mobilierScolar-biblioteca",
+          "menu-item#produsePentruScoala-mobilierScolar-catedre",
+          "menu-item#produsePentruScoala-mobilierScolar-dulapuri",
+          "menu-item#produsePentruScoala-mobilierScolar-scaune"
+      ]
+  },
+  "menu-item#produsePentruScoala-mobilierScolar":{
+    "props": {
+      "id": "menu-item-mobilierScolar",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-header",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/produse-pentru-scoala/mobilier-scolar",
+        "noFollow": false,
+        "tagTitle": "Mobilier scolar",
+        "text": "Mobilier scolar"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-mobilierScolar-banci":{
+    "props": {
+      "id": "menu-item-mobilierScolar-banci",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/354?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Banci si mese scolare",
+        "text": "Banci si mese scolare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-mobilierScolar-biblioteca":{
+    "props": {
+      "id": "menu-item-mobilierScolar-biblioteca",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/355?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Biblioteci si etajere",
+        "text": "Biblioteci si etajere"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-mobilierScolar-catedre":{
+    "props": {
+      "id": "menu-item-mobilierScolar-catedre",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/356?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Catedre",
+        "text": "Catedre"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-mobilierScolar-dulapuri":{
+    "props": {
+      "id": "menu-item-mobilierScolar-dulapuri",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/357?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Dulapuri scolare, vestiare",
+        "text": "Dulapuri scolare, vestiare"
+      }
+    }
+  },
+  "menu-item#produsePentruScoala-mobilierScolar-scaune":{
+    "props": {
+      "id": "menu-item-mobilierScolar-scaune",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "submenu-item",
+      "itemProps": {
+        "type": "internal",
+        "href": "/358?map=productClusterIds",
+        "noFollow": false,
+        "tagTitle": "Scaune",
+        "text": "Scaune"
+      }
+    }
+  }
+
+
+}

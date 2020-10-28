@@ -1,0 +1,413 @@
+{
+
+  "menu#drawer": {
+    "children": [
+      "menu-item#articole-birou-mobile",
+      "menu-item#administrativ-mobile",
+      "menu-item#mobilier-mobile",
+      "menu-item#itc-mobile",
+      "menu-item#produse-scoala-mobile",
+      "menu-item#supermarket"
+      //"menu-item#biroul-tau",
+      //"menu-item#cartuse-tonere",
+      //"menu-item#tipografie",
+      //"menu-item#reduceri"
+    ],
+    "props": {
+      "orientation": "vertical",
+      "blockClass": "mobile-menu"
+    }
+  },
+  "menu-item#articole-birou-mobile": {
+    "props": {
+      "id": "menu-item-articole-birou-mobile",
+      "type": "category", 
+      "iconPosition":"left",
+      "highlight": false,
+      "blockClass": ["faPen","departmentItem"],
+      "itemProps": {
+        "categoryId": 250,
+        "text": "Articole de birou"
+      }
+    },
+    "blocks": ["submenu.accordion#articole-de-birou-submenu"]
+  },
+  "menu-item#administrativ-mobile": {
+    "props": {
+      "id": "menu-item-administrativ-mobile",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["faFile","departmentItem"],
+      "itemProps": {
+        "categoryId": 10,
+        "text": "Administrativ"
+      }
+    },
+    "blocks": ["submenu.accordion#administrativ-submenu"]
+  },
+  "menu-item#mobilier-mobile": {
+    "props": {
+      "id": "menu-item-mobilier-mobile",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["faChairOffice","departmentItem"],
+      "itemProps": {
+        "categoryId": 166,
+        "text": "Mobilier"
+      }
+    },
+    "blocks": ["submenu.accordion#mobilier-submenu"]
+  },
+  "menu-item#itc-mobile": {
+    "props": {
+      "id": "menu-item-itc-mobile",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["faMobile","departmentItem"],
+      "itemProps": {
+        "categoryId": 7,
+        "text": "IT&C"
+      }
+    },
+    "blocks": ["submenu.accordion#itc-submenu"]
+  },
+  "menu-item#produse-scoala-mobile": {
+    "props": {
+      "id": "menu-item-produse-scoala-mobile",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["faBackpack","departmentItem"],
+      "itemProps": {
+        "categoryId": 12,
+        "text": "Produse pentru scoala"
+      }
+    },
+    "blocks": ["submenu.accordion#produse-scoala-submenu"]
+  },
+  "menu-item#supermarket": {
+    "props": {
+      "id": "menu-item-supermarket",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 391,
+        "text": "Supermarket"
+      }
+    },
+    "blocks": ["submenu.accordion#supermarket-submenu"]
+  },
+  "submenu.accordion#articole-de-birou-submenu": {
+    "children": ["menu#articole-de-birou-submenu"]
+  },
+  "submenu.accordion#administrativ-submenu": {
+    "children": ["menu#administrativ-submenu"]
+  },
+  "submenu.accordion#mobilier-submenu": {
+    "children": ["menu#mobilier-submenu"]
+  },
+  "submenu.accordion#itc-submenu": {
+    "children": ["menu#itc-submenu"]
+  },
+  "submenu.accordion#produse-scoala-submenu": {
+    "children": ["menu#produse-scoala-submenu"]
+  },
+  "submenu.accordion#supermarket-submenu": {
+    "children": ["menu#supermarket-submenu"]
+  },
+
+  "menu#articole-de-birou-submenu": {
+    "children": [
+      "menu-item#organizare-si-arhivare",
+      "menu-item#accesorii-birou",
+      "menu-item#instrumente-scris",
+      "menu-item#hartie",
+      "menu-item#comunicare-si-prezentare",
+      "menu-item#aparatura-pentru-birou",
+      "menu-item#cadouri-business",
+      "menu-item#biroul-tau-articole",
+      "menu-item#articole-birou-all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#administrativ-submenu": {
+    "children": [
+        "menu-item#protocol",
+        "menu-item#ambalare-etichetare",
+        "menu-item#echipamente-protectie",
+        "menu-item#curatenie",
+        "menu-item#administrativ-all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#mobilier-submenu": {
+    "children": [
+      "menu-item#mobilier-office",
+      "menu-item#mobilier-metalic",
+      "menu-item#accesorii-mobilier",
+      "menu-item#scaune-si-fotolii",
+      "menu-item#mobilier-industrial",
+      "menu-item#mobilier-horeca",
+      "menu-item#mobilier-scolar",
+      "menu-item#resigilate",
+      "menu-item#mobilier-all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#itc-submenu": {
+    "children": [
+      "menu-item#imprimante",
+      "menu-item#laptopuri-si-accesorii",
+      "menu-item#electrocasnice",
+      "menu-item#aparate-incalzire",
+      "menu-item#sisteme-pc",
+      "menu-item#monitoare-led",
+      "menu-item#retelistica",
+      "menu-item#audio-video",
+      "menu-item#telefoane-mobile",
+      "menu-item#periferice",
+      "menu-item#consumabile",
+      "menu-item#tablete-si-accesorii",
+      "menu-item#itc-all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu#produse-scoala-submenu": {
+    "children": [
+      "menu-item#instrumente-scris",
+      "menu-item#coloriaj",
+      "menu-item#ghiozdane",
+      "menu-item#frixion",
+      "menu-item#birou-de-acasa",
+      "menu-item#caiete-scolare",
+      "menu-item#sala-de-clasa",
+      "menu-item#mobilier-scolar",
+      "menu-item#produse-scoala-all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu#supermarket-submenu": {
+    "children": [
+      "menu-item#alimente-baza",
+      "menu-item#cafea-ceaiuri",
+      "menu-item#conserve",
+      "menu-item#ingrijire-animale",
+      "menu-item#ingrijire-copii",
+      "menu-item#supermarket-all"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#alimente-baza": {
+    "props": {
+      "id": "menu-item-alimente-baza",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategoryItem",
+      "itemProps": {
+        "categoryId": 392,
+        "text": "Alimente de baza"
+      }
+    }
+  },
+  "menu-item#cafea-ceaiuri": {
+    "props": {
+      "id": "menu-item-cafea-ceaiuri",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategoryItem",
+      "itemProps": {
+        "categoryId": 394,
+        "text": "Cafea, ceaiuri si dulciuri"
+      }
+    }
+  },
+  "menu-item#conserve": {
+    "props": {
+      "id": "menu-item-conserve",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategoryItem",
+      "itemProps": {
+        "categoryId": 393,
+        "text": "Conserve, concentrate si condimente"
+      }
+    }
+  },
+  "menu-item#ingrijire-animale": {
+    "props": {
+      "id": "menu-item-ingrijire-animale",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategoryItem",
+      "itemProps": {
+        "categoryId": 400,
+        "text": "Ingrijire animale"
+      }
+    }
+  },
+  "menu-item#ingrijire-copii": {
+    "props": {
+      "id": "menu-item-ingrijire-copii",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "subcategoryItem",
+      "itemProps": {
+        "categoryId": 399,
+        "text": "Ingrijire copii"
+      }
+    }
+  },
+  "menu-item#articole-birou-all": {
+    "props": {
+      "id": "menu-item-articole-birou-all",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 250,
+        "text": "Vezi toate produsele"
+      }
+    }
+  },
+  "menu-item#administrativ-all": {
+    "props": {
+      "id": "menu-item-administrativ-all",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 10,
+        "text": "Vezi toate produsele"
+      }
+    }
+  },
+  "menu-item#mobilier-all": {
+    "props": {
+      "id": "menu-item-mobilier-all",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 166,
+        "text": "Vezi toate produsele"
+      }
+    }
+  },
+  "menu-item#itc-all": {
+    "props": {
+      "id": "menu-item-itc-all",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 7,
+        "text": "Vezi toate produsele"
+      }
+    }
+  },
+  "menu-item#produse-scoala-all": {
+    "props": {
+      "id": "menu-item-produse-scoala-all",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 12,
+        "text": "Vezi toate produsele"
+      }
+    }
+  },
+  "menu-item#supermarket-all": {
+    "props": {
+      "id": "menu-item-supermarket-all",
+      "type": "category", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "departmentItem",
+      "itemProps": {
+        "categoryId": 391,
+        "text": "Vezi toate produsele"
+      }
+    }
+  },
+  "flex-layout.row#menu-mail":{
+    "children":[
+      "image#menu-mail",
+      "rich-text#menu-mail"
+    ],
+    "props":{
+      "preserveLayoutOnMobile":true,
+      "preventHorizontalStretch":true,
+      "horizontalAlign":"left",
+      "blockClass":"contactMenuContainer"
+    }
+  },
+  "flex-layout.row#menu-phone":{
+    "children":[
+      "image#menu-phone",
+      "rich-text#menu-phone"
+    ],
+    "props":{
+      "preserveLayoutOnMobile":true,
+      "preventHorizontalStretch":true,
+      "horizontalAlign":"left",
+      "blockClass":"contactMenuContainer"
+    }
+  },
+
+  "image#menu-phone":{
+    "props":{
+      "src":"assets/icons/menu-phone.png",
+      "maxWidth":16,
+      "blockClass":["menuImage", "imagePhoneMail"]
+    }
+  },
+  "image#menu-mail":{
+    "props":{
+      "src":"assets/icons/menu-mail.png",
+      "maxWidth":16,
+      "blockClass":["menuImage", "imagePhoneMail"]
+    }
+  },
+  "rich-text#menu-mail":{
+    "props":{
+      "text":"[comenzi@dacris.net](mailto:comenzi@dacris.net)",
+      "blockClass":"menuContactLink"
+    }
+  },
+  "rich-text#menu-phone":{
+    "props":{
+      "text":"[+40 726 233 618](tel:+40726233618)",
+      "blockClass":"menuContactLink"
+    }
+  }
+  
+}

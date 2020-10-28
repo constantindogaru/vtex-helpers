@@ -1,0 +1,751 @@
+{
+  "store.custom#clienti-business": {
+    "children": [
+      "flex-layout.row#hero-clienti-business",
+      "flex-layout.row#motive-business",
+      "flex-layout.row#tabs-clienti-business"
+    ]
+  },
+
+  "flex-layout.row#hero-clienti-business": {
+    "children":[
+      "flex-layout.col#hero-clienti-business"
+    ]
+  },
+
+  "flex-layout.col#hero-clienti-business": {
+    "children":[
+      "image#hero-img-clienti-business",
+      "rich-text#hero-heading-clienti-business",
+      "rich-text#hero-text-clienti-business"
+    ],
+    "props": {
+      "blockClass":"col-hero-clienti-business"
+    }
+  },
+
+  "image#hero-img-clienti-business": {
+    "props": {
+      "blockClass":"img-hero-clienti-business",
+      "src": "assets/imagini/img-echipa-dacris.jpg"
+    }
+  },
+
+  "rich-text#hero-heading-clienti-business": {
+    "props": {
+      "text": "Ești client business?",
+      "blockClass": "heading-clienti-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "rich-text#hero-text-clienti-business": {
+    "props": {
+      "text": "Limbajul de lemn nu s-a numărat niciodată printre pasiunile noastre. Din păcate, însă, în mediul business, acronimele și cuvintele fără substanță sunt omniprezente. Așa că ne-am propus o abordare diferită. O paralelă între ce “dă bine” să spui și ceea ce vrem noi să îți transmitem.",
+      "blockClass": "hero-text-clienti-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#motive-business": {
+    "children":[
+      "flex-layout.col#motive-business"
+    ],
+    "props": {
+      "blockClass": "motive-business"
+    } 
+  },
+
+  "flex-layout.col#motive-business": {
+    "children":[
+      "rich-text#title-motive-business",
+      "flex-layout.row#rand-coloane-motive-business"
+    ]
+  },
+
+  "rich-text#title-motive-business": {
+    "props": {
+      "text": "De ce să iei în calcul să lucrezi cu noi",
+      "blockClass": "title-motive-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#rand-coloane-motive-business": {
+    "children": [
+      "flex-layout.col#col1-motive-business",
+      "flex-layout.col#col2-motive-business",
+      "flex-layout.col#col3-motive-business",
+      "flex-layout.col#col4-motive-business",
+      "flex-layout.col#col5-motive-business"
+    ],
+    "props": {
+      "blockClass": "rand-motive-business"
+    }
+  },
+
+  "flex-layout.col#col1-motive-business": {
+    "children":[
+      "image#col1-img-motive-business",
+      "rich-text#col1-text-motive-slider"
+    ],
+    "props": {
+      "blockClass": "coloane-motive-business"
+    }
+  },
+
+  "image#col1-img-motive-business": {
+    "props": {
+      "blockClass":"img-coloane-clienti-business",
+      "src": "assets/icons/print-solid.svg"
+    }
+  },
+
+  "rich-text#col1-text-motive-slider": {
+    "props": {
+      "text": "Avem tipografie proprie",
+      "blockClass": "text-coloane-motive-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.col#col2-motive-business": {
+    "children":[
+      "image#col2-img-motive-business",
+      "rich-text#col2-text-motive-slider"
+    ],
+    "props": {
+      "blockClass": "coloane-motive-business"
+    }
+  },
+
+  "image#col2-img-motive-business": {
+    "props": {
+      "blockClass":"img-coloane-clienti-business",
+      "src": "assets/icons/truck-solid.svg"
+    }
+  },
+
+  "rich-text#col2-text-motive-slider": {
+    "props": {
+      "text": "Livrăm peste 1000 de comenzi pe zi",
+      "blockClass": "text-coloane-motive-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.col#col3-motive-business": {
+    "children":[
+      "image#col3-img-motive-business",
+      "rich-text#col3-text-motive-slider"
+    ],
+    "props": {
+      "blockClass": "coloane-motive-business"
+    }
+  },
+
+  "image#col3-img-motive-business": {
+    "props": {
+      "blockClass":"img-coloane-clienti-business",
+      "src": "assets/icons/user-tie-solid.svg"
+    }
+  },
+
+  "rich-text#col3-text-motive-slider": {
+    "props": {
+      "text": "Ai un agent de vânzare dedicat",
+      "blockClass": "text-coloane-motive-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.col#col4-motive-business": {
+    "children":[
+      "image#col4-img-motive-business",
+      "rich-text#col4-text-motive-slider"
+    ],
+    "props": {
+      "blockClass": "coloane-motive-business"
+    }
+  },
+
+  "image#col4-img-motive-business": {
+    "props": {
+      "blockClass":"img-coloane-clienti-business",
+      "src": "assets/icons/handshake-solid.svg"
+    }
+  },
+
+  "rich-text#col4-text-motive-slider": {
+    "props": {
+      "text": "Beneficiezi de parteneriatul Business Staples",
+      "blockClass": "text-coloane-motive-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.col#col5-motive-business": {
+    "children":[
+      "image#col5-img-motive-business",
+      "rich-text#col5-text-motive-slider"
+    ],
+    "props": {
+      "blockClass": "coloane-motive-business"
+    }
+  },
+
+  "image#col5-img-motive-business": {
+    "props": {
+      "blockClass":"img-coloane-clienti-business",
+      "src": "assets/icons/users-solid.svg"
+    }
+  },
+
+  "rich-text#col5-text-motive-slider": {
+    "props": {
+      "text": "Peste 10.000 de clienți business în 24 de ani",
+      "blockClass": "text-coloane-motive-business",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#tabs-clienti-business": {
+    "children":[
+      "tab-layout#clienti-business"
+    ]
+  },
+
+  "tab-layout#clienti-business": {
+    "children": [
+      "tab-list#clienti-business",
+      "tab-content#clienti-business"
+    ],
+    "props": {
+      "blockClass": "tabs-clienti-business",
+      "defaultActiveTabId": "institutii-publice"
+    }
+  },
+
+  "tab-list#clienti-business": {
+    "children": [
+      "tab-list.item#clienti-business1",
+      "tab-list.item#clienti-business2",
+      "tab-list.item#clienti-business3",
+      "tab-list.item#clienti-business4"
+      ],
+      "props": {
+        "blockClass": "lista-taburi"
+      }
+  },
+
+  "tab-list.item#clienti-business1": {
+    "props": {
+      "tabId": "institutii-publice",
+      "label": "Instituții publice",
+      "blockClass": "titlu-taburi",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#clienti-business2": {
+    "props": {
+      "tabId": "imm-uri",
+      "label": "IMM-uri",
+      "blockClass": "titlu-taburi"
+    }
+  },
+
+  "tab-list.item#clienti-business3": {
+    "props": {
+      "tabId": "distribuitori",
+      "label": "Distribuitori",
+      "blockClass": "titlu-taburi",
+      "defaultActiveTab": true
+    }
+  },
+
+  "tab-list.item#clienti-business4": {
+    "props": {
+      "tabId": "key-accounts",
+      "label": "Key Accounts",
+      "blockClass": "titlu-taburi"
+    }
+  },
+
+  "tab-content#clienti-business": {
+    "children": [
+      "tab-content.item#clienti-business1",
+      "tab-content.item#clienti-business2",
+      "tab-content.item#clienti-business3",
+      "tab-content.item#clienti-business4"
+    ],
+    "props": {
+      "blockClass": "content-taburi"
+    }
+  },
+
+  "tab-content.item#clienti-business1": {
+    "children": [
+      "flex-layout.row#heading-content-institutii",
+      "flex-layout.row#content-institutii"
+    ],
+    "props": {
+      "tabId": "institutii-publice"
+    }
+  },
+
+  "flex-layout.row#heading-content-institutii": {
+    "children":[
+      "rich-text#heading-content-institutii"
+    ],
+    "props": {
+      "blockClass": "heading-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-institutii": {
+    "props": {
+      "text": "**Instituții publice**<br> Suntem transparenți și atenți la bugetele uneori insuficiente ale instituțiilor publice. Ne ajutăm clienții să aleagă produse care țin cont atât de nevoile lor specifice, cât și de costuri, fără să renunțăm la calitate. Pentru asta avem liste speciale de produse și prețuri.",
+      "blockClass": "heading-content-institutii",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+  
+  "flex-layout.row#content-institutii": {
+    "children": [
+      "flex-layout.col#col-img-content-institutii",
+      "flex-layout.col#col-content-institutii"
+    ]
+  },
+
+  "flex-layout.col#col-img-content-institutii": {
+    "children":[
+      "image#img-content-institutii"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+
+  "image#img-content-institutii": {
+    "props": {
+      "blockClass":"img-institutii",
+      "src": "assets/imagini/img-institutii.jpg"
+    }
+  },
+
+  "flex-layout.col#col-content-institutii": {
+    "children":[
+      "flex-layout.row#rand-content-institutii"
+    ],
+    "props": {
+      "width": "60%"
+    }
+  },
+
+  "flex-layout.row#rand-content-institutii": {
+    "children":[
+      "flex-layout.col#col1-content-intitutii",
+      "flex-layout.col#col2-content-intitutii"
+    ]
+  },
+
+  "flex-layout.col#col1-content-intitutii": {
+    "children":[
+      "rich-text#heading-content-col1-institutii",
+      "rich-text#content1-col1-institutii"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#col2-content-intitutii": {
+    "children":[
+      "rich-text#heading-content-col2-institutii",
+      "rich-text#content1-col2-institutii"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#content1-col1-institutii": {
+    "props": {
+      "text": "Peste 32.000 de proceduri directe de achiziții publice ale grupului Dacris în Sistemul informatic colaborativ pentru mediu performant de desfasurare al achizitiilor publice (SICAP).<br><br>Experiență în derularea contractelor de tip acord-cadru<br><br>Termene de plată în funcție de bugetul și graficul de plăți la Trezorerie<br><br>Servicii autorizate gratuite de colectare a deșeurilor de hârtie, carton, plastic și tonere",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#content1-col2-institutii": {
+    "props": {
+      "text": "Avem experiență și știm ce facem.<br><br>Nu am glumit. Chiar avem experiență.<br><br>Ne adaptăm rapid și suntem flexibili.<br><br>Ne preocupăm constant de mediu. Nu pentru că e la modă, ci pentru că nouă chiar ne pasă.",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col1-institutii": {
+    "props": {
+      "text": "Ce e frumos să spui",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col2-institutii": {
+    "props": {
+      "text": "Ce vrem să spunem",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "tab-content.item#clienti-business2": {
+    "children": [
+      "flex-layout.row#heading-content-imm",
+      "flex-layout.row#content-imm"
+    ],
+    "props": {
+      "tabId": "imm-uri"
+    }
+  },
+
+  "flex-layout.row#heading-content-imm": {
+    "children":[
+      "rich-text#heading-content-imm"
+    ],
+    "props": {
+      "blockClass": "heading-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-imm": {
+    "props": {
+      "text": "**IMM-uri**<br> Îți oferim o gamă completă de produse pentru birou: papetărie, produse de curățenie, echipamente de protecția muncii, protocol, cadouri personalizate, tonere și echipamente de printare, mobilier.",
+      "blockClass": "heading-content-institutii",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#content-imm": {
+    "children": [
+      "flex-layout.col#col-img-content-imm",
+      "flex-layout.col#col-content-imm"
+    ]
+  },
+
+  "flex-layout.col#col-img-content-imm": {
+    "children":[
+      "image#img-content-imm"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+
+  "image#img-content-imm": {
+    "props": {
+      "blockClass":"img-imm",
+      "src": "assets/imagini/img-imm.jpg"
+    }
+  },
+
+  "flex-layout.col#col-content-imm": {
+    "children":[
+      "flex-layout.row#rand-content-imm"
+    ],
+    "props": {
+      "width": "60%"
+    }
+  },
+
+  "flex-layout.row#rand-content-imm": {
+    "children":[
+      "flex-layout.col#col1-content-imm",
+      "flex-layout.col#col2-content-imm"
+    ]
+  },
+
+  "flex-layout.col#col1-content-imm": {
+    "children":[
+      "rich-text#heading-content-col1-imm",
+      "rich-text#content1-col1-imm"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#col2-content-imm": {
+    "children":[
+      "rich-text#heading-content-col2-imm",
+      "rich-text#content1-col2-imm"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#content1-col1-imm": {
+    "props": {
+      "text": "Manager dedicat de cont<br><br> Oferte personalizate<br><br>Programe de fidelizare<br><br> Prezentări de produse<br><br> Raportare lunară, trimestrială sau anuală<br><br> Servicii autorizate gratuite de colectare a deșeurilor de hârtie, carton, plastic și tonere<br><br> Prețuri speciale pentru angajații partenerilor noștri<br><br> Livrare în 24 – 48 de ore în toată țara",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#content1-col2-imm": {
+    "props": {
+      "text": " Ai omul tău de încredere. Disponibil la telefon, mail sau chiar hologramă.<br><br> Ca în orice relație, avem micile noastre secrete.<br><br> Ne place să rămânem prieteni cât de mult posibil.<br><br> Partea în care ne cam lăudăm, dar într-un scop constructiv.<br><br> Este important să fim eficienți.<br><br> Ne preocupăm constant de mediu. Nu pentru că e la modă, ci pentru că nouă chiar ne pasă.<br><br> Avem grijă de oamenii noștri.<br><br> Facem tot posibilul sa fie asa, chiar dacă uneori durează mai mult de 48 de ore. Ne dăm silința.",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col1-imm": {
+    "props": {
+      "text": "Ce e frumos să spui",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col2-imm": {
+    "props": {
+      "text": "Ce vrem să spunem",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "tab-content.item#clienti-business3": {
+    "children": [
+      "flex-layout.row#heading-content-distribuitori",
+      "flex-layout.row#content-distribuitori"
+    ],
+    "props": {
+      "tabId": "distribuitori"
+    }
+  },
+
+  "flex-layout.row#heading-content-distribuitori": {
+    "children":[
+      "rich-text#heading-content-distribuitori"
+    ],
+    "props": {
+      "blockClass": "heading-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-distribuitori": {
+    "props": {
+      "text": "**Distribuitori** <br> Suntem singura companie de papetărie din România care oferă game de produse dedicate, în exclusivitate, partenerilor librării.",
+      "blockClass": "heading-content-distribuitori",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#content-distribuitori": {
+    "children": [
+      "flex-layout.col#col-content-distribuitori"
+    ]
+  },
+
+  "flex-layout.col#col-content-distribuitori": {
+    "children":[
+      "flex-layout.row#rand-content-distribuitori"
+    ]
+  },
+
+  "flex-layout.row#rand-content-distribuitori": {
+    "children":[
+      "flex-layout.col#col1-content-distribuitori",
+      "flex-layout.col#col2-content-distribuitori"
+    ]
+  },
+
+  "flex-layout.col#col1-content-distribuitori": {
+    "children":[
+      "rich-text#heading-content-col1-distribuitori",
+      "rich-text#content1-col1-distribuitori"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#col2-content-distribuitori": {
+    "children":[
+      "rich-text#heading-content-col2-distribuitori",
+      "rich-text#content1-col2-distribuitori"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#content1-col1-distribuitori": {
+    "props": {
+      "text": " Produse pentru librării: instrumente de scris, coloriaj, articole pentru școală, papetărie, tipizate<br><br> Programe de fidelizare pentru partenerii Dacris<br><br> Suport în vânzare<br><br> Campanii și promoții dedicate librăriilor<br><br> Organizăm împreună cu tine evenimente în magazin<br><br> Organizăm traininguri, workshopuri și târguri la care ai ocazia să cunoști produsele noastre<br><br> Continuitatea stocurilor, mai ales în vârfurile de sezon<br><br> Suntem importator și distribuitor unic în România pentru Pilot, brandul de instrumente de scris numărul 1 la categoria rollere<br><br> Livrare în 24 – 48 de ore în toată țara",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#content1-col2-distribuitori": {
+    "props": {
+      "text": " Clienții tăi, persoane fizice sau juridice, vor avea acces la o gamă variată și completă de produse. Pe cuvânt.<br><br> Ne dorim să rămânem prieteni cât de mult posibil.<br><br> Ținem aproape, dar nu într-un mod ciudat.<br><br> Facem să fie bine.<br><br> Lucrăm, dar ne și distrăm.<br><br> Educația continuă e cheia unei bune colaborări.<br><br> Suntem mereu pregătiți. Cel puțin încercăm.<br><br> Chiar suntem<br><br> Facem tot posibilul sa fie asa, chiar daca uneori durează mai mult de 48 de ore. Ne dăm silința.",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col1-distribuitori": {
+    "props": {
+      "text": "Ce e frumos să spui",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col2-distribuitori": {
+    "props": {
+      "text": "Ce vrem să spunem",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "tab-content.item#clienti-business4": {
+    "children": [
+      "flex-layout.row#heading-content-key",
+      "flex-layout.row#content-key"
+    ],
+    "props": {
+      "tabId": "key-accounts"
+    }
+  },
+
+  "flex-layout.row#heading-content-key": {
+    "children":[
+      "rich-text#heading-content-key"
+    ],
+    "props": {
+      "blockClass": "heading-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-key": {
+    "props": {
+      "text": "**Key Accounts**<br> Avem experiență în derularea contractelor globale, cu sistem de raportare dedicat fiecărui client. De asemenea, îți punem la dispoziție o platformă dedicată de comenzi. Astfel, poți deveni propriul manager de cont și service desk!",
+      "blockClass": "heading-content-institutii",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  },
+
+  "flex-layout.row#content-key": {
+    "children": [
+      "flex-layout.col#col-img-content-key",
+      "flex-layout.col#col-content-key"
+    ]
+  },
+
+  "flex-layout.col#col-img-content-key": {
+    "children":[
+      "image#img-content-key"
+    ],
+    "props": {
+      "width": "40%"
+    }
+  },
+
+  "image#img-content-key": {
+    "props": {
+      "blockClass":"img-imm",
+      "src": "assets/imagini/img-key-account.jpg"
+    }
+  },
+
+  "flex-layout.col#col-content-key": {
+    "children":[
+      "flex-layout.row#rand-content-key"
+    ],
+    "props": {
+      "width": "60%"
+    }
+  },
+
+  "flex-layout.row#rand-content-key": {
+    "children":[
+      "flex-layout.col#col1-content-key",
+      "flex-layout.col#col2-content-key"
+    ]
+  },
+
+  "flex-layout.col#col1-content-key": {
+    "children":[
+      "rich-text#heading-content-col1-key",
+      "rich-text#content1-col1-key"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#col2-content-key": {
+    "children":[
+      "rich-text#heading-content-col2-key",
+      "rich-text#content1-col2-key"
+    ],
+    "props": {
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#content1-col1-key": {
+    "props": {
+      "text": "Experiență în derularea contractelor globale, cu sistem de raportare dedicat fiecărui client<br><br> Platformă dedicată de comenzi<br><br> Aprobarea și controlul comenzilor la nivel global sau pe departament / centru de cost / persoană<br><br>  Platformă accesibilăde pe desktop sau mobile, fără soft-uri suplimentare<br><br> Raportare modulară(accesibil persoanelor autorizate):<br>- vizualizarea istoricului comenzilor;<br> - verificarea consumului pe fiecare articol în parte;<br> - controlul bugetelor la nivel de utilizator sau departament.<br><br> Securitatea datelor/informațiilor din aplicație.<br><br> Servicii autorizate gratuite de colectare a deșeurilor de hârtie, carton, plastic și tonere",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#content1-col2-key": {
+    "props": {
+      "text": "Exact ce am spus.",
+      "blockClass": "content-col-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col1-key": {
+    "props": {
+      "text": "Ce e frumos să spui",
+      "blockClass": "heading-col-content-institutii"
+    }
+  },
+
+  "rich-text#heading-content-col2-key": {
+    "props": {
+      "text": "Ce vrem să spunem",
+      "blockClass": "heading-col-content-institutii"
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

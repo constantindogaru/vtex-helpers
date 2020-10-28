@@ -1,0 +1,642 @@
+{
+  "store.custom#sondaj-viata-la-birou": {
+    "children": [
+      "flex-layout.row#hero-sondaj",
+      "flex-layout.row#premiile-campaniel",
+      "flex-layout.row#aniversare-sondaj",
+      "flex-layout.row#viatalabirou-sondaj"
+    ]
+  },
+
+  "flex-layout.row#hero-sondaj": {
+    "children":[
+      "flex-layout.col#hero-sondaj"
+    ],
+    "props":{
+      "blockClass":"row-hero-sondaj",
+      "rowGap": 0,
+      "colGap": 0
+    }
+  },
+
+  "flex-layout.col#hero-sondaj": {
+    "children":[
+      "image#hero-img-sondaj",
+      "image#hero-logo-sondaj",
+      "flex-layout.row#hero-row-text-sondaj"
+    ],
+    "props":{
+      "rowGap": 0,
+      "colGap": 0
+    }
+  },
+
+  "image#hero-img-sondaj": {
+    "props": {
+      "blockClass":"img-hero-sondaj",
+      "src": "assets/imagini/img-hero-sondaj.jpg"
+    }
+  },
+
+  "image#hero-logo-sondaj": {
+    "props": {
+      "blockClass":"logo-sondaj",
+      "src": "assets/imagini/ds-logo.png"
+    }
+  },
+
+  "flex-layout.row#hero-row-text-sondaj": {
+    "children":[
+      "flex-layout.col#img-hero-text-sondaj",
+      "flex-layout.col#hero-text-sondaj"
+    ],
+    "props":{
+      "blockClass": "rand-hero-text-sondaj",
+      "rowGap": 0,
+      "colGap": 0
+    }
+  },
+
+  "flex-layout.col#img-hero-text-sondaj": {
+    "children":[
+      "image#img-soare-sondaj"
+    ],
+    "props":{
+      "width": "30%"
+    }
+  },
+
+  "image#img-soare-sondaj": {
+    "props": {
+      "blockClass":"img-soare-sondaj",
+      "src": "assets/imagini/sun-douascinci.png"
+    }
+  },
+
+  "flex-layout.col#hero-text-sondaj": {
+    "children":[
+      "rich-text#heading-hero-sondaj",
+      "rich-text#text-hero-sondaj",
+      "rich-text#link-participa-sondaj",
+      "rich-text#link-regulament-sondaj"
+    ],
+    "props":{
+      "width": "70%",
+      "blockClass":"col-text-sondaj",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#heading-hero-sondaj": {
+    "props": {
+      "text": "Cum e pentru tine #ViațaLaBirou?",
+      "blockClass": "heading-sondaj"
+    } 
+  },
+
+  "rich-text#text-hero-sondaj": {
+    "props": {
+      "text": "De 25 de ani suntem curioși și sperăm să rămânem în continuare, așa că ne-am decis să facem un sondaj național pentru a afla mai multe despre obiceiurile voastre când sunteți la birou ca să înțelegem mai bine de ce facem ceea ce facem. 😀 Așa că sperăm să participi la sondajul nostru online, mai ales că poți câștiga și o mulțime de premii. Durează mai puțin de 60 de secunde.",
+      "blockClass": "text-hero-sondaj"
+    } 
+  },
+
+  "rich-text#link-participa-sondaj": {
+    "props": {
+      "text": "[Participă la sondajul online](https://www.smartsurvey.co.uk/s/ViataLaBirou/)",
+      "blockClass": "link-participa-sondaj"
+    } 
+  },
+
+  "rich-text#link-regulament-sondaj": {
+    "props": {
+      "text": "[Citește regulamentul campaniei](https://docs.google.com/document/d/15LQXJMJ-iPB9CJAZZwwlH2pxjFXrNj1hwJy-psQmyoE/edit)",
+      "blockClass": "link-regulament-sondaj"
+    } 
+  },
+
+  "flex-layout.row#premiile-campaniel": {
+    "children":[
+      "flex-layout.col#premiile-campaniel"
+    ],
+    "props":{
+      "blockClass":"rand-premiile-campaniei"
+    }
+  },
+
+  "flex-layout.col#premiile-campaniel": {
+    "children":[
+      "rich-text#premiile-campaniel",
+      "rich-text#text-premiile-campaniel",
+      "flex-layout.row#row-premii-campanie"
+    ]
+  },
+
+  "rich-text#premiile-campaniel": {
+    "props": {
+      "text": "Premiile campaniei",
+      "blockClass": "heading-premiile-campaniei",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "rich-text#text-premiile-campaniel": {
+    "props": {
+      "text": "Ți-am pregătit o serie de premii de neratat!",
+      "blockClass": "text-premiile-campaniei",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#row-premii-campanie": {
+    "children":[
+      "flex-layout.col#premiul1-campanie",
+      "flex-layout.col#premiul2-campanie",
+      "flex-layout.col#premiul3-campanie"
+    ]
+  },
+
+  "flex-layout.col#premiul1-campanie": {
+    "children":[
+      "info-card#premiul1-campanie"
+    ]
+  },
+
+  "flex-layout.col#premiul2-campanie": {
+    "children":[
+      "info-card#premiul2-campanie"
+    ]
+  },
+
+  "flex-layout.col#premiul3-campanie": {
+    "children":[
+      "info-card#premiul3-campanie"
+    ]
+  },
+
+  "info-card#premiul1-campanie": {
+    "props": {
+      "id": "info-card-premiul1",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/imagini/premiu-rucsac.jpg",
+      "headline": "3 x Rucsac ZIPIT Shell",
+      "blockClass": "info-card-premii-campanie",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#premiul2-campanie": {
+    "props": {
+      "id": "info-card-premiul2",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/imagini/premiu-penar.jpg",
+      "headline": "6 x Penar echipat Fineliner Pilot Frixion",
+      "blockClass": "info-card-premii-campanie",
+      "textAlignment": "center"
+    }
+  },
+
+  "info-card#premiul3-campanie": {
+    "props": {
+      "id": "info-card-premiul3",
+      "isFullModeStyle": false,
+      "textPosition": "center",
+      "imageUrl": "assets/imagini/premiu-boxa.jpg",
+      "headline": "6 x Boxa Mini Bluetooth",
+      "blockClass": "info-card-premii-campanie",
+      "textAlignment": "center"
+    }
+  },
+
+  "flex-layout.row#aniversare-sondaj": {
+    "children":[
+      "flex-layout.col#aniversare-sondaj"
+    ],
+    "props":{
+      "blockClass":"rand-aniversare-campanie"
+    }
+  },
+
+  "flex-layout.col#aniversare-sondaj": {
+    "children":[
+      "rich-text#aniversare-sondaj",
+      "rich-text#text-aniversare-sondaj",
+      "flex-layout.row#row-aniversare-sondaj"
+    ]
+  },
+
+  "rich-text#aniversare-sondaj": {
+    "props": {
+      "text": "Dacris a aniversat **25 de ani**",
+      "blockClass": "heading-aniversare-campanie",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "rich-text#text-aniversare-sondaj": {
+    "props": {
+      "text": "Am aniversat 25 de ani și am sărbătorit alături de colegii noștri din birourile din București, Constanța și Timișoara, iar piesa noastră, #ViațaLaBirou, s-a jucat în marile teatre din țară. 😀",
+      "blockClass": "text-aniversare-campanie",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#row-aniversare-sondaj": {
+    "children":[
+      "flex-layout.col#col1-aniversare-sondaj",
+      "flex-layout.col#col2-aniversare-sondaj",
+      "flex-layout.col#col3-aniversare-sondaj"
+    ]
+  },
+
+  "flex-layout.col#col1-aniversare-sondaj": {
+    "children":[
+      "image#col1-aniversare-sondaj",
+      "rich-text#col1-aniversare-sondaj"
+    ]
+  },
+
+  "flex-layout.col#col2-aniversare-sondaj": {
+    "children":[
+      "image#col2-aniversare-sondaj",
+      "rich-text#col2-aniversare-sondaj"
+    ]
+  },
+
+  "flex-layout.col#col3-aniversare-sondaj": {
+    "children":[
+      "image#col3-aniversare-sondaj",
+      "rich-text#col3-aniversare-sondaj"
+    ]
+  },
+
+  "image#col1-aniversare-sondaj": {
+    "props": {
+      "blockClass":"img-aniversare-sondaj",
+      "src": "assets/imagini/img-bucuresti.jpg"
+    }
+  },
+
+  "image#col2-aniversare-sondaj": {
+    "props": {
+      "blockClass":"img-aniversare-sondaj",
+      "src": "assets/imagini/img-constanta.jpg"
+    }
+  },
+
+  "image#col3-aniversare-sondaj": {
+    "props": {
+      "blockClass":"img-aniversare-sondaj",
+      "src": "assets/imagini/img-timisoara.jpg"
+    }
+  },
+
+  "rich-text#col1-aniversare-sondaj": {
+    "props": {
+      "text": "București",
+      "blockClass": "titlu-aniversare-campaniei",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "rich-text#col2-aniversare-sondaj": {
+    "props": {
+      "text": "Constanța",
+      "blockClass": "titlu-aniversare-campaniei",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "rich-text#col3-aniversare-sondaj": {
+    "props": {
+      "text": "Timișoara",
+      "blockClass": "titlu-aniversare-campaniei",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#viatalabirou-sondaj": {
+    "children":[
+      "flex-layout.col#viatalabirou-sondaj"
+    ],
+    "props":{
+      "blockClass":"rand-viatalabirou-campanie"
+    }
+  },
+
+  "flex-layout.col#viatalabirou-sondaj": {
+    "children":[
+      "rich-text#viatalabirou-sondaj",
+      "rich-text#text-viatalabirou-sondaj",
+      "flex-layout.row#row1-piese-teatru",
+      "flex-layout.row#row2-piese-teatru",
+      "flex-layout.row#row3-piese-teatru"
+    ]
+  },
+
+  "rich-text#viatalabirou-sondaj": {
+    "props": {
+      "text": "#ViațaLaBirou",
+      "blockClass": "heading-viatalabirou-campanie",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "rich-text#text-viatalabirou-sondaj": {
+    "props": {
+      "text": "Am făcut o piesă de teatru. Am rugat un scenarist să scrie o piesă special pentru Dacris. Un regizor a pus-o în scenă, iar 8 actori au interpretat-o minunat. Noi am fost bucuroși să finanțăm tot proiectul și să petrecem alături de partenerii și colegii noștri într-un mod neașteptat.",
+      "blockClass": "text-viatalabirou-campanie",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#row1-piese-teatru": {
+    "children":[
+      "flex-layout.col#piesa-teatru1",
+      "flex-layout.col#piesa-teatru2"
+    ]
+  },
+
+  "flex-layout.col#piesa-teatru1": {
+    "children": [
+      "rich-text#title-piesa-teatru-1",
+      "flex-layout.row#rand-video-piesa1"
+    ],
+    "props":{
+      "blockClass":"coloane-piese"
+    }
+  },
+
+  "rich-text#title-piesa-teatru-1": {
+    "props": {
+      "text": "Teatrul Elisabeta, premieră, București, 28 mai",
+      "blockClass": "title-piese-teatru",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#rand-video-piesa1": {
+    "children":[
+      "image#img-piesa1",
+      "image#video-piesa1"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass":"rand-img-video",
+      "colGap": 4
+    }
+  },
+
+  "image#img-piesa1": {
+    "props": {
+      "blockClass":"img-piese-teatru",
+      "src": "assets/imagini/img-piesa1.jpg"
+    }
+  },
+
+  "image#video-piesa1": {
+    "props": {
+      "blockClass":"img-video-teatru",
+      "src": "assets/imagini/img-video-piesa1.jpg",
+      "link":"https://www.youtube.com/watch?v=1ZSRcqg9ERg&feature=youtu.be"
+    }
+  },
+
+  "flex-layout.col#piesa-teatru2": {
+    "children": [
+      "rich-text#title-piesa-teatru-2",
+      "flex-layout.row#rand-video-piesa2"
+    ],
+    "props":{
+      "blockClass":"coloane-piese"
+    }
+  },
+
+  "rich-text#title-piesa-teatru-2": {
+    "props": {
+      "text": "Apollo 111, București, 13 iunie",
+      "blockClass": "title-piese-teatru",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#rand-video-piesa2": {
+    "children":[
+      "image#img-piesa2",
+      "image#video-piesa2"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass":"rand-img-video",
+      "colGap": 4
+    }
+  },
+
+  "image#img-piesa2": {
+    "props": {
+      "blockClass":"img-piese-teatru",
+      "src": "assets/imagini/img-piesa2.jpg"
+    }
+  },
+
+  "image#video-piesa2": {
+    "props": {
+      "blockClass":"img-video-teatru",
+      "src": "assets/imagini/img-video-piesa2.jpg",
+      "link":"https://www.youtube.com/watch?v=TdtaQp_SasE&feature=youtu.be"
+    }
+  },
+
+"flex-layout.row#row2-piese-teatru": {
+    "children":[
+      "flex-layout.col#piesa-teatru3",
+      "flex-layout.col#piesa-teatru4"
+    ],
+    "props":{
+      "blockClass":"rand-secundar-piese"
+    }
+  },
+
+  "flex-layout.col#piesa-teatru3": {
+    "children": [
+      "rich-text#title-piesa-teatru-3",
+      "flex-layout.row#rand-video-piesa3"
+    ],
+    "props":{
+      "blockClass":"coloane-piese"
+    }
+  },
+
+  "rich-text#title-piesa-teatru-3": {
+    "props": {
+      "text": "Teatrul Național de Operă și Balet Oleg Danovski, Constanța, 25 septembrie",
+      "blockClass": "title-piese-teatru",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#rand-video-piesa3": {
+    "children":[
+      "image#img-piesa3",
+      "image#video-piesa3"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass":"rand-img-video",
+      "colGap": 4
+    }
+  },
+
+  "image#img-piesa3": {
+    "props": {
+      "blockClass":"img-piese-teatru",
+      "src": "assets/imagini/img-piesa3.jpg"
+    }
+  },
+
+  "image#video-piesa3": {
+    "props": {
+      "blockClass":"img-video-teatru",
+      "src": "assets/imagini/img-video-piesa3.jpg",
+      "link":"https://www.youtube.com/watch?v=t3t8YCYIbDo&feature=youtu.be"
+    }
+  },
+
+  "flex-layout.col#piesa-teatru4": {
+    "children": [
+      "rich-text#title-piesa-teatru-4",
+      "flex-layout.row#rand-video-piesa4"
+    ],
+    "props":{
+      "blockClass":"coloane-piese"
+    }
+  },
+
+  "rich-text#title-piesa-teatru-4": {
+    "props": {
+      "text": "Teatrul Național Mihai Eminescu, Timișoara, 15 octombrie",
+      "blockClass": "title-piese-teatru",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#rand-video-piesa4": {
+    "children":[
+      "image#img-piesa4",
+      "image#video-piesa4"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass":"rand-img-video",
+      "colGap": 4
+    }
+  },
+
+  "image#img-piesa4": {
+    "props": {
+      "blockClass":"img-piese-teatru",
+      "src": "assets/imagini/img-piesa4.jpg"
+    }
+  },
+
+  "image#video-piesa4": {
+    "props": {
+      "blockClass":"img-video-teatru",
+      "src": "assets/imagini/img-video-piesa4.jpg",
+      "link":"https://www.youtube.com/watch?v=5cRH7Jj0foA&feature=youtu.be"
+    }
+  },
+
+  "flex-layout.row#row3-piese-teatru": {
+    "children":[
+      "flex-layout.col#piesa-teatru5",
+      "flex-layout.col#piesa-teatru6"
+    ],
+    "props":{
+      "blockClass":"rand-secundar-piese"
+    }
+  },
+
+  "flex-layout.col#piesa-teatru6": {
+
+  },
+
+  "flex-layout.col#piesa-teatru5": {
+    "children": [
+      "rich-text#title-piesa-teatru-5",
+      "flex-layout.row#rand-video-piesa5"
+    ],
+    "props":{
+      "blockClass":"coloane-piese"
+    }
+  },
+
+  "rich-text#title-piesa-teatru-5": {
+    "props": {
+      "text": "Globalworth Tower, București, 27 noiembrie 2019",
+      "blockClass": "title-piese-teatru",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    } 
+  },
+
+  "flex-layout.row#rand-video-piesa5": {
+    "children":[
+      "image#img-piesa5",
+      "image#video-piesa5"
+    ],
+    "props":{
+      "preventVerticalStretch": true,
+      "blockClass":"rand-img-video",
+      "colGap": 4
+    }
+  },
+
+  "image#img-piesa5": {
+    "props": {
+      "blockClass":"img-piese-teatru",
+      "src": "assets/imagini/img-piesa5.jpg"
+    }
+  },
+
+  "image#video-piesa5": {
+    "props": {
+      "blockClass":"img-video-teatru",
+      "src": "assets/imagini/img-video-piesa5.jpg",
+      "link":"https://www.youtube.com/watch?v=xNuoU-GCal4"
+    }
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

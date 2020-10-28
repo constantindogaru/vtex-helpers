@@ -1,0 +1,91 @@
+{
+  "vtex.menu@2.x:menu#menu-left": {
+    "props": {
+      "orientation": "vertical",
+      "width": "16%"
+    },
+    "children": [
+      "menu-item#contacteaza-ne",
+      "menu-item#blogul-nostru",
+      "menu-item#despre-noi",
+      "menu-item#de-ce-client",
+      "menu-item#client-business"
+    ]
+  },
+  "menu-item#contacteaza-ne": {
+    "props": {
+      "id": "menu-item-contacteaza-ne",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/contact",
+        "noFollow": false,
+        "tagTitle": "Contacteaza-ne",
+        "text": "Contacteaza-ne"
+      }
+    }
+  },
+  "menu-item#blogul-nostru": {
+    "props": {
+      "id": "menu-item-blogul-nostru",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/blog",
+        "noFollow": false,
+        "tagTitle": "Blogul nostru",
+        "text": "Blogul nostru"
+      }
+    }
+  },
+  "menu-item#despre-noi": {
+    "props": {
+      "id": "menu-item-despre-noi",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despre-noi",
+        "noFollow": false,
+        "tagTitle": "Despre noi",
+        "text": "Despre noi"
+      }
+    }
+  },
+  "menu-item#de-ce-client": {
+    "props": {
+      "id": "menu-item-de-ce-client",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/client-dacris",
+        "noFollow": false,
+        "tagTitle": "De ce să fii client Dacris?",
+        "text": "De ce să fii client Dacris?"
+      }
+    }
+  },
+  
+  "menu-item#client-business": {
+    "props": {
+      "id": "menu-item-client-business",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/clienti-business",
+        "noFollow": false,
+        "tagTitle": "Ești client business?",
+        "text": "Ești client business?"
+      }
+    }
+  }
+}

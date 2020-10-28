@@ -1,0 +1,120 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop", "header-layout.mobile"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "header-row#main",
+      "header-row#menu"
+    ],
+    "title":"Header Desktop"
+  },
+  "header-row#menu": {
+    "children": [
+      "vtex.menu@2.x:menu#main",
+      "header-spacer",
+      "flex-layout.row#contact-links"
+    ],
+    "props": {
+      "blockClass": ["menu-link"],
+      "sticky": true
+    }
+  },
+  "header-row#main": {
+    "children": [
+      "logo#desktop",
+      "header-spacer",
+      "search-bar",
+      "header-spacer",
+      "login#desktop",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass":"stickyHeaderWrapper"
+    }
+  },
+  "login#desktop": {
+    "props":{
+      "showIconProfile": true,
+      "iconLabel": "Cont"
+    }
+  },
+  "login#mobile": {
+    "props":{
+      "showIconProfile": true,
+      "iconLabel": ""
+    }
+  },
+  // "search-bar": {
+  //   "props": {
+  //     "placeholder": "Cauta orice, avem atatea solutii ...",
+  //     "hasIconLeft": false,
+  //     "displayMode":"clear-button",
+  //     "blockClass": "searchBar"
+  //   }
+  // },
+  "logo#desktop": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imagini/logo-dacris.png",
+      "width": "147",
+      "blockClass":"logo-desktop"
+    }
+  },
+  "header-layout.mobile": {
+    "children": [
+      "header-row#nav-mobile",
+      "header-row#search-mobile"
+    ],
+    "title":"Header Mobile"
+  },
+  "header-row#nav-mobile": {
+    "children": [
+      "drawer",
+      "logo#mobile",
+      "header-spacer",
+      "login#mobile",
+      "minicart.v2"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header-mobile"
+    }
+  },
+  "header-row#search-mobile": {
+    "children":[
+      "search-bar"
+    ],
+    "props":{
+      "blockClass":"mobileHeaderSearchContainer"
+    }
+  },
+  "drawer": {
+    "children": [
+      "flex-layout.row#mobile-menu-container",
+      "flex-layout.row#menu-mail",
+      "flex-layout.row#menu-phone"
+    ]
+  },
+
+  "flex-layout.row#mobile-menu-container":{
+    "children": [
+      "menu#drawer"
+    ]
+  },
+
+  "logo#mobile": {
+    "props": {
+      "title": "Logo",
+      "href": "/",
+      "url": "assets/imagini/logo-dacris.png",
+      "width": "124",
+      "blockClass":"logo-mobile"
+    }
+  }
+}

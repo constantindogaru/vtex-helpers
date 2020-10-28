@@ -1,0 +1,230 @@
+{
+
+  "store.custom#cadouri-template": {
+    "children": [
+      "flex-layout.row#hero-cadouri",
+      "flex-layout.row#pageCadouri",
+      "rich-text#row1-carusel-premii",
+      "flex-layout.row#row1-carusel-premii",
+      "rich-text#row2-carusel-premii",
+      "flex-layout.row#row2-carusel-premii",
+      "rich-text#row3-carusel-premii",
+      "flex-layout.row#row3-carusel-premii",
+      "rich-text#row4-carusel-premii",
+      "flex-layout.row#row4-carusel-premii",
+      "rich-text#row5-carusel-premii",
+      "flex-layout.row#row5-carusel-premii"
+    ]
+  },
+  "flex-layout.row#hero-cadouri":{
+    "children": [
+      "image#hero-cadouri"
+    ],
+    "props":{
+      "blockClass":["hero-cadouri"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: hero-banner"
+  },
+  "image#hero-cadouri":{
+    "props": {
+      "src": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/03784a60-a5e5-4547-a8f3-4cfa0ad05acd___0a352f06f6b14de3a6762b0638265e12.png",
+      "blockClass": "img-hero-cadouri",
+      "link":{
+        "url": "",
+        "openNewTab": true
+      }
+    }
+  },
+
+  "flex-layout.row#pageCadouri":{
+    "children": [
+      "rich-text#pageCadouri"
+    ],
+    "props":{
+      "blockClass":["row-text-cadouriPage"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: text after hero-banner"
+  },
+  "rich-text#pageCadouri":{
+    "props": {
+      "text": "Lorem ipsum ",
+      "blockClass": "text-pageCadouri"
+    }
+  },
+
+
+  "flex-layout.row#row1-carusel-premii":{
+    "children": [
+      "list-context.image-list#row1-premii"
+    ],
+    "props":{
+      "blockClass":["row-caruselPremii"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: row carusel 1"
+  },
+
+  "flex-layout.row#row2-carusel-premii":{
+    "children": [
+      "list-context.image-list#row2-premii"
+    ],
+    "props":{
+      "blockClass":["row-caruselPremii"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: row carusel 2"
+  },
+
+  "flex-layout.row#row3-carusel-premii":{
+    "children": [
+      "list-context.image-list#row3-premii"
+    ],
+    "props":{
+      "blockClass":["row-caruselPremii"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: row carusel 3"
+  },
+
+  "flex-layout.row#row4-carusel-premii":{
+    "children": [
+      "list-context.image-list#row4-premii"
+    ],
+    "props":{
+      "blockClass":["row-caruselPremii"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: row carusel 4"
+  },
+
+  "flex-layout.row#row5-carusel-premii":{
+    "children": [
+      "list-context.image-list#row5-premii"
+    ],
+    "props":{
+      "blockClass":["row-caruselPremii"],
+      "preventVerticalStretch": "true"
+    },
+    "title": "Static page-cadouri: row carusel 5"
+  },
+
+
+  "list-context.image-list#row1-premii":{
+    "children": ["slider-layout#caruselPremii1"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#row2-premii":{
+    "children": ["slider-layout#caruselPremii1"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        },
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#row3-premii":{
+    "children": ["slider-layout#caruselPremii1"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#row4-premii":{
+    "children": ["slider-layout#caruselPremii1"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "list-context.image-list#row5-premii":{
+    "children": ["slider-layout#caruselPremii1"],
+    "props": {
+      "images": [
+        {
+          "image": "https://dacris.vtexassets.com/assets/vtex.file-manager-graphql/images/87b6981c-f6ce-4f96-bcd6-2f71b894396e___ca6eeda731f12143fbb3566ff249c2e8.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#caruselPremii1": {
+    "props": {
+      "navigationStep":"page",
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showPaginationDots":"always",
+      "blockClass": "sliderPremii",
+      "showNavigationArrows": "never"
+    },
+    "title": "Slider Cadouri"
+  },
+  
+
+
+  "rich-text#row1-carusel-premii":{
+    "props": {
+      "text": "Lorem ipsum ",
+      "blockClass": "header-caruselPremii"
+    }
+  },
+  "rich-text#row2-carusel-premii":{
+    "props": {
+      "text": "Lorem ipsum ",
+      "blockClass": "header-caruselPremii"
+    }
+  },
+  "rich-text#row3-carusel-premii":{
+    "props": {
+      "text": "Lorem ipsum ",
+      "blockClass": "header-caruselPremii"
+    }
+  },
+  "rich-text#row4-carusel-premii":{
+    "props": {
+      "text": "Lorem ipsum ",
+      "blockClass": "header-caruselPremii"
+    }
+  },
+  "rich-text#row5-carusel-premii":{
+    "props": {
+      "text": "Lorem ipsum ",
+      "blockClass": "header-caruselPremii"
+    }
+  }
+
+
+
+}

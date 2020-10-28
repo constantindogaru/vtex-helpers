@@ -1,0 +1,165 @@
+{
+  "flex-layout.col#right-col": {
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "colProductRight"
+    },
+    "children": [
+      "flex-layout.row#pr-top",
+      "progressive-discount",
+      "product-request",
+      "flex-layout.row#pr-middle",
+      "flex-layout.row#pr-bottom",
+      "flex-layout.row#description-mobile",
+      "announcement-box"
+    ]
+  },
+  "announcement-box": {
+    "children": ["info-card#announcement-box"]
+  },
+  "info-card#announcement-box": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "",
+      "headline": "",
+      "callToActionText": "",
+      "callToActionUrl": "",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    },
+    "title":"Announcement Box"
+  },
+  "flex-layout.row#shipping-simulator-mobile": {
+    "children": ["flex-layout.row#shipping-simulator"],
+    "props": {
+      "blockClass": "shipping-simulator-mobile"
+    }
+  },
+
+  "flex-layout.row#description-mobile": {
+    "children": ["flex-layout.row#description"],
+    "props": {
+      "blockClass": "description-mobile"
+    }
+  },
+
+  "flex-layout.row#pr-top": {
+    "children": ["flex-layout.col#pr-top"]
+  },
+  "flex-layout.col#pr-top": {
+    "children": [
+      "flex-layout.row#product-right-info",
+      "sku-selector#produs",
+      "product-assembly-options",
+      "flex-layout.row#buy-button",
+      "flex-layout.row#text-after-button",
+      "availability-subscriber"
+    ],
+    "props": {
+      "blockClass": "greenBackground"
+    }
+  },
+
+  "flex-layout.row#text-after-button": {
+    "children": ["rich-text#text-after-button"],
+    "props": {
+      "blockClass": "rowTextAfterButton"
+    },
+    "title": "Test after buy button"
+  },
+
+  "rich-text#text-after-button": {
+    "props": {
+      "text": "",
+      "blockClass": "textAfterButton"
+    }
+  },
+
+  "flex-layout.row#pr-middle": {
+    "children": ["flex-layout.col#produsRetur", "flex-layout.col#produsDeCe"],
+    "props": {
+      "colGap": 0,
+      "blockClass": "lightGreenBackground",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#produsRetur": {
+    "children": ["flex-layout.row#produsRetur"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#produsDeCe": {
+    "children": ["flex-layout.row#produsDeCe"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.row#produsRetur": {
+    "children": ["image#small-retur", "rich-text#pr-retur-gratuit"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "randProdusSmall"
+    }
+  },
+  "flex-layout.row#produsDeCe": {
+    "children": ["image#small-de-ce", "rich-text#pr-de-ce-client"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "randProdusSmall"
+    }
+  },
+  "flex-layout.col#share": {
+    "children": ["share#produs"],
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "right"
+    }
+  },
+
+  "image#small-retur": {
+    "props": {
+      "src": "assets/icons/small-retur.png",
+      "blockClass": "imagineProdusSmall"
+    }
+  },
+  "image#small-de-ce": {
+    "props": {
+      "src": "assets/icons/small-de-ce.png",
+      "blockClass": "imagineProdusSmall"
+    }
+  },
+  "rich-text#pr-retur-gratuit": {
+    "props": {
+      "text": "Retur gratuit",
+      "blockClass": ["smallText"]
+    }
+  },
+  "rich-text#pr-de-ce-client": {
+    "props": {
+      "text": "[De ce sa fii client Dacris?](/client-dacris?target=_blank)",
+      "blockClass": ["smallText"]
+    }
+  },
+  "sku-selector#produs": {
+    "props": {
+      "variationsSpacing": 3,
+      "showValueNameForImageVariation": true,
+      "visibility": "more-than-one",
+      "displayMode": "default",
+      "maxItems": 40,
+      "showVariationsErrorMessage": true
+    }
+  },
+  "flex-layout.row#buy-button": {
+    "props": {
+      "marginTop": 4,
+      "marginBottom": 0,
+      "blockClass": "productPageBuyButton"
+    },
+    "children": ["product-quantity#no-title", "add-to-cart-button-check"]
+  }
+}

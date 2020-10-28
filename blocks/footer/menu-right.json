@@ -1,0 +1,90 @@
+{
+  "vtex.menu@2.x:menu#menu-right": {
+    "props": {
+      "orientation": "vertical",
+      "width": "16%"
+    },
+    "children": [
+      "menu-item#politica-cookies",
+      "menu-item#despre-cookies",
+      "menu-item#politica-de-retur",
+      "menu-item#prelucrarea-datelor",
+      "menu-item#termeni-si-conditii"
+    ]
+  },
+  "menu-item#politica-cookies": {
+    "props": {
+      "id": "menu-item-politica-cookies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despre-cookies",
+        "noFollow": false,
+        "tagTitle": "Politica de cookies",
+        "text": "Politica de cookies"
+      }
+    }
+  },
+  "menu-item#despre-cookies": {
+    "props": {
+      "id": "menu-item-despre-cookies",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/despre-cookies",
+        "noFollow": false,
+        "tagTitle": "Despre cookies",
+        "text": "Despre cookies"
+      }
+    }
+  },
+  "menu-item#politica-de-retur": {
+    "props": {
+      "id": "menu-item-politica-de-retur",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica-retur",
+        "noFollow": false,
+        "tagTitle": "Politica de retur",
+        "text": "Politica de retur"
+      }
+    }
+  },
+  "menu-item#prelucrarea-datelor": {
+    "props": {
+      "id": "menu-item-prelucrarea-datelor",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/prelucrarea-datelor-cu-caracter-personal",
+        "noFollow": false,
+        "tagTitle": "Prelucrarea datelor",
+        "text": "Prelucrarea datelor"
+      }
+    }
+  },  
+  "menu-item#termeni-si-conditii": {
+    "props": {
+      "id": "menu-item-termeni-si-conditii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/termeni-si-conditii",
+        "noFollow": false,
+        "tagTitle": "Termeni si conditii",
+        "text": "Termeni si conditii"
+      }
+    }
+  }
+}

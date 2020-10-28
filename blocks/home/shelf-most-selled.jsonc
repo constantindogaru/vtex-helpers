@@ -1,0 +1,27 @@
+{
+  "list-context.product-list#top-vandute": {
+    "blocks": ["product-summary.shelf#defaultShelf"],
+    "children": ["slider-layout#top-vandute"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "maxItems":12
+    },
+    "title":"Cele mai vandute produse"
+  },
+  "slider-layout#top-vandute": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "arrowSize":{
+        "mobile":15,
+        "desktop":15
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelfProduse"
+    }
+  }
+}

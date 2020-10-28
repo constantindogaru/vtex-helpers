@@ -1,0 +1,75 @@
+{
+  "shelf.relatedProducts#similar-products": {
+    "blocks": ["product-summary.shelf#defaultShelf"], // in blocks
+    "props": {
+      "id": "similar-products",
+      "recommendation": "similars",
+      "paginationDotsVisibility": "hidden",
+      "blockClass": "shelfProduse",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "gap": "ph2",
+        "arrows": true,
+        "titleText": "Produse similare"
+      }
+    }
+  },
+  "shelf.relatedProducts#accesorii": {
+    "blocks": ["product-summary.shelf#defaultShelf"], // in blocks
+    "props": {
+      "id": "accesorii",
+      "recommendation": "accessories",
+      "paginationDotsVisibility": "hidden",
+      "blockClass": "shelfProduse",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "gap": "ph2",
+        "arrows": true,
+        "titleText": "Accesorii"
+      }
+    }
+  },
+  "shelf.relatedProducts#vazute": {
+    "blocks": ["product-summary.shelf#defaultShelf"], // in blocks
+    "props": {
+      "id": "vazute",
+      "recommendation": "view",
+      "paginationDotsVisibility": "hidden",
+      "blockClass": "shelfProduse",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "gap": "ph2",
+        "arrows": true,
+        "titleText": "Clientii care au vizualizat acest produs s-au uitat si la"
+      }
+    }
+  },
+  "shelf.relatedProducts#cumparate": {
+    "blocks": ["product-summary.shelf#defaultShelf"], // in blocks
+    "props": {
+      "id": "cumparate",
+      "recommendation": "buy",
+      "paginationDotsVisibility": "hidden",
+      "blockClass": "shelfProduse",
+      "productList": {
+        "maxItems": 12,
+        "itemsPerPage": 4,
+        "minItemsPerPage": 1,
+        "scroll": "BY_PAGE",
+        "gap": "ph2",
+        "arrows": true,
+        "titleText": "Clientii care au cumparat acest produs au cumparat si"
+      }
+    }
+  }
+  
+}

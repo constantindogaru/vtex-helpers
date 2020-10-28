@@ -1,0 +1,556 @@
+{
+    "store.custom#client-dacris": {
+      "children": [
+        "flex-layout.row#client-dacris",
+        "flex-layout.row#de-ce-client-dacris",
+        "flex-layout.row#row1-client-dacris",
+        "flex-layout.row#row2-client-dacris",
+        "flex-layout.row#row3-client-dacris",
+        "flex-layout.row#row4-client-dacris",
+        "flex-layout.row#row5-client-dacris",
+        "flex-layout.row#row6-client-dacris",
+        "flex-layout.row#row7-client-dacris",
+        "flex-layout.row#row8-client-dacris",
+        "flex-layout.row#row9-client-dacris",
+        "flex-layout.row#row10-client-dacris",
+        "flex-layout.row#row11-client-dacris"
+      ],
+      "props":{
+        "blockClass":"pagina-client-dacris"
+      }
+    },
+
+    "flex-layout.row#client-dacris": {
+      "children":[
+        "image#hero-img-client-dacris"
+      ],
+      "props":{
+        "rowGap": 0,
+        "colGap": 0
+      }
+    },
+
+    "image#hero-img-client-dacris": {
+      "props": {
+        "blockClass":"img-hero-despre-noi",
+        "src": "assets/imagini/img-echipa-dacris.jpg"
+      }
+    },
+
+    "flex-layout.row#de-ce-client-dacris": {
+      "children":[
+        "flex-layout.col#de-ce-client-dacris"
+      ],
+      "props": {
+        "blockClass":"row-client-dacris"
+      }
+    },
+
+    "flex-layout.col#de-ce-client-dacris": {
+      "children":[
+        "rich-text#heading-client-dacris",
+        "flex-layout.row#row-paragrafe-de-ce"
+      ]
+    },
+
+    "rich-text#heading-client-dacris": {
+      "props":{
+        "text": "De ce să fii client Dacris?",
+        "blockClass": "heading-client-dacris",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+
+    "flex-layout.row#row-paragrafe-de-ce": {
+      "children": [
+        "rich-text#paragraf1-client-dacris",
+        "rich-text#paragraf2-client-dacris"
+      ]
+    },
+
+    "rich-text#paragraf1-client-dacris": {
+      "props":{
+        "text": "Suntem departe de a fi perfecți, dar ne place să fim corecți. Mereu vom căuta cea mai bună soluție pentru tine și biroul tău. Suntem prietenoși și ne place să râdem. În fiecare zi. Greșim, dar ne îndreptăm greșelile rapid. De fiecare dată.",
+        "blockClass": "paragraf-client-dacris"
+      }
+    },
+
+    "rich-text#paragraf2-client-dacris": {
+      "props":{
+        "text": "Învățăm de la fiecare om cu care intrăm în contact. Ne străduim tot timpul să fim mai buni. Uneori chiar reușim. Fiecare om este unic. Fiecare afacere este unică. De 25 de ani, suntem prezenți în zeci de mii de birouri.",
+        "blockClass": "paragraf-client-dacris"
+      }
+    },
+
+    "flex-layout.row#row1-client-dacris": {
+      "children":[
+        "flex-layout.col#col1-motive-client",
+        "flex-layout.col#col2-motive-client"
+      ],
+      "props":{
+        "blockClass": "row1-motive"
+      }
+    },
+
+    "flex-layout.col#col1-motive-client": {
+      "children":[
+        "rich-text#numar-motiv",
+        "rich-text#text-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana1-motive"]
+      }
+    },
+
+    "rich-text#numar-motiv": {
+      "props":{
+        "text": "1",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text-motiv": {
+      "props":{
+        "text": "**Te ajutăm la economii**<br> Știm cât de important este să economisești, de aceea fii relaxat! Și noi lucrăm cu parteneri care au grijă de banii noștri, așa că facem același lucru în relațiile cu clienții. Ne place să te bazezi pe noi când vine vorba de economii.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#col2-motive-client": {
+      "children":[
+        "rich-text#numar2-motiv",
+        "rich-text#text2-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana2-motive"]
+      }
+    },
+
+    "rich-text#numar2-motiv": {
+      "props":{
+        "text": "2",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text2-motiv": {
+      "props":{
+        "text": "**Câte birouri, atâtea soluții**<br> Cel mai bine înțelegi când ai nevoie de ceva atunci când îți lipsește. Stilou cu care semnezi contracte importante? Avem noi. Rollere cu care îți poți șterge greșelile? Sunt. Și bibliorafturi, și table smart, și capsatoare, și cafea, și lapte, și miere, și tonere, și imprimante, și scaune, și plicuri. Și acestea sunt doar câteva, putem să enumerăm împreună până la 16.000 de produse. Și vor mai fi și altele.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.row#row2-client-dacris": {
+      "children":[
+        "flex-layout.col#row2-col1-motive-client",
+        "flex-layout.col#row2-col2-motive-client"
+      ],
+      "props":{
+        "blockClass": ["row1-motive", "row-reverse-mobile"]
+      }
+    },
+
+    "flex-layout.col#row2-col1-motive-client": {
+      "children":[
+        "rich-text#numar3-motiv",
+        "rich-text#text3-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana3-motive"]
+      }
+    },
+
+    "rich-text#numar3-motiv": {
+      "props":{
+        "text": "3",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text3-motiv": {
+      "props":{
+        "text": "**Livrăm zilnic peste 1000 de comenzi**<br> Ajungem zilnic in peste 1000 de birouri. Mâine poate chiar la tine. Cunoaștem zeci de mii de oameni și tot atâtea povești. Am înțeles din propria experiență că succesul nu este garantat, tocmai de aceea ne bucurăm să fim alături de partenerii noștri în toate etapele naturale de dezvoltare ale unui business. Și chiar suntem.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row2-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana4-motive"],
+        "rowGap": 0
+        
+      }
+    },
+
+    "flex-layout.row#row3-client-dacris": {
+      "children":[
+        "flex-layout.col#row3-col2-motive-client",
+        "flex-layout.col#row3-col1-motive-client"
+      ],
+      "props":{
+        "blockClass": "row1-motive"
+      }
+    },
+
+    "flex-layout.col#row3-col1-motive-client": {
+      "children":[
+        "rich-text#numar4-motiv",
+        "rich-text#text4-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana5-motive"]
+      }
+    },
+
+    "rich-text#numar4-motiv": {
+      "props":{
+        "text": "4",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text4-motiv": {
+      "props":{
+        "text": "**Manager dedicat de cont**<br> Știm cât de important este să ai un om pe care să te poți baza oricând. Pe care să îl poți suna, căruia să îi poți scrie când ai nevoie de ajutor. Care să găsească întotdeauna soluția cea mai bună pentru tine și biroul tău. Suntem peste tot și nu numai. Ne suni, răspundem. Dacă nu răspundem, revenim noi. Nu ne suni, nu răspundem.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row3-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana6-motive"]
+      }
+    },
+
+    "flex-layout.row#row4-client-dacris": {
+      "children":[
+        "flex-layout.col#row4-col1-motive-client",
+        "flex-layout.col#row4-col2-motive-client"
+      ],
+      "props":{
+        "blockClass": ["row1-motive", "row-reverse-mobile"]
+      }
+    },
+
+    "flex-layout.col#row4-col1-motive-client": {
+      "children":[
+        "rich-text#numar5-motiv",
+        "rich-text#text5-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana7-motive"]
+      }
+    },
+
+    "rich-text#numar5-motiv": {
+      "props":{
+        "text": "5",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text5-motiv": {
+      "props":{
+        "text": "**Ne găsești mereu**<br> Cel mai important lucru atunci când ai nevoie de ajutor e să știi că ai la cine să apelezi. De asta în viața de zi cu zi ne sunt alături prietenii, iar la birou Dacris. Vă așteptăm oricând cu întrebări și cereri. Abia așteptăm să le rezolvăm.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row4-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana8-motive"]
+      }
+    },
+
+    "flex-layout.row#row5-client-dacris": {
+      "children":[
+        "flex-layout.col#row5-col2-motive-client",
+        "flex-layout.col#row5-col1-motive-client"
+      ],
+      "props":{
+        "blockClass": "row1-motive"
+      }
+    },
+
+    "flex-layout.col#row5-col1-motive-client": {
+      "children":[
+        "rich-text#numar6-motiv",
+        "rich-text#text6-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana9-motive"]
+      }
+    },
+
+    "rich-text#numar6-motiv": {
+      "props":{
+        "text": "6",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text6-motiv": {
+      "props":{
+        "text": "**Suntem peste tot!**<br> Privești pe geam - mașina Dacris! Te uiți pe birou – un produs de la Dacris. Suntem zilnic în peste 1000 de birouri. Iar în ultimii 25 ani am ajuns la peste 4 milioane de clienți din toată țara.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row5-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana10-motive"]
+      }
+    },
+
+    "flex-layout.row#row6-client-dacris": {
+      "children":[
+        "flex-layout.col#row6-col1-motive-client",
+        "flex-layout.col#row6-col2-motive-client"
+      ],
+      "props":{
+        "blockClass": ["row1-motive", "row-reverse-mobile"]
+      }
+    },
+
+    "flex-layout.col#row6-col1-motive-client": {
+      "children":[
+        "rich-text#numar7-motiv",
+        "rich-text#text7-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana11-motive"]
+      }
+    },
+
+    "rich-text#numar7-motiv": {
+      "props":{
+        "text": "7",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text7-motiv": {
+      "props":{
+        "text": "**Comandă rapid și ușor**<br> Dacă ai ajuns la acest pas, șansele să dai o comandă în următoarele minute sunt de 80%. Dar ce spunem noi minute? Durează sub 60 de secunde să dai o comandă la noi pe site.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row6-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana12-motive"]
+      }
+    },
+
+    "flex-layout.row#row7-client-dacris": {
+      "children":[
+        "flex-layout.col#row7-col2-motive-client",
+        "flex-layout.col#row7-col1-motive-client"
+      ],
+      "props":{
+        "blockClass": "row1-motive"
+      }
+    },
+
+    "flex-layout.col#row7-col1-motive-client": {
+      "children":[
+        "rich-text#numar8-motiv",
+        "rich-text#text8-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana15-motive"]
+      }
+    },
+
+    "rich-text#numar8-motiv": {
+      "props":{
+        "text": "8",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text8-motiv": {
+      "props":{
+        "text": "**Retururi gratuite**<br> Dorințele se schimbă mereu. Așa este viața! Așa sunt și unele comenzi. Și pentru că dorințele tale contează pentru noi, am făcut să fie ușor. Să returnezi un colet este chiar mai simplu decât să îl comanzi. Ne ocupăm noi de tot, tu să fii mulțumit.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row7-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana16-motive"]
+      }
+    },
+
+    "flex-layout.row#row8-client-dacris": {
+      "children":[
+        "flex-layout.col#row8-col1-motive-client",
+        "flex-layout.col#row8-col2-motive-client"
+      ],
+      "props":{
+        "blockClass": ["row1-motive", "row-reverse-mobile"]
+      }
+    },
+
+    "flex-layout.col#row8-col1-motive-client": {
+      "children":[
+        "rich-text#numar9-motiv",
+        "rich-text#text9-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana17-motive"]
+      }
+    },
+
+    "rich-text#numar9-motiv": {
+      "props":{
+        "text": "9",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text9-motiv": {
+      "props":{
+        "text": "**Branduri cu care lucrăm la Dacris**<br> Ne-am făcut un obicei: recomandăm doar brandurile care ne-au câștigat încrederea. Care oferă produse de calitate, pun preț pe oamenii cu care lucrează și protejează mediul. Îmbinăm utilul cu frumosul.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row8-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana18-motive"]
+      }
+    },
+
+    "flex-layout.row#row9-client-dacris": {
+      "children":[
+        "flex-layout.col#row9-col2-motive-client",
+        "flex-layout.col#row9-col1-motive-client"
+      ],
+      "props":{
+        "blockClass": "row1-motive"
+      }
+    },
+
+    "flex-layout.col#row9-col1-motive-client": {
+      "children":[
+        "rich-text#numar10-motiv",
+        "rich-text#text10-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana19-motive"]
+      }
+    },
+
+    "rich-text#numar10-motiv": {
+      "props":{
+        "text": "10",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text10-motiv": {
+      "props":{
+        "text": "**Tipografie proprie și servicii personalizate**<br>Avem un defect. Printre multe altele. Ne place să fim rapizi și să găsim soluții pentru cererile la care încă nici nu te-ai gândit. Tocmai de aceea, avem servicii in-house de tipografie, la Constanța și București. Putem printa oricât și oricând. Și mai ales oriunde. Chiar nu vrem să ne lăudăm (a se citi „ba da”), dar chiar ne pricepem.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row9-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana20-motive"]
+      }
+    },
+
+    "flex-layout.row#row10-client-dacris": {
+      "children":[
+        "flex-layout.col#row10-col1-motive-client",
+        "flex-layout.col#row10-col2-motive-client"
+      ],
+      "props":{
+        "blockClass": ["row1-motive", "row-reverse-mobile"]
+      }
+    },
+
+    "flex-layout.col#row10-col1-motive-client": {
+      "children":[
+        "rich-text#numar11-motiv",
+        "rich-text#text11-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana21-motive"]
+      }
+    },
+
+    "rich-text#numar11-motiv": {
+      "props":{
+        "text": "11",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text11-motiv": {
+      "props":{
+        "text": "**Tranzacții sigure**<br> Râdem, glumim, dar noi suntem extrem de serioși atunci când vine vorba despre serviciile pe care le oferim. Orice tranzacție financiară realizată prin intermediul site-ului nostru este foarte sigură și respectă standardele internaționale în vigoare. Pe cuvânt!",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row10-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana22-motive"]
+      }
+    },
+
+    "flex-layout.row#row11-client-dacris": {
+      "children":[
+        "flex-layout.col#row11-col2-motive-client",
+        "flex-layout.col#row11-col1-motive-client"
+      ],
+      "props":{
+        "blockClass": ["row1-motive", "row-final-motive"]
+      }
+    },
+
+    "flex-layout.col#row11-col1-motive-client": {
+      "children":[
+        "rich-text#numar12-motiv",
+        "rich-text#text12-motiv"
+      ],
+      "props":{
+        "blockClass": ["coloana-motive", "coloana23-motive"]
+      }
+    },
+
+    "rich-text#numar12-motiv": {
+      "props":{
+        "text": "12",
+        "blockClass": "numar-motiv"
+      }
+    },
+
+    "rich-text#text12-motiv": {
+      "props":{
+        "text": "**Ne implicăm**<br> Viitorul este al celor care se implică în comunitate. Noi facem tot ce se poate să fim cât mai activi. Plantăm copaci, reciclăm deșeurile, investim în educație și asta pentru că ne plac proiectele concrete și practice. Ne dorim să facem lumea mai bună măcar puțin.",
+        "blockClass": "text-motiv"
+      }
+    },
+
+    "flex-layout.col#row11-col2-motive-client": {
+      
+      "props":{
+        "blockClass": ["coloana-motive", "coloana24-motive"]
+      }
+    }
+
+}

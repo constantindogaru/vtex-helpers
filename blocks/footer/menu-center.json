@@ -1,0 +1,74 @@
+{
+  "vtex.menu@2.x:menu#menu-center": {
+    "props": {
+      "orientation": "vertical",
+      "width": "16%"
+    },
+    "children": [
+      "menu-item#branduri-comercializate",
+      "menu-item#sesizari-reclamatii",
+      "menu-item#ANPC",
+      "menu-item#platforma-sol"
+    ]
+  },
+  "menu-item#branduri-comercializate": {
+    "props": {
+      "id": "menu-item-branduri-comercializate",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/branduri",
+        "noFollow": false,
+        "tagTitle": "Branduri comercializate",
+        "text": "Branduri comercializate"
+      }
+    }
+  },
+  "menu-item#sesizari-reclamatii": {
+    "props": {
+      "id": "menu-item-sesizari-reclamatii",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/sesizari-si-reclamatii",
+        "noFollow": false,
+        "tagTitle": "Sesizari si Reclamatii",
+        "text": "Sesizari si Reclamatii"
+      }
+    }
+  },
+  "menu-item#ANPC": {
+    "props": {
+      "id": "menu-item-ANPC",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://anpc.ro/",
+        "noFollow": true,
+        "tagTitle": "ANPC | 021-9551",
+        "text": "ANPC | 021-9551"
+      }
+    }
+  },
+  "menu-item#platforma-sol": {
+    "props": {
+      "id": "menu-item-platforma-sol",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "external",
+        "href": "https://ec.europa.eu/consumers/odr/main/index.cfm",
+        "noFollow": true,
+        "tagTitle": "Platforma SOL",
+        "text": "Platforma SOL"
+      }
+    }
+  }
+}

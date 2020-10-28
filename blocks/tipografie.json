@@ -1,0 +1,749 @@
+{
+    "store.custom#tipografie": {
+      "children": [
+        "flex-layout.row#hero-tipografie",
+        "flex-layout.row#despre-tipografie",
+        "flex-layout.row#bulina-tipografie",
+        "flex-layout.row#row1-produse-tipografie",
+        "flex-layout.row#row2-produse-tipografie",
+        "flex-layout.row#row3-produse-tipografie",
+        "flex-layout.row#row4-produse-tipografie",
+        "flex-layout.row#row5-produse-tipografie",
+        "flex-layout.row#row6-produse-tipografie",
+        "flex-layout.row#row7-produse-tipografie",
+        "flex-layout.row#row8-produse-tipografie"
+      ],
+      "props":{
+        "blockClass":"pagina-tipografie"
+      }
+    },
+
+    "flex-layout.row#hero-tipografie": {
+        "children": [
+            "flex-layout.col#hero-tipografie"
+          ],
+          "props":{
+            "blockClass":"hero-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "flex-layout.col#hero-tipografie": {
+          "children": [
+              "image#hero-img-section-tipografie"
+          ]
+      },
+
+      "image#hero-img-section-tipografie": {
+          "props": {
+            "blockClass":"img-hero-tipografie",
+            "src": "https://dacris.vteximg.com.br/arquivos/ids/174475/banner-categorie-tipar-dacris.jpg?v=636881586478700000",
+            "srcset": "https://dacris.vteximg.com.br/arquivos/ids/174631/poza-brosura-3.jpg?v=636699956446600000"
+            
+          }
+      },
+
+      "flex-layout.row#despre-tipografie":{
+        "children": [
+            "flex-layout.col#col11-despre-tipografie",
+            "flex-layout.col#col22-despre-tipografie",
+            "flex-layout.col#col33-despre-tipografie"
+          ],
+          "props":{
+            "blockClass":"coloane-despre-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "flex-layout.col#col11-despre-tipografie": {
+        "children": [
+            "rich-text#heading-col11-despre-tipografie",
+            "rich-text#text-col11-despre-tipografie"
+        ],
+        "props":{
+            "blockClass":"padding-coloane-despre-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "rich-text#heading-col11-despre-tipografie": {
+        "props": {
+          "blockClass":"heading-col1-despre-tipografie",
+          "text": "Un sfert de secol"
+        }
+      },
+
+      "rich-text#text-col11-despre-tipografie": {
+        "props": {
+          "blockClass":"text-col1-despre-tipografie",
+          "text": "Nu putem spune pur și simplu: „suntem o tipografie și producem tipărituri de aproape un sfert de secol”. Suntem mai mult decât o clădire cu niște utilaje și niște oameni care știu să le folosească. Pentru mulți dintre noi nu e un job oarecare de la 9 la 5, ci e un fel de vocație. Vocația lucrului bine făcut, ar spune unii. Pasiunea de a demonstra că imposibilul poate fi posibil uneori, ar spune altii."
+        }
+      },
+
+      "flex-layout.col#col22-despre-tipografie": {
+        "children": [
+            "rich-text#heading-col22-despre-tipografie",
+            "rich-text#text-col22-despre-tipografie"
+        ],
+        "props":{
+            "blockClass":"padding-coloane-despre-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "rich-text#heading-col22-despre-tipografie": {
+        "props": {
+          "blockClass":"heading-col2-despre-tipografie",
+          "text": "Demonstrăm, nu ne lăudăm"
+        }
+      },
+
+      "rich-text#text-col22-despre-tipografie": {
+        "props": {
+          "blockClass":"text-col2-despre-tipografie",
+          "text": "Dar până la urmă la asta se rezumă totul, la ceea ce ești și la lucrurile pe care le poți face. De 25 de ani tipărim. De 25 de ani suntem o tipografie care nu s-a lăudat că e cea mai bună, dar a demonstrat cu fiecare lucrare că merită respectul clienților. Indiferent că e vorba de formulare sau de policromii, indiferent că tipărim pe rotativă, pe plană sau digital, indiferent de tiraj și de complexitatea lucrarii, ne implicăm în egală masură și tratăm clienții la fel. Nu știu dacă este din cauza dimensiunii noastre, ca tipografie, sau doar a oamenilor care lucrăm aici, dar este într-adevăr uimitor cum se întâmplă lucrurile și cum ne implicam cu toții ca să ajungem la același rezultat, care în final va face clientul să zâmbească."
+        }
+      },
+
+      "flex-layout.col#col33-despre-tipografie": {
+        "children": [
+            "rich-text#heading-col33-despre-tipografie",
+            "rich-text#text-col33-despre-tipografie"
+        ],
+        "props":{
+            "blockClass":"padding-coloane-despre-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "rich-text#heading-col33-despre-tipografie": {
+        "props": {
+          "blockClass":"heading-col3-despre-tipografie",
+          "text": "Imposibilul se întâmplă în fiecare zi"
+        }
+      },
+
+      "rich-text#text-col33-despre-tipografie": {
+        "props": {
+          "blockClass":"text-col3-despre-tipografie",
+          "text": "Eu îmi definesc simplu munca printr-un verb: a realiza. E genul de lucru sub presiune care începe cu o idee și o foaie mare de hârtie și se transformă în ceva complex și în final într-un zâmbet. Care sunt produsele noastre favorite? Hmm... pliantele, flyerele, posterele, broșurile, formularele, colile cu antet... sunt atât de multe. Și da, facem și cărti de vizită! Nu multe, vreo 2 milioane pe an. :) Pentru noi, imposibilul se întâmplă în fiecare zi!"
+        }
+      },
+
+      "flex-layout.row#bulina-tipografie":{
+        "children": [
+            "flex-layout.col#col1-bulina-tipografie"
+          ],
+          "props":{
+            "blockClass":"coloana-bulina-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "flex-layout.col#col1-bulina-tipografie": {
+          "children":[
+            "rich-text#text-bulina-tipografie"
+          ]
+      },
+
+      "rich-text#text-bulina-tipografie": {
+          "props":{
+              "blockClass":"text-bulina-tipografie",
+              "text":"Produse de tipografie"
+          }
+      },
+
+      "flex-layout.row#row1-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row1-col1-produse-tipografie",
+            "flex-layout.col#row1-col2-produse-tipografie",
+            "flex-layout.col#row1-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"row1-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "flex-layout.col#row1-col1-produse-tipografie":{
+        "children":[
+            "image#row1-col1-img-bilete-tipografie",
+            "rich-text#row1-col1-titlu-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"padding-coloane"
+          }
+      },
+
+      "image#row1-col1-img-bilete-tipografie": {
+          "props": {
+          "blockClass":"img-produse-tipografie",
+          "src": "https://dacris.vteximg.com.br/arquivos/ids/174655/Poza-Bilet-2.jpg?v=636699974636370000"
+        }
+      },
+
+      "rich-text#row1-col1-titlu-produse-tipografie":{
+          "props":{
+            "blockClass":"titlu-produse-tipografie",
+              "text":"Bilete"
+          }
+      },
+
+      "flex-layout.col#row1-col2-produse-tipografie":{
+        "children":[
+            "image#row1-col2-img-bilete-tipografie",
+            "rich-text#row1-col2-titlu-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"padding-coloane"
+          }
+      },
+
+      "image#row1-col2-img-bilete-tipografie": {
+          "props": {
+          "blockClass":"img-produse-tipografie",
+          "src": "https://dacris.vteximg.com.br/arquivos/ids/174631/poza-brosura-3.jpg?v=636699956446600000"
+        }
+      },
+
+      "rich-text#row1-col2-titlu-produse-tipografie":{
+          "props":{
+            "blockClass":"titlu-produse-tipografie",
+              "text":"Broșuri"
+          }
+      },
+
+      "flex-layout.col#row1-col3-produse-tipografie":{
+        "children":[
+            "image#row1-col3-img-bilete-tipografie",
+            "rich-text#row1-col3-titlu-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"padding-coloane"
+          }
+      },
+
+      "image#row1-col3-img-bilete-tipografie": {
+          "props": {
+          "blockClass":"img-produse-tipografie",
+          "src": "https://dacris.vteximg.com.br/arquivos/ids/174649/poza-calendar-2.jpg?v=636699961641670000"
+        }
+      },
+
+      "rich-text#row1-col3-titlu-produse-tipografie":{
+          "props":{
+            "blockClass":"titlu-produse-tipografie",
+              "text":"Calendare"
+          }
+      },
+
+      "flex-layout.row#row2-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row2-col1-produse-tipografie",
+            "flex-layout.col#row2-col2-produse-tipografie",
+            "flex-layout.col#row2-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"rows-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row2-col1-produse-tipografie":{
+      "children":[
+          "image#row2-col1-img-bilete-tipografie",
+          "rich-text#row2-col1-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row2-col1-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174653/poza-carduri-programare-3.jpg?v=636699973642530000"
+      }
+    },
+
+    "rich-text#row2-col1-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Carduri programare"
+        }
+    },
+
+    "flex-layout.col#row2-col2-produse-tipografie":{
+      "children":[
+          "image#row2-col2-img-bilete-tipografie",
+          "rich-text#row2-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row2-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/173158/carti-de-vizita-1.jpg?v=636698268028230000"
+      }
+    },
+
+    "rich-text#row2-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Cărți de vizită"
+        }
+    },
+
+    "flex-layout.col#row2-col3-produse-tipografie":{
+      "children":[
+          
+        ]
+    },
+
+    "flex-layout.row#row3-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row3-col1-produse-tipografie",
+            "flex-layout.col#row3-col2-produse-tipografie",
+            "flex-layout.col#row3-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"rows-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row3-col1-produse-tipografie":{
+      "children":[
+          
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "flex-layout.col#row3-col2-produse-tipografie":{
+      "children":[
+          "image#row3-col2-img-bilete-tipografie",
+          "rich-text#row3-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row3-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174660/poza-doorhanger-1.jpg?v=636699988877670000"
+      }
+    },
+
+    "rich-text#row3-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Door hangers"
+        }
+    },
+
+    "flex-layout.col#row3-col3-produse-tipografie":{
+      "children":[
+          "image#row3-col3-img-bilete-tipografie",
+          "rich-text#row3-col3-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row3-col3-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174657/poza-postcard-2.jpg?v=636699979439800000"
+      }
+    },
+
+    "rich-text#row3-col3-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Cărți Poștale"
+        }
+    },
+
+    "flex-layout.row#row4-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row4-col1-produse-tipografie",
+            "flex-layout.col#row4-col2-produse-tipografie",
+            "flex-layout.col#row4-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"rows-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row4-col1-produse-tipografie":{
+      "children":[
+          "image#row4-col1-img-bilete-tipografie",
+          "rich-text#row4-col1-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row4-col1-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174704/Factura-cu%20TVA%20A5%201.jpg?v=636700032307630000"
+      }
+    },
+
+    "rich-text#row4-col1-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Formulare"
+        }
+    },
+
+    "flex-layout.col#row4-col2-produse-tipografie":{
+      "children":[
+          "image#row4-col2-img-bilete-tipografie",
+          "rich-text#row4-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row4-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174669/flyer-1.jpg?v=636699998374130000"
+      }
+    },
+
+    "rich-text#row4-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Flyere"
+        }
+    },
+
+    "flex-layout.col#row4-col3-produse-tipografie":{
+        "children":[
+            "image#row4-col3-img-bilete-tipografie",
+            "rich-text#row4-col3-titlu-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"padding-coloane"
+          }
+      },
+
+      "image#row4-col3-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174658/poza-antet-1.jpg?v=636699980806800000"
+      }
+    },
+
+    "rich-text#row4-col3-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Coli antet"
+        }
+    },
+
+    "flex-layout.row#row5-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row5-col1-produse-tipografie",
+            "flex-layout.col#row5-col2-produse-tipografie",
+            "flex-layout.col#row5-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"rows-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row5-col1-produse-tipografie":{
+      "children":[
+          "image#row5-col1-img-bilete-tipografie",
+          "rich-text#row5-col1-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row5-col1-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174680/poza-poster-1.jpg?v=636700008466600000"
+      }
+    },
+
+    "rich-text#row5-col1-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Postere"
+        }
+    },
+
+    "flex-layout.col#row5-col2-produse-tipografie":{
+      "children":[
+          "image#row5-col2-img-bilete-tipografie",
+          "rich-text#row5-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row5-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174677/poza-meniu-2.jpg?v=636700004181170000"
+      }
+    },
+
+    "rich-text#row5-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Meniuri"
+        }
+    },
+
+    "flex-layout.col#row5-col3-produse-tipografie":{
+      "children":[
+          
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "flex-layout.row#row6-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row6-col1-produse-tipografie",
+            "flex-layout.col#row6-col2-produse-tipografie",
+            "flex-layout.col#row6-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"rows-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row6-col1-produse-tipografie":{
+      "children":[
+          "image#row6-col1-img-bilete-tipografie",
+          "rich-text#row6-col1-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row6-col1-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174663/poza-eticheta-2.jpg?v=636699992799870000"
+      }
+    },
+
+    "rich-text#row6-col1-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Etichete"
+        }
+    },
+
+    "flex-layout.col#row6-col2-produse-tipografie":{
+      "children":[
+          "image#row6-col2-img-bilete-tipografie",
+          "rich-text#row6-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row6-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174687/poza-plic-3.jpg?v=636700014064000000"
+      }
+    },
+
+    "rich-text#row6-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Plicuri"
+        }
+    },
+
+    "flex-layout.col#row6-col3-produse-tipografie":{
+        "children":[
+            "image#row6-col3-img-bilete-tipografie",
+            "rich-text#row6-col3-titlu-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"padding-coloane"
+          }
+      },
+
+      "image#row6-col3-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174665/poza-felicitare-1.jpg?v=636699994815430000"
+      }
+    },
+
+    "rich-text#row6-col3-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Felicitari"
+        }
+    },
+
+    "flex-layout.row#row7-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row7-col1-produse-tipografie",
+            "flex-layout.col#row7-col2-produse-tipografie",
+            "flex-layout.col#row7-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":"rows-produse-tipografie",
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row7-col1-produse-tipografie":{
+      "children":[
+          
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "flex-layout.col#row7-col2-produse-tipografie":{
+      "children":[
+          "image#row7-col2-img-bilete-tipografie",
+          "rich-text#row7-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row7-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174675/poza-mapa-2.jpg?v=636700002826870000"
+      }
+    },
+
+    "rich-text#row7-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Mape"
+        }
+    },
+
+    "flex-layout.col#row7-col3-produse-tipografie":{
+      "children":[
+          "image#row7-col3-img-bilete-tipografie",
+          "rich-text#row7-col3-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row7-col3-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174679/poza-notes-2.jpg?v=636700006704270000"
+      }
+    },
+
+    "rich-text#row7-col3-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Notes"
+        }
+    },
+
+    "flex-layout.row#row8-produse-tipografie":{
+        "children": [
+            "flex-layout.col#row8-col1-produse-tipografie",
+            "flex-layout.col#row8-col2-produse-tipografie",
+            "flex-layout.col#row8-col3-produse-tipografie"
+          ],
+          "props":{
+            "blockClass":["rows-produse-tipografie", "rand-final-produse-tipografie"],
+            "preventVerticalStretch": "true"
+          }
+      },
+
+    "flex-layout.col#row8-col1-produse-tipografie":{
+      "children":[
+          "image#row8-col1-img-bilete-tipografie",
+          "rich-text#row8-col1-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row8-col1-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174691/poza-pliant-1.jpg?v=636700017463330000"
+      }
+    },
+
+    "rich-text#row8-col1-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Pliante"
+        }
+    },
+
+    "flex-layout.col#row8-col2-produse-tipografie":{
+      "children":[
+          "image#row8-col2-img-bilete-tipografie",
+          "rich-text#row8-col2-titlu-produse-tipografie"
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    },
+
+    "image#row8-col2-img-bilete-tipografie": {
+        "props": {
+        "blockClass":"img-produse-tipografie",
+        "src": "https://dacris.vteximg.com.br/arquivos/ids/174683/poza-bookmark-1%201.jpg?v=636700010194830000"
+      }
+    },
+
+    "rich-text#row8-col2-titlu-produse-tipografie":{
+        "props":{
+          "blockClass":"titlu-produse-tipografie",
+            "text":"Semn carte"
+        }
+    },
+
+    "flex-layout.col#row8-col3-produse-tipografie":{
+      "children":[
+          
+        ],
+        "props":{
+          "blockClass":"padding-coloane"
+        }
+    }
+}

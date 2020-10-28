@@ -1,0 +1,121 @@
+{
+  "flex-layout.row#product-right-info": {
+    "children": [
+      "flex-layout.col#pri-left",
+      "flex-layout.col#pri-right"
+    ],
+    "props": {
+      "colGap": 5,
+      "blockClass":"product-lable-price",
+      "colSizing":"auto"
+    }
+  },
+  "flex-layout.col#pri-left": {
+    "children": [
+      "product-rating-summary#white-stars",
+      "vtex.store-components@3.x:product-name",
+      "product-identifier.product#white-text",
+      "flex-layout.row#brand-produs"
+    ],
+    "props": {
+      "blockClass": "productMainInfo"
+    }
+  },
+
+  "vtex.store-components@3.x:product-name":{
+    "props":{
+      "blockClass":"numeProdusContainer"
+    }
+  },
+  "flex-layout.row#brand-produs": {
+    "children": [
+      "rich-text#titlu-brand-produs",
+      "vtex.store-components@3.x:product-brand"
+    ],
+    "props":{
+      "blockClass":"row-brand-produs",
+      "colSizing":"auto",
+      "preventHorizontalStretch":true
+    }
+  },
+  "rich-text#titlu-brand-produs": {
+    "props": {
+      "text": "Brand:",
+      "blockClass":"titlu-brand-produs"
+    }
+  },
+  "vtex.store-components@3.x:product-brand": {
+    "props": {
+      "displayMode": "text",
+      "blockClass":"product-brand-produs"
+    }
+  },
+  "share#produs": {
+    "props":{
+      "social": {
+        "Facebook": true,
+        "WhatsApp": true
+      },
+      "className":"share-product-page"
+    }
+  },
+  "flex-layout.col#pri-right": {
+    "children":[
+      //"product-price#new"
+      "product-price-savings#reducere",
+      "product-list-price#pret-intreg",
+      "product-selling-price#pret-redus",
+      "product-selling-price#pret-fara-tva"
+    ],
+    "props":{
+      "blockClass":"productPrices",
+      "preventVerticalStretch":true
+    }
+  },
+  "product-price-savings#reducere":{
+    "props": {
+      "blockClass":"discountProdus",
+      "message":"-{savingsPercentage}"
+    }
+  },
+  "product-selling-price#pret-redus": {
+    "props": {
+      "blockClass":"pretRedus",
+      "message":"{sellingPriceWithTax}"
+    }
+  },
+  "product-selling-price#pret-fara-tva": {
+    "props": {
+      "blockClass":"pretFaraTva",
+      "message":"{sellingPriceValue} fără tva"
+    }
+  },
+  "product-list-price#pret-intreg": {
+    "props": {
+      "blockClass":"pretIntreg",
+      "message":"{listPriceWithTax}"
+    }
+  },
+  "product-price#product-details": {
+    "props": {
+      "showInstallments": true,
+      "showSavings": false,
+      "showLabels": false,
+      "showListPriceRange": true,
+      "showSellingPriceRange": true
+    }
+  },
+  "product-rating-summary#white-stars": {
+    "props": {
+      "blockClass": "thisDoesntWork"
+    }
+  },
+  "product-identifier.product#white-text": {
+    "props": {
+      "blockClass": "whiteText",
+      "idField": "productId",
+      "label": "custom",
+      "customLabel": "Cod"
+    }
+  }
+}

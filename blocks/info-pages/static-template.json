@@ -1,0 +1,46 @@
+{
+  "store.custom#static-template": {
+    "children": [
+      "flex-layout.row#static-template"
+    ]
+  },
+
+  "flex-layout.row#static-template": {
+    "children": [
+      "flex-layout.col#sidebar-informational",
+      "flex-layout.col#content-informational"
+    ],
+    "props":{
+      "blockClass":"rand-coloane-informational",
+      "preventVerticalStretch": "true"
+    },
+    "title":"Static page template"
+  },
+
+  "flex-layout.col#content-informational": {
+    "children": [
+      "rich-text#titlu-content-static-template",
+      "rich-text#content-static-template"
+    ],
+    "props":{
+      "preventVerticalStretch": "true",
+      "blockClass":"coloana-content-informational"
+    }
+  },
+
+  "rich-text#titlu-content-static-template": {
+    "props": {
+      "text": "Static page title",
+      "blockClass": "titlu-pagini-informationale"
+    },
+    "title":"Static page title"
+  },
+
+  "rich-text#content-static-template": {
+    "props": {
+      "text": "Static page content",
+      "blockClass": "continut-pagini-informationale"
+    },
+    "title":"Static page content"
+  }
+}

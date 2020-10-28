@@ -1,0 +1,1943 @@
+{
+    "store.custom#despre-noi": {
+      "children": [
+        "flex-layout.row#hero-despre-noi",
+        "flex-layout.row#cine-suntem-despre-noi",
+        "flex-layout.row#partener-despre-noi",
+        "flex-layout.row#partener-cols-despre-noi",
+        "flex-layout.row#evolutie-dacris",
+        "flex-layout.row#echo-plus-despre-noi",
+        "flex-layout.row#suntem-prezenti-despre-noi",
+        "flex-layout.row#gandim-despre-noi",
+        "flex-layout.row#testimoniale-despre-noi",
+        "flex-layout.row#echipa-despre-noi"
+      ],
+      "props":{
+        "blockClass":"pagina-despre-noi"
+      }
+    },
+
+    "flex-layout.row#hero-despre-noi": {
+        "children": [
+            "flex-layout.col#hero-text-despre-noi",
+            "flex-layout.col#hero-img-despre-noi"
+          ],
+          "props":{
+            "blockClass":"hero-despre-noi",
+            "rowGap": 0,
+            "preventVerticalStretch": "true"
+          }
+      },
+
+      "flex-layout.col#hero-text-despre-noi": {
+        "children": [
+          "rich-text#hero-heading-despre-noi",
+          "rich-text#hero-text-despre-noi"
+        ],
+        "props":{
+          "preventVerticalStretch": "true",
+          "verticalAlign": "center",
+          "blockClass": "hero-col-text-despre-noi"
+        }
+      },
+
+      "rich-text#hero-heading-despre-noi": {
+        "props": {
+          "text": "**#ViațaLaBirou**",
+          "font": "t-heading-5",
+          "blockClass": "hero-heading-despre-noi"
+        }  
+      },
+
+      "rich-text#hero-text-despre-noi": {
+        "props": {
+          "text": "Birourile sunt la fel ca oamenii: unice. Nu există două birouri la fel și asta pentru că nu există doi oameni la fel. Suntem norocoși că e așa. Pentru că am înțeles rapid că birourile au propria lor personalitate ne-am adaptat și, de-a lungul a 25 de ani, am ajuns să oferim tot ceea ce e nevoie într-un birou. Nu suntem “doar un furnizor de papetărie”, ci un partener care oferă soluții și servicii integrate pentru toate spațiile dintr-o companie.",
+          "blockClass": "hero-text-despre-noi"
+        } 
+      },
+
+      "flex-layout.col#hero-img-despre-noi": {
+          "children": [
+              "image#hero-img-despre-noi"
+          ]
+      },
+
+      "image#hero-img-despre-noi": {
+          "props": {
+            "blockClass":"img-hero-despre-noi",
+            "src": "assets/imagini/strawberry-colaj.png"
+          }
+      },
+
+      "flex-layout.row#cine-suntem-despre-noi": {
+        "children":[
+          "flex-layout.col#col-cine-suntem"
+        ],
+        "props": {
+          "blockClass":"row-cine-suntem"
+        }
+      },
+
+      "flex-layout.col#col-cine-suntem": {
+        "children":[
+          "rich-text#heading-cine-suntem",
+          "flex-layout.row#row-buline-cine-suntem"
+        ]
+      },
+
+      "flex-layout.row#row-buline-cine-suntem": {
+        "children":[
+          "flex-layout.col#col1-cine-suntem",
+          "flex-layout.col#col2-cine-suntem",
+          "flex-layout.col#col3-cine-suntem"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        } 
+      },
+
+      "rich-text#heading-cine-suntem": {
+        "props": {
+          "text": "Cine suntem",
+          "blockClass": "heading-cine-suntem"
+        } 
+      },
+
+      "flex-layout.col#col1-cine-suntem": {
+        "children":[
+          "image#img1-cine-suntem",
+          "rich-text#h1-cine-suntem",
+          "rich-text#text1-cine-suntem"
+        ],
+        "props": {
+          "paddingRight": 6,
+          "paddingLeft": 6,
+          "preventVerticalStretch": true,
+          "blockClass": "coloane-cine-suntem"
+        } 
+      },
+
+      "image#img1-cine-suntem": {
+        "props": {
+          "blockClass":"img-cine-suntem",
+          "src": "assets/imagini/img1-cine-suntem.jpg"
+        }
+      },
+
+      "rich-text#h1-cine-suntem": {
+        "props": {
+          "text": "+1.709.411.285",
+          "blockClass": "h-cine-suntem",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "rich-text#text1-cine-suntem": {
+        "props": {
+          "text": "Ar putea să umple stadioane întregi sau chiar o reședință de județ. În 25 de ani am vândut peste 1.7 miliarde de produse și nu ne oprim aici.",
+          "blockClass": "text-cine-suntem",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.col#col2-cine-suntem": {
+        "children":[
+          "image#img2-cine-suntem",
+          "rich-text#h2-cine-suntem",
+          "rich-text#text2-cine-suntem"
+        ],
+        "props": {
+          "paddingRight": 6,
+          "paddingLeft": 6,
+          "preventVerticalStretch": true,
+          "blockClass": "coloane-cine-suntem"
+        } 
+      },
+
+      "image#img2-cine-suntem": {
+        "props": {
+          "blockClass":"img-cine-suntem",
+          "src": "assets/imagini/img2-cine-suntem.jpg"
+        }
+      },
+
+      "rich-text#h2-cine-suntem": {
+        "props": {
+          "text": "+4.000.000",
+          "blockClass": "h-cine-suntem",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "rich-text#text2-cine-suntem": {
+        "props": {
+          "text": "Peste 4 milioane de oameni au folosit, la un moment dat, un produs livrat de Dacris. Dacă citești acest text, este foarte probabil să fii unul dintre ei.",
+          "blockClass": "text-cine-suntem",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.col#col3-cine-suntem": {
+        "children":[
+          "image#img3-cine-suntem",
+          "rich-text#h3-cine-suntem",
+          "rich-text#text3-cine-suntem"
+        ],
+        "props": {
+          "paddingRight": 6,
+          "paddingLeft": 6,
+          "preventVerticalStretch": true,
+          "blockClass": "coloane-cine-suntem"
+        } 
+      },
+
+      "image#img3-cine-suntem": {
+        "props": {
+          "blockClass":"img-cine-suntem",
+          "src": "assets/imagini/img3-cine-suntem.jpg"
+        }
+      },
+
+      "rich-text#h3-cine-suntem": {
+        "props": {
+          "text": "România",
+          "blockClass": "h-cine-suntem",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "rich-text#text3-cine-suntem": {
+        "props": {
+          "text": "Suntem mândri că produsele pe care le livrăm sunt folosite în toată țara. Ajungem oriunde suntem chemați și o facem în cel mai scurt timp.",
+          "blockClass": "text-cine-suntem",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.row#partener-despre-noi": {
+        "children":[
+          "flex-layout.col#col-partener-staples"
+        ],
+        "props":{
+          "blockClass": "row-partener-staples"
+        }
+      },
+
+      "flex-layout.col#col-partener-staples": {
+        "children":[
+          "flex-layout.row#heading-partener-staples",
+          "rich-text#text-partener-despre-noi",
+          "rich-text#title-va-asteptam"
+        ]
+      },
+
+      "flex-layout.row#heading-partener-staples": {
+        "children":[
+          "flex-layout.col#col-title-partener-staples",
+          "flex-layout.col#col-img-partener-staples"
+        ]
+      },
+
+      "flex-layout.col#col-title-partener-staples": {
+        "children":[
+          "rich-text#title-partener-staples"
+        ] 
+      },
+
+      "flex-layout.col#col-img-partener-staples": {
+        "children":[
+          "image#logo-cine-partener-staples"
+        ]
+      },
+
+      "rich-text#title-partener-staples": {
+        "props": {
+          "text": "Partener",
+          "blockClass": "titlu-staples",
+          "textAlignment": "RIGHT",
+          "textPosition": "RIGHT"
+        } 
+      },
+
+      "image#logo-cine-partener-staples": {
+        "props": {
+          "blockClass":"logo-staples",
+          "src": "assets/imagini/logo-staples.png"
+        }
+      },
+
+      "rich-text#text-partener-despre-noi": {
+        "props": {
+          "text": "Din 2015, Dacris face parte din rețeaua Staples Global Alliance Partnership. Calitatea serviciilor pe care le oferim de 25 de ani clienților noștri din România ne-au recomandat și clienților globali Staples.",
+          "blockClass": "text-partener-staples",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "rich-text#title-va-asteptam": {
+        "props": {
+          "text": "Vă așteptăm:",
+          "blockClass": "titlu-va-asteptam",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.row#partener-cols-despre-noi": {
+        "children":[
+          "flex-layout.col#col1-parteneri-staples",
+          "flex-layout.col#col2-parteneri-staples",
+          "flex-layout.col#col3-parteneri-staples",
+          "flex-layout.col#col4-parteneri-staples"
+        ],
+        "props": {
+          "blockClass": "rand-cols-partener-staples",
+          "preventVerticalStretch": true
+        } 
+      },
+
+      "flex-layout.col#col1-parteneri-staples": {
+        "children":[
+          "image#img-mobile-partener-staples",
+          "rich-text#text-col1-parteneri"
+        ],
+        "props": {
+          "preventVerticalStretch": true,
+          "blockClass":"coloane-partener-staples"
+        } 
+      },
+
+      "image#img-mobile-partener-staples": {
+        "props": {
+          "blockClass":"imgs-va-asteptam",
+          "src": "assets/imagini/icon-mobile.png"
+        }
+      },
+
+      "rich-text#text-col1-parteneri": {
+        "props": {
+          "text": "Online<br>[dacris.net](https://www.dacris.net/)",
+          "blockClass": "text-col1-parteneri",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.col#col2-parteneri-staples": {
+        "children":[
+          "image#img-thumb-partener-staples",
+          "rich-text#text-col2-parteneri",
+          "flex-layout.row#row-social-partener-staples"
+        ],
+        "props":{
+          "blockClass":"coloane-partener-staples"
+        }
+      },
+
+      "image#img-thumb-partener-staples": {
+        "props": {
+          "blockClass":"imgs-va-asteptam",
+          "src": "assets/imagini/icon-thumbup.png"
+        }
+      },
+
+      "rich-text#text-col2-parteneri": {
+        "props": {
+          "text": "Social media",
+          "blockClass": "text-col1-parteneri",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.row#row-social-partener-staples": {
+        "children":[
+          "flex-layout.col#img-fb-partener-staples",
+          "flex-layout.col#img-insta-partener-staples",
+          "flex-layout.col#img-li-partener-staples",
+          "flex-layout.col#img-youtube-partener-staples"
+        ],
+        "props": {
+          "blockClass": "rand-social-staples",
+          "preserveLayoutOnMobile": true
+        } 
+      },
+
+      "flex-layout.col#img-fb-partener-staples": {
+        "children":[
+          "image#img-fb-partener-staples"
+        ]
+      },
+
+      "flex-layout.col#img-insta-partener-staples": {
+        "children":[
+          "image#img-insta-partener-staples"
+        ]
+      },
+
+      "flex-layout.col#img-li-partener-staples": {
+        "children":[
+          "image#img-li-partener-staples"
+        ]
+      },
+
+      "flex-layout.col#img-youtube-partener-staples": {
+        "children":[
+          "image#img-youtube-partener-staples"
+        ]
+      },
+
+      "image#img-fb-partener-staples": {
+        "props": {
+          "blockClass":"img-social-partener-staples",
+          "src": "assets/imagini/icon-fb.png"
+        }
+      },
+
+      "image#img-insta-partener-staples": {
+        "props": {
+          "blockClass":"img-social-partener-staples",
+          "src": "assets/imagini/icon-insta.png"
+        }
+      },
+
+      "image#img-li-partener-staples": {
+        "props": {
+          "blockClass":"img-social-partener-staples",
+          "src": "assets/imagini/icon-li.png"
+        }
+      },
+
+      "image#img-youtube-partener-staples": {
+        "props": {
+          "blockClass":"img-social-partener-staples",
+          "src": "assets/imagini/icon-youtube.png"
+        }
+      },
+
+      "flex-layout.col#col3-parteneri-staples": {
+        "children":[
+          "image#img-map-partener-staples",
+          "rich-text#text-col3-parteneri"
+        ],
+        "props":{
+          "blockClass":"coloane-partener-staples"
+        }
+      },
+
+      "image#img-map-partener-staples": {
+        "props": {
+          "blockClass":"imgs-va-asteptam",
+          "src": "assets/imagini/icon-map.png"
+        }
+      },
+
+      "rich-text#text-col3-parteneri": {
+        "props": {
+          "text": "Offline<br>[vezi locațiile](https://www.google.com/maps/@44.9677495,24.9331949,7z/data=!3m1!4b1!4m3!11m2!2sLh8WU6vrF5qcAW5KPbKbYIQUllAHmw!3e3)",
+          "blockClass": "text-col1-parteneri",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.col#col4-parteneri-staples": {
+        "children":[
+          "image#img-laptop-partener-staples",
+          "rich-text#text-col4-parteneri"
+        ],
+        "props":{
+          "blockClass":"coloane-partener-staples"
+        }
+      },
+
+      "image#img-laptop-partener-staples": {
+        "props": {
+          "blockClass":"imgs-va-asteptam",
+          "src": "assets/imagini/icon-laptop.png"
+        }
+      },
+
+      "rich-text#text-col4-parteneri": {
+        "props": {
+          "text": "Pe platforme Dacris<br>[+4 021 350 67 57](tel:+40213506757) [office@dacris.net](mailto:office@dacris.net)",
+          "blockClass": "text-col4-parteneri",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
+        } 
+      },
+
+      "flex-layout.row#evolutie-dacris": {
+        "children":[
+          "tab-layout#evolutie"
+        ],
+        "props": {
+          "blockClass": "tab-layout-evolutie"
+        }
+      },
+
+      "tab-layout#evolutie": {
+        "children": [
+          "tab-list#evolutie",
+          "tab-content#evolutie"
+        ],
+        "props": {
+          "blockClass": "tab-layout-evolutie",
+          "defaultActiveTabId": "1994"
+        }
+      },
+      "tab-list#evolutie": {
+        "children": [
+          "tab-list.item#1994",
+          "tab-list.item#1995",
+          "tab-list.item#1996",
+          "tab-list.item#1996-2",
+          "tab-list.item#1997",
+          "tab-list.item#2005",
+          "tab-list.item#2009",
+          "tab-list.item#2012",
+          "tab-list.item#2013",
+          "tab-list.item#2015",
+          "tab-list.item#2019"
+          ],
+          "props": {
+            "blockClass": "taburi-evolutie",
+            "defaultActiveTabId": "1994"
+          }
+      },
+      "tab-list.item#1994": {
+        "props": {
+          "tabId": "1994",
+          "label": "1994",
+          "blockClass": "tab-list-item",
+          "defaultActiveTab": true
+        }
+      },
+      "tab-list.item#1995": {
+        "props": {
+          "tabId": "1995",
+          "label": "1995",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#1996": {
+        "props": {
+          "tabId": "1996",
+          "label": "1996",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#1996-2": {
+        "props": {
+          "tabId": "1996-2",
+          "label": "1996",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#1997": {
+        "props": {
+          "tabId": "1997",
+          "label": "1997",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#2005": {
+        "props": {
+          "tabId": "2005",
+          "label": "2005",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#2009": {
+        "props": {
+          "tabId": "2009",
+          "label": "2009",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#2012": {
+        "props": {
+          "tabId": "2012",
+          "label": "2012",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#2013": {
+        "props": {
+          "tabId": "2013",
+          "label": "2013",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#2015": {
+        "props": {
+          "tabId": "2015",
+          "label": "2015",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-list.item#2019": {
+        "props": {
+          "tabId": "2019",
+          "label": "2019",
+          "blockClass": "tab-list-item"
+        }
+      },
+      "tab-content#evolutie": {
+        "children": [
+          "tab-content.item#1994",
+          "tab-content.item#1995",
+          "tab-content.item#1996",
+          "tab-content.item#1996-2",
+          "tab-content.item#1997",
+          "tab-content.item#2005",
+          "tab-content.item#2009",
+          "tab-content.item#2012",
+          "tab-content.item#2013",
+          "tab-content.item#2015",
+          "tab-content.item#2019"
+        ],
+        "props": {
+          "blockClass": "content-evolutie"
+        }
+      },
+      "tab-content.item#1994": {
+        "children": [
+          "flex-layout.row#rand-1994"
+        ],
+        "props": {
+          "tabId": "1994"
+        }
+      },
+
+      "flex-layout.row#rand-1994": {
+        "children":[
+          "flex-layout.col#text-1994",
+          "flex-layout.col#img-1994"
+        ]
+      },
+
+      "flex-layout.col#text-1994": {
+        "children":[
+          "rich-text#text-1994"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-1994": {
+        "props": {
+          "text": "În Constanța, trei membri ai familiei Fati - Lidia, Dan și Claudiu - deschid primul magazin de papetărie.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-1994": {
+        "children":[
+          "image#img-1994"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-1994": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/1994.png"
+        }
+      },
+
+      "tab-content.item#1995": {
+        "children": [
+          "flex-layout.row#rand-1995"
+        ],
+        "props": {
+          "tabId": "1995"
+        }
+      },
+
+      "flex-layout.row#rand-1995": {
+        "children":[
+          "flex-layout.col#text-1995",
+          "flex-layout.col#img-1995"
+        ]
+      },
+
+      "flex-layout.col#text-1995": {
+        "children":[
+          "rich-text#text-1995"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-1995": {
+        "props": {
+          "text": "Cu prima masină de tipar offset, deschidem drumul producției de tipar.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-1995": {
+        "children":[
+          "image#img-1995"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-1995": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/1995.png"
+        }
+      },
+
+      "tab-content.item#1996": {
+        "children": [
+          "flex-layout.row#rand-1996"
+        ],
+        "props": {
+          "tabId": "1996"
+        }
+      },
+
+      "flex-layout.row#rand-1996": {
+        "children":[
+          "flex-layout.col#text-1996",
+          "flex-layout.col#img-1996"
+        ]
+      },
+
+      "flex-layout.col#text-1996": {
+        "children":[
+          "rich-text#text-1996"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-1996": {
+        "props": {
+          "text": "Visul crește, așa că încă două magazine în Constanța se alatură primului.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-1996": {
+        "children":[
+          "image#img-1996"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-1996": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/1996.png"
+        }
+      },
+
+      "tab-content.item#1996-2": {
+        "children": [
+          "flex-layout.row#rand-1996-2"
+        ],
+        "props": {
+          "tabId": "1996-2"
+        }
+      },
+
+      "flex-layout.row#rand-1996-2": {
+        "children":[
+          "flex-layout.col#text-1996-2",
+          "flex-layout.col#img-1996-2"
+        ]
+      },
+
+      "flex-layout.col#text-1996-2": {
+        "children":[
+          "rich-text#text-1996-2"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-1996-2": {
+        "props": {
+          "text": "Devenim cel mai important distribuitor de produse de papetărie și birotică din sud-estul României.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-1996-2": {
+        "children":[
+          "image#img-1996-2"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-1996-2": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/1996-2.png"
+        }
+      },
+
+      "tab-content.item#1997": {
+        "children": [
+          "flex-layout.row#rand-1997"
+        ],
+        "props": {
+          "tabId": "1997"
+        }
+      },
+
+      "flex-layout.row#rand-1997": {
+        "children":[
+          "flex-layout.col#text-1997",
+          "flex-layout.col#img-1997"
+        ]
+      },
+
+      "flex-layout.col#text-1997": {
+        "children":[
+          "rich-text#text-1997"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-1997": {
+        "props": {
+          "text": "Înființăm primul punct de lucru în București.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-1997": {
+        "children":[
+          "image#img-1997"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-1997": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/1997.png"
+        }
+      },
+
+      "tab-content.item#2005": {
+        "children": [
+          "flex-layout.row#rand-2005"
+        ],
+        "props": {
+          "tabId": "2005"
+        }
+      },
+
+      "flex-layout.row#rand-2005": {
+        "children":[
+          "flex-layout.col#text-2005",
+          "flex-layout.col#img-2005"
+        ]
+      },
+
+      "flex-layout.col#text-2005": {
+        "children":[
+          "rich-text#text-2005"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-2005": {
+        "props": {
+          "text": "Devenim al treilea jucător pe piața națională de produse de papetărie și birotică.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-2005": {
+        "children":[
+          "image#img-2005"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-2005": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/2005.png"
+        }
+      },
+
+      "tab-content.item#2009": {
+        "children": [
+          "flex-layout.row#rand-2009"
+        ],
+        "props": {
+          "tabId": "2009"
+        }
+      },
+
+      "flex-layout.row#rand-2009": {
+        "children":[
+          "flex-layout.col#text-2009",
+          "flex-layout.col#img-2009"
+        ]
+      },
+
+      "flex-layout.col#text-2009": {
+        "children":[
+          "rich-text#text-2009"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-2009": {
+        "props": {
+          "text": "Suntem al doilea jucător național pe piața articolelor de birou.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-2009": {
+        "children":[
+          "image#img-2009"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-2009": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/2009.png"
+        }
+      },
+
+      "tab-content.item#2012": {
+        "children": [
+          "flex-layout.row#rand-2012"
+        ],
+        "props": {
+          "tabId": "2012"
+        }
+      },
+
+      "flex-layout.row#rand-2012": {
+        "children":[
+          "flex-layout.col#text-2012",
+          "flex-layout.col#img-2012"
+        ]
+      },
+
+      "flex-layout.col#text-2012": {
+        "children":[
+          "rich-text#text-2012"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-2012": {
+        "props": {
+          "text": "Primim premiul pentru “Regional Reseller of the Year”, cea mai importantă recunoaștere la nivel european pentru o companie specializată în distribuția de birotică și papetărie.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-2012": {
+        "children":[
+          "image#img-2012"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-2012": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/2012.png"
+        }
+      },
+
+      "tab-content.item#2013": {
+        "children": [
+          "flex-layout.row#rand-2013"
+        ],
+        "props": {
+          "tabId": "2013"
+        }
+      },
+
+      "flex-layout.row#rand-2013": {
+        "children":[
+          "flex-layout.col#text-2013",
+          "flex-layout.col#img-2013"
+        ]
+      },
+
+      "flex-layout.col#text-2013": {
+        "children":[
+          "rich-text#text-2013"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-2013": {
+        "props": {
+          "text": "Suntem selectați pe lista scurtă pentru decernarea premiului “Regional Reseller of the Year”, în aceeași categorie cu Amazon.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-2013": {
+        "children":[
+          "image#img-2013"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-2013": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/2013.png"
+        }
+      },
+
+      "tab-content.item#2015": {
+        "children": [
+          "flex-layout.row#rand-2015"
+        ],
+        "props": {
+          "tabId": "2015"
+        }
+      },
+
+      "flex-layout.row#rand-2015": {
+        "children":[
+          "flex-layout.col#text-2015",
+          "flex-layout.col#img-2015"
+        ]
+      },
+
+      "flex-layout.col#text-2015": {
+        "children":[
+          "rich-text#text-2015"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-2015": {
+        "props": {
+          "text": "Devenim partener Staples, cel mai mare retailer online și B2B din lume de articole office.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-2015": {
+        "children":[
+          "image#img-2015"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-2015": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/2015.png"
+        }
+      },
+
+      "tab-content.item#2019": {
+        "children": [
+          "flex-layout.row#rand-2019"
+        ],
+        "props": {
+          "tabId": "2019"
+        }
+      },
+
+      "flex-layout.row#rand-2019": {
+        "children":[
+          "flex-layout.col#text-2019",
+          "flex-layout.col#img-2019"
+        ]
+      },
+
+      "flex-layout.col#text-2019": {
+        "children":[
+          "rich-text#text-2019"
+        ],
+        "props":{
+          "width": "60%"
+        }
+      },
+
+      "rich-text#text-2019": {
+        "props": {
+          "text": "Anul ăsta împlinim 25 de ani. Suntem mai pregăți ca oricând să facem față provocărilor și abia așteptăm să vedem cum va fi transformată #ViațaLaBirou.",
+          "blockClass": "text-evolutie"
+        } 
+      },
+
+      "flex-layout.col#img-2019": {
+        "children":[
+          "image#img-2019"
+        ],
+        "props":{
+          "width": "40%",
+          "blockClass": "col-img-evolutie"
+        }
+      },
+
+      "image#img-2019": {
+        "props": {
+          "blockClass":"img-evolutie",
+          "src": "assets/imagini/2019.png"
+        }
+      },
+
+      "flex-layout.row#echo-plus-despre-noi": {
+        "children":[
+          "flex-layout.col#col-echo-plus"
+        ],
+        "props": {
+          "blockClass":"row-echo-plus"
+        }
+      },
+
+      "flex-layout.col#col-echo-plus": {
+        "children":[
+          "rich-text#heading-echo-plus",
+          "flex-layout.row#row-col-echo-plus"
+        ]
+      },
+
+      "flex-layout.row#row-col-echo-plus": {
+        "children":[
+          "flex-layout.col#col1-echo-plus",
+          "flex-layout.col#col2-echo-plus"
+        ],
+        "props": {
+          "preventVerticalStretch": true
+        } 
+      },
+
+      "rich-text#heading-echo-plus": {
+        "props": {
+          "text": "Echo Plus",
+          "blockClass": "heading-echo-plus"
+        } 
+      },
+
+      "flex-layout.col#col1-echo-plus": {
+        "children":[
+          "rich-text#text-col1-echo-plus"
+        ],
+        "props": {
+          "paddingRight": 8
+        } 
+      },
+
+      "flex-layout.col#col2-echo-plus": {
+        "children":[
+          "rich-text#text-col2-echo-plus"
+        ]
+      },
+
+      "rich-text#text-col1-echo-plus": {
+        "props": {
+          "text": "Din 2016, ne bucurăm să îi avem alături de noi pe cei de la Echo Plus, o echipă de peste 50 de oameni, cu o experiență de 10 ani în vânzările prin telefon. Colegii noștri au birourile în Timișoara și sunt unul dintre principalii furnizori din România de tonere și cartușe pentru imprimante, copiatoare, faxuri și multifuncționale. Adică acea aparatură de birou pe care știu să o folosească doar 'pasionații'.",
+          "blockClass": "text-cine-suntem"
+        } 
+      },
+
+      "rich-text#text-col2-echo-plus": {
+        "props": {
+          "text": "Din depozitele noastre comune, pleacă produse către cei peste 2000 de clienți permanenți ai Echo Plus, iar gama pe care ei o recomandă număra mai bine de 2500 de modele de tonere și cartușe de cerneală pentru orice tip de echipament de printare. Laser! :)",
+          "blockClass": "text-cine-suntem"
+        } 
+      },
+
+      "flex-layout.row#suntem-prezenti-despre-noi": {
+        "children": [
+          "flex-layout.col#img-suntem-prezenti",
+          "flex-layout.col#text-suntem-prezenti"
+        ],
+        "props":{
+          "blockClass":"hero-despre-noi",
+          "rowGap": 0,
+          "preventVerticalStretch": "true"
+        }
+      },
+
+      "flex-layout.col#img-suntem-prezenti": {
+        "children": [
+            "image#img-suntem-prezenti"
+        ]
+    },
+
+    "image#img-suntem-prezenti": {
+      "props": {
+        "blockClass":"img-hero-despre-noi",
+        "src": "assets/imagini/img-suntem-prezenti.jpg"
+      }
+    },
+
+    "flex-layout.col#text-suntem-prezenti": {
+      "children":[
+        "rich-text#heading-suntem-prezenti",
+        "rich-text#text1-suntem-prezenti",
+        "image#img-logo-uinited-way",
+        "rich-text#text2-suntem-prezenti",
+        "image#img-absolute-suntem-prezenti"
+      ],
+      "props":{
+        "preventVerticalStretch": true,
+        "blockClass":"col-text-suntem-prezenti"
+      }
+    },
+
+    "rich-text#heading-suntem-prezenti": {
+      "props": {
+        "text": "Suntem prezenți și atenți",
+        "blockClass": "heading-suntem-prezenti"
+      } 
+    },
+
+    "rich-text#text1-suntem-prezenti": {
+      "props": {
+        "text": "O afacere care face doar bani, este o afacere săracă, spunea Henry Ford. Societatea nu poate evolua fară o investiție continuă, aşa că misiunea pe care ne-am ales-o este să identificăm oameni şi cauze din jurul nostru pe care să le susținem.",
+        "blockClass": "text-suntem-prezenti"
+      } 
+    },
+
+    "rich-text#text2-suntem-prezenti": {
+      "props": {
+        "text": "Cele mai eficiente investitiţii sunt cele pe care le faci în oameni. Şansa pe care o dai la educaţie şi reintegrare socială este mai preţioasă decât o sumă virată în cont. Alături de  [United Way](https://www.unitedway.ro/) facem lucrurile să se întâmple. Poți veni și tu alături de noi!",
+        "blockClass": "text2-suntem-prezenti"
+      } 
+    },
+
+    "image#img-logo-uinited-way": {
+      "props": {
+        "blockClass":"img-logo-united-way",
+        "src": "assets/imagini/logo-united-way.png",
+        "link": "https://www.unitedway.ro/"
+      }
+    },
+
+    "image#img-absolute-suntem-prezenti": {
+      "props": {
+        "blockClass":"img-absolute-suntem-prezenti",
+        "src": "assets/imagini/mini-logo-dacris.png"
+      }
+    },
+
+    "flex-layout.row#gandim-despre-noi": {
+      "children": [
+          "flex-layout.col#text-gandim",
+          "flex-layout.col#img-gandim"
+        ],
+        "props":{
+          "blockClass":"hero-despre-noi",
+          "rowGap": 0,
+          "preventVerticalStretch": "true"
+        }
+    },
+
+    "flex-layout.col#text-gandim": {
+      "children": [
+        "rich-text#heading-gandim",
+        "rich-text#text-gandim",
+        "flex-layout.row#row1-coloane-cifre-gandim",
+        "flex-layout.row#row2-coloane-cifre-gandim"
+      ],
+      "props":{
+        "preventVerticalStretch": "true",
+        "verticalAlign": "center",
+        "blockClass": "col-text-gandim"
+      }
+    },
+
+    "rich-text#heading-gandim": {
+      "props": {
+        "text": "**Gândim și acționăm verde**",
+        "font": "t-heading-5",
+        "blockClass": "heading-gandim"
+      }  
+    },
+
+    "rich-text#text-gandim": {
+      "props": {
+        "text": "Trăim verde și ne dorim să fim și mai verde. Generațiile viitoare și mediul în care vor trăi sunt importante pentru noi. Ne-am ocupat ca deșeurile de hârtie să ajungă la principalii reciclatori din România. Am valorificat 545 de tone de hârtie și am salvat 10 hectare de pădure – mai precis 24 de terenuri de fotbal. Știm că dacă vrei o schimbare în lume, trebuie să începi chiar tu. Am dus campanii de împădurire și am ajuns la 4000 de puieți plantați. Și continuăm. Ne ajutăm unii pe alții să avem grijă de natură.",
+        "blockClass": "text-gandim"
+      } 
+    },
+
+    "flex-layout.col#img-gandim": {
+        "children": [
+            "image#img-gandim"
+        ]
+    },
+
+    "image#img-gandim": {
+        "props": {
+          "blockClass":"img-hero-despre-noi",
+          "src": "assets/imagini/img-gandim.jpg"
+        }
+    },
+
+    "flex-layout.row#row1-coloane-cifre-gandim": {
+      "children":[
+        "flex-layout.col#row1-col1-cifre-gandim",
+        "flex-layout.col#row1-col2-cifre-gandim",
+        "flex-layout.col#row1-col3-cifre-gandim"
+      ],
+      "props":{
+        "colGap": 6,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "flex-layout.col#row1-col1-cifre-gandim": {
+      "children":[
+        "rich-text#row1-col1-cifre-gandim",
+        "rich-text#row1-col1-text-cifre-gandim"
+      ],
+      "props":{
+        "colGap": 2,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "rich-text#row1-col1-cifre-gandim": {
+      "props": {
+        "text": "600+",
+        "blockClass": "cifre-gandim"
+      }
+    },
+
+    "rich-text#row1-col1-text-cifre-gandim": {
+      "props": {
+        "text": "Tone de deșeuri de hârtie și carton",
+        "blockClass": "text-cifre-gandim"
+      }
+    },
+
+    "flex-layout.col#row1-col2-cifre-gandim": {
+      "children":[
+        "rich-text#row1-col2-cifre-gandim",
+        "rich-text#row1-col2-text-cifre-gandim"
+      ],
+      "props":{
+        "colGap": 2,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "rich-text#row1-col2-cifre-gandim": {
+      "props": {
+        "text": "140+",
+        "blockClass": "cifre-gandim"
+      }
+    },
+
+    "rich-text#row1-col2-text-cifre-gandim": {
+      "props": {
+        "text": "Tone de deșeuri din lemn",
+        "blockClass": "text-cifre-gandim"
+      }
+    },
+
+    "flex-layout.col#row1-col3-cifre-gandim": {
+      "children":[
+        "rich-text#row1-col3-cifre-gandim",
+        "rich-text#row1-col3-text-cifre-gandim"
+      ],
+      "props":{
+        "paddingRight": 6,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "rich-text#row1-col3-cifre-gandim": {
+      "props": {
+        "text": "50+",
+        "blockClass": "cifre-gandim"
+      }
+    },
+
+    "rich-text#row1-col3-text-cifre-gandim": {
+      "props": {
+        "text": "Tone de deșeuri de plastic",
+        "blockClass": "text-cifre-gandim"
+      }
+    },
+
+    "flex-layout.row#row2-coloane-cifre-gandim": {
+      "children":[
+        "flex-layout.col#row2-col1-cifre-gandim",
+        "flex-layout.col#row2-col2-cifre-gandim",
+        "flex-layout.col#row2-col3-cifre-gandim"
+      ],
+      "props":{
+        "colGap": 6,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "flex-layout.col#row2-col1-cifre-gandim": {
+      "children":[
+        "rich-text#row2-col1-cifre-gandim",
+        "rich-text#row2-col1-text-cifre-gandim"
+      ],
+      "props":{
+        "colGap": 4,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "rich-text#row2-col1-cifre-gandim": {
+      "props": {
+        "text": "12+",
+        "blockClass": "cifre-gandim"
+      }
+    },
+
+    "rich-text#row2-col1-text-cifre-gandim": {
+      "props": {
+        "text": "Tone de deșeuri de tonere",
+        "blockClass": "text-cifre-gandim"
+      }
+    },
+
+    "flex-layout.col#row2-col2-cifre-gandim": {
+      "children":[
+        "rich-text#row2-col2-cifre-gandim",
+        "rich-text#row2-col2-text-cifre-gandim"
+      ],
+      "props":{
+        "colGap": 4,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "rich-text#row2-col2-cifre-gandim": {
+      "props": {
+        "text": "3+",
+        "blockClass": "cifre-gandim"
+      }
+    },
+
+    "rich-text#row2-col2-text-cifre-gandim": {
+      "props": {
+        "text": "Tone de deșeuri electice",
+        "blockClass": "text-cifre-gandim"
+      }
+    },
+
+    "flex-layout.col#row2-col3-cifre-gandim": {
+      "props":{
+        "paddingRight": 6,
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "flex-layout.row#testimoniale-despre-noi": {
+      "children":[
+        "flex-layout.col#coloana-testimoniale-despre-noi"
+      ],
+      "props": {
+        "blockClass": "sectiune-testimoniale-despre-noi",
+        "preventVerticalStretch": "true"
+      }
+    },
+
+    "flex-layout.col#coloana-testimoniale-despre-noi": {
+      "children":[
+        "rich-text#heading-testimoniale-despre-noi",
+        "flex-layout.col#slider-testimoniale-despre-noi",
+        "rich-text#buton-testimoniale-despre-noi"
+      ]
+    },
+
+    "rich-text#heading-testimoniale-despre-noi": {
+      "props": {
+        "text": "Fiecare om are o poveste",
+        "blockClass": "heading-testimoniale-despre-noi",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      }
+    },
+
+    "flex-layout.col#slider-testimoniale-despre-noi": {
+      "children":[
+        "slider-layout#slider-testimoniale-despre-noi"
+      ],
+      "props": {
+        "blockClass": "col-slider-testimoniale-despre-noi"
+      }
+    },
+
+    "slider-layout#slider-testimoniale-despre-noi": {
+      "children": [
+        "flex-layout.row#testimonial1", 
+        "flex-layout.row#testimonial2", 
+        "flex-layout.row#testimonial3"
+      ],
+      "props": {
+        "blockClass": "slider-testimoniale-despre-noi",
+        "showPaginationDots": "never",
+        "autoplay": {
+          "timeout": 100000,
+          "stopOnHover": false
+        },
+        "itemsPerPage": {
+          "desktop": 1,
+          "phone": 1
+        }
+      } 
+    },
+
+    "flex-layout.row#testimonial1": {
+      "children": [
+        "flex-layout.col#text-testimonial1", 
+        "flex-layout.col#img-testimonial1"
+      ],
+      "props": {
+        "blockClass": "rand-testimoniale"
+        }
+    },
+
+    "flex-layout.col#text-testimonial1": {
+      "children":[
+        "rich-text#nume-testimonial1",
+        "rich-text#text-testimonial1"
+      ],
+      "props": {
+        "blockClass": "col-text-testimoniale",
+        "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#nume-testimonial1": {
+      "props": {
+        "text": "Mirela",
+        "blockClass": "nume-testimonial"
+      }
+    },
+
+    "rich-text#text-testimonial1": {
+      "props": {
+        "text": "Lucrează la Dacris de aproape doi ani, pe care îi împlinește în ianuarie. 'Pe 25 ianuarie m-am angajat aici. Îmi amintesc și acum că m-am bucurat foarte mult să descopăr că noul meu loc de muncă se află fix pe strada pe care locuiesc. Am doi copii mici, trebuie să îi duc la școală, la grădiniță, și era foarte important să-mi găsesc un serviciu cât mai aproape de casă. Am fost super norocoasă!' Noi am fost norocoși.",
+        "blockClass": "text-testimonial"
+      }
+    },
+
+    "flex-layout.col#img-testimonial1": {
+      "children":[
+        "image#img-testimonial1"
+      ],
+      "props": {
+        "blockClass": "col-img-testimonial"
+      }
+    },
+
+    "image#img-testimonial1": {
+      "props": {
+        "blockClass":"img-testimoniale",
+        "src": "assets/imagini/img-mirela.png"
+      }
+    },
+
+    "flex-layout.row#testimonial2": {
+      "children": [
+        "flex-layout.col#text-testimonial2", 
+        "flex-layout.col#img-testimonial2"
+      ],
+      "props": {
+        "blockClass": "rand-testimoniale"
+        }
+    },
+
+    "flex-layout.col#text-testimonial2": {
+      "children":[
+        "rich-text#nume-testimonial2",
+        "rich-text#text-testimonial2"
+      ],
+      "props": {
+        "blockClass": "col-text-testimoniale",
+        "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#nume-testimonial2": {
+      "props": {
+        "text": "Marius",
+        "blockClass": "nume-testimonial"
+      }
+    },
+
+    "rich-text#text-testimonial2": {
+      "props": {
+        "text": "Îl cheamă Marius. Dar acum câțiva ani cineva l-a strigat Ricky și așa i-a rămas numele. Pe vremeaaceea era șofer, tot la Dacris. Între timp a terminat școala și s-a mutat la departamentul decontabilitate. Soția e contabilă, sora e contabilă și soacra e contabilă. Deci transferul lui era cumva predestinat :)",
+        "blockClass": "text-testimonial"
+      }
+    },
+
+    "flex-layout.col#img-testimonial2": {
+      "children":[
+        "image#img-testimonial2"
+      ],
+      "props": {
+        "blockClass": "col-img-testimonial"
+      }
+    },
+
+    "image#img-testimonial2": {
+      "props": {
+        "blockClass":"img-testimoniale",
+        "src": "assets/imagini/img-marius.png"
+      }
+    },
+
+    "flex-layout.row#testimonial3": {
+      "children": [
+        "flex-layout.col#text-testimonial3", 
+        "flex-layout.col#img-testimonial3"
+      ],
+      "props": {
+        "blockClass": "rand-testimoniale"
+        }
+    },
+
+    "flex-layout.col#text-testimonial3": {
+      "children":[
+        "rich-text#nume-testimonial3",
+        "rich-text#text-testimonial3"
+      ],
+      "props": {
+        "blockClass": "col-text-testimoniale",
+        "preventVerticalStretch": true
+        }
+    },
+
+    "rich-text#nume-testimonial3": {
+      "props": {
+        "text": "Monica",
+        "blockClass": "nume-testimonial"
+      }
+    },
+
+    "rich-text#text-testimonial3": {
+      "props": {
+        "text": "Anul ăsta voi sărbători 8 ani de când lucrez la Dacris. Sunt ani în care am evoluat așa cum mi-am dorit. Am învățat secretele din departamentul de Customer Support, iar de doi ani sunt în departamentul de Achiziții. Dacris este locul unde am crescut profesional și m-am format în cariera mea. Fiecare zi este dinamică și văd cum munca mea are impact. Creștem zi de zi.",
+        "blockClass": "text-testimonial"
+      }
+    },
+
+    "flex-layout.col#img-testimonial3": {
+      "children":[
+        "image#img-testimonial3"
+      ],
+      "props": {
+        "blockClass": "col-img-testimonial"
+      }
+    },
+
+    "image#img-testimonial3": {
+      "props": {
+        "blockClass":"img-testimoniale",
+        "src": "assets/imagini/img-monica.jpg"
+      }
+    },
+
+    "rich-text#buton-testimoniale-despre-noi":{
+      "props": {
+        "text": "[Intră și tu în echipă](/contact)",
+        "blockClass": "buton-echipa-testimoniale"
+      } 
+    },
+
+    "flex-layout.row#echipa-despre-noi": {
+      "children":[
+        "flex-layout.col#col-echipa"
+      ],
+      "props": {
+        "blockClass":"row-cine-suntem"
+      }
+    },
+
+    "flex-layout.col#col-echipa": {
+      "children":[
+        "rich-text#heading-echipa",
+        "flex-layout.row#row-buline-echipa"
+      ]
+    },
+
+    "flex-layout.row#row-buline-echipa": {
+      "children":[
+        "flex-layout.col#col1-echipa",
+        "flex-layout.col#col2-echipa",
+        "flex-layout.col#col3-echipa",
+        "flex-layout.col#col4-echipa",
+        "flex-layout.col#col5-echipa"
+      ],
+      "props": {
+        "preventVerticalStretch": true
+      } 
+    },
+
+    "rich-text#heading-echipa": {
+      "props": {
+        "text": "Oameni noi în echipa Dacris",
+        "blockClass": "heading-cine-suntem"
+      } 
+    },
+
+    "flex-layout.col#col1-echipa": {
+      "children":[
+        "image#img1-echipa",
+        "rich-text#h1-echipa",
+        "rich-text#text1-echipa"
+      ],
+      "props": {
+        "paddingRight": 6,
+        "paddingLeft": 6,
+        "preventVerticalStretch": true,
+        "blockClass": "coloane-echipa"
+      } 
+    },
+
+    "image#img1-echipa": {
+      "props": {
+        "blockClass":"img-cine-suntem",
+        "src": "assets/imagini/img-liviu.png"
+      }
+    },
+
+    "rich-text#h1-echipa": {
+      "props": {
+        "text": "Liviu Hâncu",
+        "blockClass": "h-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "rich-text#text1-echipa": {
+      "props": {
+        "text": "Key Account Manager",
+        "blockClass": "text-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "flex-layout.col#col2-echipa": {
+      "children":[
+        "image#img2-echipa",
+        "rich-text#h2-echipa",
+        "rich-text#text2-echipa"
+      ],
+      "props": {
+        "paddingRight": 6,
+        "paddingLeft": 6,
+        "preventVerticalStretch": true,
+        "blockClass": "coloane-echipa"
+      } 
+    },
+
+    "image#img2-echipa": {
+      "props": {
+        "blockClass":"img-cine-suntem",
+        "src": "assets/imagini/img-cristina.png"
+      }
+    },
+
+    "rich-text#h2-echipa": {
+      "props": {
+        "text": "Cristina Rusu",
+        "blockClass": "h-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "rich-text#text2-echipa": {
+      "props": {
+        "text": "Asistent consilier juridic",
+        "blockClass": "text-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "flex-layout.col#col3-echipa": {
+      "children":[
+        "image#img3-echipa",
+        "rich-text#h3-echipa",
+        "rich-text#text3-echipa"
+      ],
+      "props": {
+        "paddingRight": 6,
+        "paddingLeft": 6,
+        "preventVerticalStretch": true,
+        "blockClass": "coloane-echipa"
+      } 
+    },
+
+    "image#img3-echipa": {
+      "props": {
+        "blockClass":"img-cine-suntem",
+        "src": "assets/imagini/img-roxana.png"
+      }
+    },
+
+    "rich-text#h3-echipa": {
+      "props": {
+        "text": "Roxana Coteț",
+        "blockClass": "h-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "rich-text#text3-echipa": {
+      "props": {
+        "text": "Reprezentant Vânzări",
+        "blockClass": "text-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "flex-layout.col#col4-echipa": {
+      "children":[
+        "image#img4-echipa",
+        "rich-text#h4-echipa",
+        "rich-text#text4-echipa"
+      ],
+      "props": {
+        "paddingRight": 6,
+        "paddingLeft": 6,
+        "preventVerticalStretch": true,
+        "blockClass": "coloane-echipa"
+      } 
+    },
+
+    "image#img4-echipa": {
+      "props": {
+        "blockClass":"img-cine-suntem",
+        "src": "assets/imagini/img-sorin.png"
+      }
+    },
+
+    "rich-text#h4-echipa": {
+      "props": {
+        "text": "Sorin Maidan",
+        "blockClass": "h-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "rich-text#text4-echipa": {
+      "props": {
+        "text": "Lucrător comercial",
+        "blockClass": "text-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "flex-layout.col#col5-echipa": {
+      "children":[
+        "image#img3-echipa",
+        "rich-text#h3-echipa",
+        "rich-text#text3-echipa"
+      ],
+      "props": {
+        "paddingRight": 6,
+        "paddingLeft": 6,
+        "preventVerticalStretch": true,
+        "blockClass": "coloane-echipa"
+      } 
+    },
+
+    "image#img5-echipa": {
+      "props": {
+        "blockClass":"img-cine-suntem",
+        "src": "assets/imagini/img-claudia.png"
+      }
+    },
+
+    "rich-text#h5-echipa": {
+      "props": {
+        "text": "Claudia Atofanei",
+        "blockClass": "h-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    },
+
+    "rich-text#text5-echipa": {
+      "props": {
+        "text": "Lucrător comercial (Picker)",
+        "blockClass": "text-echipa",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER"
+      } 
+    }
+}

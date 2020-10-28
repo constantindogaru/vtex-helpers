@@ -1,0 +1,66 @@
+{
+  "flex-layout.row#header": {
+    "children": [
+      "list-context.image-list#home-banners"
+    ],
+    "props":{
+      "blockClass":"homeBanners"
+    },
+    "title":"Home Banners"
+  },
+
+  "list-context.image-list#home-banners": {
+    "children": ["slider-layout#home-banners"],
+    "props": {
+      "images": [
+        {
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "image": "",
+          "mobileImage": ""
+        },
+        {
+          "image": "",
+          "mobileImage": ""
+        }
+      ]
+    }
+  },
+  "slider-layout#home-banners": {
+    "props": {
+      "blockClass":"homeBanners",
+      "arrowSize":15,
+      "showPaginationDots":"desktopOnly",
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  },
+
+  "list-context.image-list#home-banners-campanie": {
+    "children": ["slider-layout#home-banners-campanie"],
+    "props": {
+      "images": [
+        
+      ]
+    }
+  },
+  "slider-layout#home-banners-campanie": {
+    "props": {
+      "blockClass":"homeBanners",
+      "arrowSize":15,
+      "showPaginationDots":"desktopOnly",
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 3,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+} 

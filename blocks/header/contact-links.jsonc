@@ -1,0 +1,38 @@
+{
+    "flex-layout.row#contact-links": {
+        "children": [
+            "image#contact-email",
+            "rich-text#contact-email",
+            "image#contact-phone",
+            "rich-text#contact-phone"
+        ],
+        "props":{
+            "blockClass":"headerLinksContainer",
+            "colSizing":"auto"
+        }
+    },
+    "image#contact-email":{
+        "props":{
+            "src":"assets/icons/icon-comenzi@2x.png",
+            "blockClass":"contactIcon"
+        }
+    },
+    "image#contact-phone":{
+        "props":{
+            "src":"assets/icons/icon-phone@2x.png",
+            "blockClass":"contactIcon"
+        }
+    },
+    "rich-text#contact-email": {
+        "props": {
+            "text": "[comenzi@dacris.net](mailto:comenzi@dacris.net)",
+            "blockClass": ["contactLink","contactEmailText"]
+        }
+    },
+    "rich-text#contact-phone": {
+        "props": {
+            "text": "[+40 726 233 618](tel:+40726233618)",
+            "blockClass": ["contactLink"]
+        }
+    }
+}

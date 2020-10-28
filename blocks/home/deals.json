@@ -1,0 +1,92 @@
+{
+  "flex-layout.row#deals": {
+    "children": [
+      "flex-layout.col#deal1",
+      "flex-layout.col#deal2",
+      "flex-layout.col#deal3",
+      "flex-layout.col#deal4"
+    ],
+    "props": {
+      "blockClass": "deals"
+    },
+    "title":"Diferentiatori"
+  },
+  "flex-layout.col#deal1":{
+    "children":[
+      "image#deal1",
+      "rich-text#deal1"
+    ]
+  },
+  "flex-layout.col#deal2":{
+    "children":[
+      "image#deal2",
+      "rich-text#deal2"
+    ]
+  },
+  "flex-layout.col#deal3":{
+    "children":[
+      "image#deal3",
+      "rich-text#deal3"
+    ]
+  },
+  "flex-layout.col#deal4":{
+    "children":[
+      "image#deal4",
+      "rich-text#deal4"
+    ]
+  },
+  
+  "image#deal1":{
+    "props":{
+      "src":"assets/imagini/deal1.png",
+      "blockClass":"dealImage"
+    }
+  },
+  "image#deal2":{
+    "props":{
+      "src":"assets/imagini/deal2.png",
+      "blockClass":"dealImage"
+    }
+  },
+  "image#deal3":{
+    "props":{
+      "src":"assets/imagini/deal3.png",
+      "blockClass":"dealImage"
+    }
+  },
+  "image#deal4":{
+    "props":{
+      "src":"assets/imagini/deal4.png",
+      "blockClass":"dealImage"
+    }
+  },
+  
+  "rich-text#deal1": {
+    "props": {
+      "text": "Livrăm peste 1.000 de comenzi pe zi",
+      "blockClass": "deals"
+    }
+  },
+  
+  
+  "rich-text#deal2": {
+    "props": {
+      "text": "#viatalabirou cu personalitate",
+      "blockClass": "deals"
+    }
+  },
+  
+  "rich-text#deal3": {
+    "props": {
+      "text": "Avem peste 25 de ani experiență",
+      "blockClass": "deals"
+    }
+  },
+  
+  "rich-text#deal4": {
+    "props": {
+      "text": "Suntem corecți, nu perfecți",
+      "blockClass": "deals"
+    }
+  }
+}

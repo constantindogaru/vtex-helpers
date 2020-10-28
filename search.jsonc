@@ -1,0 +1,976 @@
+{
+  "store.search": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+  "store.search#brand": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "orderByField": "OrderByReleaseDateDESC",
+        "hideUnavailableItems": true,
+        "maxItemsPerPage": 20,
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+  "store.search#department": {
+    "children":[
+      "flex-layout.row#contentDepartament"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 1,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+  "flex-layout.row#contentDepartament":{
+    "children":[
+      "flex-layout.col#contentDepartament"
+    ]
+  },
+  "flex-layout.col#contentDepartament":{
+    "children":[
+      "flex-layout.row#resultDepartament",
+      "flex-layout.row#departamente1",
+      "flex-layout.row#departamente2",
+      "flex-layout.row#departamente3"
+    ],
+    "props":{
+      "blockClass":"paginaDepartament"
+    }
+  },
+  "store.search#category": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "blockClass": "paginaCategorie",
+      "classInfo": "paginaCategorie",
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "orderByField": "OrderByScoreDESC",
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+  "store.search#subcategory": {
+    "blocks": [
+      "search-result-layout"
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "ALL_AVAILABLE",
+        "simulationBehavior": "skip",
+        "maxItemsPerPage": 20,
+        "__unstableProductOriginVtex": true
+      }
+    }
+  },
+  "search-result-layout": {
+    "blocks": [
+      "search-result-layout.desktop",
+      "search-result-layout.mobile",
+      "search-not-found-layout"
+    ]
+  },
+  "search-result-layout.desktop": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#result",
+      "flex-layout.row#row-header-product-page"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "preventRouteChange": true,
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    },
+    "title":"Pagina categorie"
+  },
+  "flex-layout.row#row-header-product-page": {
+    "children":[
+      "flex-layout.row#header"
+    ],
+    "props":{
+      "blockClass":"row-heder-product-page"
+    }
+  },
+  "flex-layout.row#departamente1": {
+    "children": [
+      "flex-layout.col#continutDepartament1-1",
+      "flex-layout.col#continutDepartament1-2",
+      "flex-layout.col#continutDepartament1-3",
+      "flex-layout.col#continutDepartament1-4"
+    ],
+    "props": {
+      "blockClass": "continutDepartamentWrapper"
+    },
+    "title":"Rand Bannere 1"
+  },
+  "flex-layout.row#departamente2": {
+    "children": [
+      "flex-layout.col#continutDepartament2-1",
+      "flex-layout.col#continutDepartament2-2",
+      "flex-layout.col#continutDepartament2-3",
+      "flex-layout.col#continutDepartament2-4"
+    ],
+    "props": {
+      "blockClass": "continutDepartamentWrapper"
+    },
+    "title":"Rand Bannere 2"
+  },
+
+  "flex-layout.row#departamente3":{
+    "children":[
+      "flex-layout.col#continutDepartament3-1",
+      "flex-layout.col#continutDepartament3-2",
+      "flex-layout.col#continutDepartament3-3",
+      "flex-layout.col#continutDepartament3-4"
+    ],
+    "props":{
+      "blockClass":"continutDepartamentWrapper"
+    },
+    "title":"Rand Bannere 3"
+  },
+
+  "flex-layout.col#continutDepartament1-1": {
+    "children": [
+      "image#imagineDepartament1-1",
+      "rich-text#titluDepartament1-1"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament1-2": {
+    "children": [
+      "image#imagineDepartament1-2",
+      "rich-text#titluDepartament1-2"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament1-3": {
+    "children": [
+      "image#imagineDepartament1-3",
+      "rich-text#titluDepartament1-3"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament1-4": {
+    "children": [
+      "image#imagineDepartament1-4",
+      "rich-text#titluDepartament1-4"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament2-1": {
+    "children": [
+      "image#imagineDepartament2-1",
+      "rich-text#titluDepartament2-1"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament2-2": {
+    "children": [
+      "image#imagineDepartament2-2",
+      "rich-text#titluDepartament2-2"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament2-3": {
+    "children": [
+      "image#imagineDepartament2-3",
+      "rich-text#titluDepartament2-3"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+  "flex-layout.col#continutDepartament2-4": {
+    "children": [
+      "image#imagineDepartament2-4",
+      "rich-text#titluDepartament2-4"
+    ],
+    "props": {
+      "blockClass": "continutDepartament",
+      "horizontalAlign": "center"
+    }
+  },
+
+  "flex-layout.col#continutDepartament3-1": {
+    "children":[
+      "image#imagineDepartament3-1",
+      "rich-text#titluDepartament3-1"
+    ],
+    "props":{
+      "blockClass":"continutDepartament",
+      "horizontalAlign":"center"
+    }
+  },
+  "flex-layout.col#continutDepartament3-2": {
+    "children":[
+      "image#imagineDepartament3-2",
+      "rich-text#titluDepartament3-2"
+    ],
+    "props":{
+      "blockClass":"continutDepartament",
+      "horizontalAlign":"center"
+    }
+  },
+  "flex-layout.col#continutDepartament3-3": {
+    "children":[
+      "image#imagineDepartament3-3",
+      "rich-text#titluDepartament3-3"
+    ],
+    "props":{
+      "blockClass":"continutDepartament",
+      "horizontalAlign":"center"
+    }
+  },
+  "flex-layout.col#continutDepartament3-4": {
+    "children":[
+      "image#imagineDepartament3-4",
+      "rich-text#titluDepartament3-4"
+    ],
+    "props":{
+      "blockClass":"continutDepartament",
+      "horizontalAlign":"center"
+    }
+  },
+
+  "image#imagineDepartament1-1":{
+    "props":{
+      "src":"https://feedback.iviteb.com/wp-content/uploads/2020/03/cat-box.png",
+      "link":"https://google.com",
+      "blockClass":"imagineDepartament"
+    },
+    "title": "Imagine categorie 1-1"
+  },
+  "image#imagineDepartament1-2": {
+    "props": {
+      "src": "https://feedback.iviteb.com/wp-content/uploads/2020/03/cat-box.png",
+      "link": "https://google.com",
+      "blockClass": "imagineDepartament"
+    },
+    "title": "Imagine categorie 1-2"
+  },
+  "image#imagineDepartament1-3": {
+    "props": {
+      "src": "https://feedback.iviteb.com/wp-content/uploads/2020/03/cat-box.png",
+      "link": "https://google.com",
+      "blockClass": "imagineDepartament"
+    },
+    "title": "Imagine categorie 1-3"
+  },
+  "image#imagineDepartament1-4": {
+    "props": {
+      "src": "https://feedback.iviteb.com/wp-content/uploads/2020/03/cat-box.png",
+      "link": "https://google.com",
+      "blockClass": "imagineDepartament"
+    },
+
+    "title":"Imagine categorie 1-4"
+  },
+
+  "image#imagineDepartament2-1":{
+    "props":{
+      "src": "",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title": "Imagine categorie 2-1"
+  },
+
+  "image#imagineDepartament2-2":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title": "Imagine categorie 2-2"
+  },
+  "image#imagineDepartament2-3":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title": "Imagine categorie 2-3"
+  },
+  "image#imagineDepartament2-4":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title": "Imagine categorie 2-4"
+  },
+
+  "image#imagineDepartament3-1":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title":"Imagine categorie 3-1"
+  },
+  "image#imagineDepartament3-2":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title":"Imagine categorie 3-2"
+  },
+  "image#imagineDepartament3-3":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title":"Imagine categorie 3-3"
+  },
+  "image#imagineDepartament3-4":{
+    "props":{
+      "src":"",
+      "link":"",
+      "blockClass":"imagineDepartament"
+    },
+    "title":"Imagine categorie 3-4"
+  },
+
+  "rich-text#titluDepartament1-1" :{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "[Schimba sa vedem ce se intampla daca e pe 3 randuri](asd)",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 1-1"
+  },
+  "rich-text#titluDepartament1-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Schimba",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 1-2"
+  },
+  "rich-text#titluDepartament1-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Schimba",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 1-3"
+  },
+  "rich-text#titluDepartament1-4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Schimba",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 1-4"
+  },
+  "rich-text#titluDepartament2-1": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 2-1"
+  },
+  "rich-text#titluDepartament2-2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 2-2"
+  },
+  "rich-text#titluDepartament2-3": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 2-3"
+  },
+  "rich-text#titluDepartament2-4": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title": "Titlu categorie 2-4"
+  },
+
+  "rich-text#titluDepartament3-1" :{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title":"Titlu categorie 3-1"
+  },
+  "rich-text#titluDepartament3-2" :{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title":"Titlu categorie 3-2"
+  },
+  "rich-text#titluDepartament3-3" :{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title":"Titlu categorie 3-3"
+  },
+  "rich-text#titluDepartament3-4" :{
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "",
+      "textColor": "#2A3131",
+      "font": "t-heading-5",
+      "blockClass": "link-departament"
+    },
+    "title":"Titlu categorie 3-4"
+  },
+
+  "flex-layout.row#searchbread": {
+    "children": [
+      "breadcrumb.search"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "fullWidth": true
+    }
+  },
+  "flex-layout.row#searchtitle": {
+    "children": [
+      "search-title.v2"
+    ],
+    "props": {
+      "blockClass": "titluCategorie"
+    },
+    "title":"Titlu categorie"
+  },
+  "flex-layout.row#result": {
+    "children": [
+      "flex-layout.col#filter",
+      "flex-layout.col#content"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "flex-layout.col#filter": {
+    "children": [
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#descriereCategorie",
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filterCol",
+      "preventVerticalStretch": true,
+      "width":"20%"
+    }
+  },
+
+  "flex-layout.col#content": {
+    "children": [
+      "flex-layout.row#bannerCategorie",
+      "flex-layout.row#searchinfo",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#products",
+      "flex-layout.row#fetchmore"
+    ],
+    "props": {
+      "width": "80%",
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#resultDepartament": {
+    "children": ["flex-layout.col#leftDep", "flex-layout.col#rightDep"],
+    "props":{"blockClass":"containerIntroDepartament"},
+    "title":"Intro Content / Text & Banner"
+  },
+  "flex-layout.col#leftDep": {
+    "children": [
+      "flex-layout.row#depTitle",
+      "flex-layout.row#descriereCategorie"
+    ],
+    "props": {
+      "blockClass": "depCol",
+      "width":"25%",
+      "preventVerticalStretch": true,
+      "paddingLeft":{
+        "mobile":0,
+        "desktop":5
+      },
+      "paddingRight":{
+        "mobile":0,
+        "desktop":5
+      }
+    }
+  },
+
+  "flex-layout.row#depTitle":{
+    "children":[
+      "rich-text#depTitle"
+    ]
+  },
+
+  "rich-text#depTitle":{
+    "props":{
+      "text":"# Titlu Departament",
+      "blockClass":"titluDepartament"
+    },
+    "title":"Titlu Departament"
+  },
+
+  "flex-layout.col#rightDep": {
+    "children": [
+      "image#imgBannerDepartament"
+    ],
+    "props": {
+      "width": "75%",
+      "paddingLeft":{
+        "mobile":0,
+        "desktop":5
+      },
+      "paddingRight":{
+        "mobile":0,
+        "desktop":5
+      }
+    }
+  },
+  "flex-layout.row#bannerCategorie": {
+    "children": [
+      "image#imgBannerCategorie"
+    ],
+    "props":{
+      "blockClass":"containerHeroCategorie"
+    },
+    "title":"Banner Categorie Container"
+  },
+
+  "image#imgBannerCategorie":{
+    "props":{
+      "src":"",
+      "blockClass":"heroCategorie"
+    },
+    "title":"Banner Categorie"
+  },
+
+  "image#imgBannerDepartament":{
+    "props":{
+      "src":"https://feedback.iviteb.com/wp-content/uploads/2020/02/group-3@2x.jpg",
+      "blockClass":"heroDepartament"
+    },
+    "title":"Banner Departament"
+  },
+  "flex-layout.row#descriereCategorie": {
+    "children": [
+      "rich-text#descriereCategorie"
+    ]
+
+  },
+  "rich-text#descriereCategorie": {
+    "props": {
+      "text": "Etichete autoadezive, plicuri simple, plic antișoc, etichete bibliorafturi, cutii din carton pentru colete, bandă adezivă, folie de protecție cu bule, pungi pentru cadou, bandă adezivă. Peste 200 de produse de ambalare și etichetare te așteaptă. Coletele tale vor fi frumos ambalate și vor ajunge în siguranță.",
+      "blockClass": "descriereCategorie"
+    },
+    "title":"Descriere Categorie"
+  },
+  "flex-layout.row#searchinfo": {
+    "children": [
+      "flex-layout.col#productCount",
+      "flex-layout.col#orderby"
+    ]
+  },
+  "flex-layout.col#productCount": {
+    "children": [
+      "total-products.v2#totalProduseCategorie"
+    ],
+    "props": {
+      "blockClass": "productCountCol",
+      "verticalAlign": "middle"
+    }
+  },
+  "total-products.v2#totalProduseCategorie": {
+    "props": {
+      "blockClass": "totalProduseCategorie"
+    }
+  },
+  "flex-layout.col#orderby": {
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "orderByCol"
+    }
+  },
+  "flex-layout.row#fetchprevious": {
+    "props": {
+      "marginBottom": 3
+    },
+    "children": [
+      "search-fetch-previous#fetchPreviousCategorie"
+    ]
+  },
+  "search-fetch-previous#fetchPreviousCategorie": {
+    "props": {
+      "blockClass": "fetchPreviousCategorie"
+    }
+  },
+  "flex-layout.row#fetchmore": {
+    "props": {
+      "marginTop": 5
+    },
+    "children": [
+      "search-fetch-more#fetchMoreCategorie"
+    ]
+  },
+  "search-fetch-more#fetchMoreCategorie": {
+    "props": {
+      "blockClass": "fetchMoreCategorie"
+    }
+  },
+  "flex-layout.row#products": {
+    "children": [
+      "search-content"
+    ]
+  },
+  "search-content": {
+    "blocks": [
+      "gallery",
+      "not-found"
+    ]
+  },
+  "search-result-layout.mobile": {
+    "children": [
+      "flex-layout.row#bannerCategorie",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#descriereCategorie",
+      "flex-layout.row#searchinfomobile",
+      "flex-layout.row#productCountMobile",
+      "flex-layout.row#fetchprevious",
+      "flex-layout.row#contentmobile",
+      "flex-layout.row#fetchmore",
+      "flex-layout.row#row-header-product-page"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "search-result-layout.mobile#departament": {
+    "children": [
+      "flex-layout.row#bannerCategorie",
+      "flex-layout.row#searchbread",
+      "flex-layout.row#searchtitle",
+      "flex-layout.row#descriereCategorie",
+      "flex-layout.row#departamente1",
+      "flex-layout.row#departamente2",
+      "flex-layout.row#departamente3"
+    ],
+    "props": {
+      "pagination": "show-more",
+      "mobileLayout": {
+        "mode1": "small",
+        "mode2": "normal"
+      }
+    }
+  },
+  "flex-layout.row#contentmobile": {
+    "children": [
+      "search-content"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true
+    }
+  },
+  "flex-layout.row#searchinfomobile": {
+    "children": [
+      "flex-layout.col#orderByMobile",
+      "flex-layout.col#filterMobile"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "colSizing": "auto",
+      "colJustify": "around"
+    }
+  },
+  "flex-layout.col#orderByMobile": {
+    "children": [
+      "order-by.v2"
+    ],
+    "props": {
+      "blockClass": "orderByMobileCol",
+      "width": "50%"
+    }
+  },
+  "flex-layout.row#productCountMobile": {
+    "children": [
+      "total-products.v2",
+      "search-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "productCountMobileRow",
+      "verticalAlign": "middle"
+    }
+  },
+  "flex-layout.col#countMobile": {
+    "children": [
+      "total-products.v2"
+    ],
+    "props": {
+      "blockClass": "countMobile",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#switcherMobile": {
+    "children": [
+      "search-layout-switcher"
+    ],
+    "props": {
+      "blockClass": "switcherMobileCol",
+      "width": "50%"
+    }
+  },
+  "flex-layout.col#filterMobile": {
+    "children": [
+      "filter-navigator.v3"
+    ],
+    "props": {
+      "blockClass": "filterMobileCol",
+      "width": "50%",
+      "verticalAlign": "middle"
+    }
+  },
+  "search-not-found-layout": {
+    "children": [
+      "flex-layout.row#searchbread",
+      "flex-layout.row#notfound"
+    ]
+  },
+  "flex-layout.row#notfound": {
+    "children": [
+      "not-found"
+    ],
+    "props": {
+      "fullWidth": true
+    }
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
+  },
+  "gallery": {
+    "blocks": [
+      "product-summary.shelf#produseCategorie"
+    ]
+  },
+  "product-summary.shelf#produseCategorie": {
+    "children": [
+      "flex-layout.col#produseCategorieTop",
+      "flex-layout.col#produseCategorieBottom"
+    ],
+    "props": {
+      "blockClass": "containerProdusCategorie"
+    }
+  },
+  "flex-layout.col#produseCategorieTop": {
+    "children": [
+      "product-summary-image",
+      "product-specification-badges",
+      "product-summary-name#numeProdus"
+    ],
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true
+    }
+  },
+  "product-summary-name#numeProdus": {
+    "props": {
+      "blockClass": "numeProdusCategorie"
+    }
+  },
+  "flex-layout.col#produseCategorieBottom": {
+    "children": [
+      "flex-layout.row#price-container",
+      "product-selling-price#pret-fara-tva-shelf",
+      "product-summary-sku-selector#skuCategorie",
+      "progressive-discount-shelf",
+      "add-to-cart-button-check"
+    ],
+    "props": {
+      "width": "100%",
+      "preventVerticalStretch": true,
+      "verticalAlign": "bottom"
+    }
+  },
+  "flex-layout.row#price-container":{
+    "children":[
+      "product-list-price#pret-intreg-shelf",
+      "product-selling-price#pret-redus-shelf"
+    ],
+    "props":{
+      "colSizing":"auto",
+      "marginTop":4,
+      "marginBottom":0,
+      "preventHorizontalStretch":true,
+      "preserveLayoutOnMobile": true,
+      "horizontalAlign":"center",
+      "colGap":0,
+      "blockClass":"priceContainerCategory"
+    }
+  },
+  "flex-layout.row#price-container-search":{
+    "children":[
+      "product-list-price#pret-intreg-search",
+      "product-selling-price#pret-redus-search"
+    ],
+    "props":{
+      "colSizing":"auto",
+      "marginTop":4,
+      "marginBottom":0,
+      "preventHorizontalStretch":true,
+      "horizontalAlign":"center",
+      "colGap":0,
+      "blockClass":"priceContainerCategory"
+    }
+  },
+  "product-selling-price#pret-redus-shelf": {
+    "props": {
+      "blockClass":"pretRedusShelf",
+      "message":"{sellingPriceWithTax}"
+    }
+  },
+  "product-selling-price#pret-redus-search": {
+    "props": {
+      "blockClass":"pretRedusShelf",
+      "message":"{sellingPriceValue}"
+    }
+  },
+  "product-selling-price#pret-fara-tva-shelf": {
+    "props": {
+      "blockClass":"pretFaraTvaShelf",
+      "message":"{sellingPriceValue} fără tva"
+    }
+  },
+  "product-selling-price#pret-fara-tva-search": {
+    "props": {
+      "blockClass":"pretFaraTvaShelf",
+      "message":"fără tva"
+    }
+  },
+  "product-list-price#pret-intreg-shelf": {
+    "props": {
+      "blockClass":"pretIntregShelf",
+      "message":"{listPriceWithTax}"
+    }
+  },
+  "product-list-price#pret-intreg-search": {
+    "props": {
+      "blockClass":"pretIntregShelf",
+      "message":"{listPriceValue}"
+    }
+  },
+  "product-summary-price#containerPret": {
+    "props": {
+      "blockClass": "containerPret"
+    }
+  },
+  "product-summary-sku-selector#skuCategorie": {
+    "props": {
+      "showVariationsLabels": false,
+      "maxItems": 100,
+      "visibility":"more-than-one",
+      "displayMode": "select",
+      "initialSelection": "empty",
+      "hideImpossibleCombinations": false,
+      "blockClass": "skuCategorie"
+    }
+  }
+}

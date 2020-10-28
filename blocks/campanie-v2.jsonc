@@ -1,0 +1,68 @@
+{
+    "store.custom#campanie-v2": {
+      "blocks": [
+        "search-result-layout.customQuery#top-vandute-campanie-v2"
+      ],
+      "props": {
+        "context": {
+          "skusFilter": "ALL_AVAILABLE",
+          "simulationBehavior": "skip",
+          "__unstableProductOriginVtex": true
+        }
+      }
+    },
+    "search-result-layout.customQuery#top-vandute-campanie-v2": {
+      "blocks": [
+        "search-result-layout.desktop#campanie-v2",
+        "search-result-layout.mobile#campanie-v2",
+        "search-not-found-layout"
+      ],
+      "props": {
+        "querySchema": {
+          "skusFilter": "FIRST_AVAILABLE",
+          "simulationBehavior": "skip",
+          "maxItemsPerPage": 10,
+          "__unstableProductOriginVtex": true
+        }
+      }
+    },
+  
+    "search-result-layout.desktop#campanie-v2": {
+      "children": [
+        "flex-layout.row#hero-links-campanie",
+        "flex-layout.row#hero-campanie",
+        "flex-layout.row#row-header-campanie",
+        "flex-layout.row#brands-campanie",
+        "rich-text#top-sell-title",
+        "flex-layout.row#result-campanie",
+        "rich-text#active-promo-title"
+      ],
+      "props": {
+        "pagination": "show-more",
+        "preventRouteChange": true,
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    },
+    
+    "search-result-layout.mobile#campanie-v2": {
+      "children": [
+        "flex-layout.row#hero-links-campanie",
+        "flex-layout.row#hero-campanie",
+        "flex-layout.row#row-header-campanie",
+        "flex-layout.row#brands-campanie",
+        "rich-text#top-sell-title",
+        "flex-layout.row#contentmobile-campanie",
+        "rich-text#active-promo-title"
+      ],
+      "props": {
+        "pagination": "show-more",
+        "mobileLayout": {
+          "mode1": "small",
+          "mode2": "normal"
+        }
+      }
+    }
+  }

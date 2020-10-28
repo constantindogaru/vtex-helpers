@@ -1,0 +1,54 @@
+{
+  "store.product": {
+    "children": [
+      "responsive-layout.desktop#bannerRibbon",
+      "responsive-layout.tablet#bannerRibbon",
+      "responsive-layout.mobile#bannerRibbon",
+      "flex-layout.row#product-breadcrumb",
+      "flex-layout.row#product-main",
+      "shelf.relatedProducts#similar-products",
+      "shelf.relatedProducts#accesorii",
+      "shelf.relatedProducts#vazute",
+      "shelf.relatedProducts#cumparate"
+    ]
+  },
+
+  "responsive-layout.desktop#bannerRibbon":{
+    "children":[
+      "image#bannerRibbon"
+    ],
+    "title":"Ribbon Banner Desktop"
+  },
+  "responsive-layout.tablet#bannerRibbon":{
+    "children":[
+      "image#bannerRibbon"
+    ],
+    "title":"Ribbon Banner Tablet"
+  },
+  "responsive-layout.mobile#bannerRibbon":{
+    "children":[
+      "image#bannerRibbon"
+    ],
+    "title":"Ribbon Banner Mobile"
+  },
+  "image#bannerRibbon":{
+    "props":{
+      "blockClass":"ribbonBanner",
+      "src":""
+    },
+    "title":"Ribbon Banner"
+  },
+  "flex-layout.row#product-main": {
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "paddingTop": 7,
+      "blockClass":"productContainer"
+    },
+    "children": [
+      "flex-layout.col#stack",
+      "flex-layout.col#right-col"
+    ],
+    "title":"Product layout"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "list-context.product-list#recents": {
+    "blocks": ["product-summary.shelf#defaultShelf"],
+    "children": ["slider-layout#recents"],
+    "props": {
+      "orderBy": "OrderByReleaseDateDESC",
+      "maxItems":12
+    },
+    "title":"Lista produse recente"
+  },
+  "slider-layout#recents": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 3,
+        "phone": 2
+      },
+      "arrowSize":{
+        "mobile":15,
+        "desktop":15
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "blockClass": "shelfProduse"
+    }
+  }
+}

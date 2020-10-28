@@ -1,0 +1,846 @@
+{
+  "vtex.menu@2.x:menu#main": {
+    "children": [
+      "menu-item#produse"
+    ],
+    "props":{
+      "blockClass":"containerMeniu"
+    }
+  },
+
+  "menu-item#produse": {
+    "props": {
+      "id": "menu-item-produse",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "meniuProduse",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Produse",
+        "text": "Produse"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#produse"]
+  },
+  "vtex.menu@2.x:submenu#produse":{
+    "children":[
+      "flex-layout.row#desktop-categories"
+      // "flex-layout.row#desktop-categories-produsePentruScoala"
+    ],
+    "props":{
+      "blockClass":"megamenuContainer"
+    }
+  },
+  
+
+  "flex-layout.row#desktop-categories":{
+    "children":[
+      "category-menu#test"
+      // "menu-item#produsePentruScoala"
+    ],
+    "props":{
+      "blockClass": "row-desktop-categories",
+      "horizontalAlign":"left"
+    }
+  },
+  
+
+
+  "category-menu#test": {
+    "props": {
+      "showAllDepartments": false,
+      "showSubcategories": true,
+      "menuDisposition": "left"
+    }
+  },
+  "flex-layout.row#main-menu":{
+    "children":[
+      "flex-layout.col#articole-birou",
+      "flex-layout.col#administrativ",
+      "flex-layout.col#mobilier",
+      "flex-layout.col#itc",
+      "flex-layout.col#produse-scoala"
+    ],
+    "props":{
+      "fullWidth":true,
+      "preventHorizontalStretch":true,
+      "horizontalAlign":"left",
+      "blockClass":"maineMenuWrapper"
+    }
+  },
+
+  "menu-item#cartuse-tonere": {
+    "props": {
+      "id": "menu-item-cartuse-tonere",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "elementMeniuPrincipal",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Cartuse si Tonere",
+        "text": "Cartuse si Tonere"
+      }
+    }
+  },
+  
+  "menu-item#biroul-tau": {
+    "props": {
+      "id": "menu-item-biroul-tau",
+      "type": "custom", 
+      "iconId": null,
+      "highlight": false,
+      "blockClass": ["elementMeniuPrincipal","elementMeniuBirou"],
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Biroul Tau",
+        "text": "Biroul Tau"
+      }
+    }
+  },
+  "menu-item#tipografie": {
+    "props": {
+      "id": "menu-item-tipografie",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "blockClass": "elementMeniuPrincipal",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Tipografie",
+        "text": "Tipografie"
+      }
+    }
+  },
+  "menu-item#reduceri": {
+    "props": {
+      "id": "menu-item-reduceri",
+      "type": "custom",
+      "iconId": null,
+      "blockClass": "elementMeniuPrincipal",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "Reduceri",
+        "text": "Reduceri"
+      }
+    }
+  },
+    "flex-layout.col#articole-birou":{
+        "children":[
+          "image#articole-birou",
+          "menu-item#articole-birou",
+          "menu-item#organizare-si-arhivare",
+          "menu-item#accesorii-birou",
+          "menu-item#instrumente-scris",
+          "menu-item#hartie",
+          "menu-item#comunicare-si-prezentare",
+          "menu-item#aparatura-pentru-birou",
+          "menu-item#cadouri-business",
+          "menu-item#biroul-tau-articole"
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+      },
+      "image#articole-birou":{
+          "props":{
+              "src":"assets/imagini/menu-image1.jpg",
+              "blockClass":"menuImage"
+          }
+
+      },
+      "menu-item#articole-birou": {
+        "props": {
+          "id": "menu-item-articole-birou",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "departmentItem",
+          "itemProps": {
+            "categoryId": 250,
+            "text": "Articole de birou"
+          }
+        }
+      },
+      "menu-item#organizare-si-arhivare": {
+        "props": {
+          "id": "menu-item-organizare-si-arhivare",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 1,
+            "text": "Organizare si Arhivare"
+          }
+        }
+      },
+      "menu-item#accesorii-birou": {
+        "props": {
+          "id": "menu-item-accesorii-birou",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 2,
+            "text": "Accesorii birou"
+          }
+        }
+      },
+      "menu-item#instrumente-scris": {
+        "props": {
+          "id": "menu-item-instrumente-scris",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 3,
+            "text": "Instrumente de scris"
+          }
+        }
+      },
+      "menu-item#hartie": {
+        "props": {
+          "id": "menu-item-hartie",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 4,
+            "text": "Hartie si articole din hartie"
+          }
+        }
+      },
+      "menu-item#comunicare-si-prezentare": {
+        "props": {
+          "id": "menu-item-comunicare-si-prezentare",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 6,
+            "text": "Comunicare si prezentare"
+          }
+        }
+      },
+      "menu-item#aparatura-pentru-birou": {
+        "props": {
+          "id": "menu-item-aparatura-pentru-birou",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 8,
+            "text": "Aparatura pentru birou"
+          }
+        }
+      },
+      "menu-item#cadouri-business": {
+        "props": {
+          "id": "menu-item-cadouri-business",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 9,
+            "text": "Cadouri business"
+          }
+        }
+      },
+      "menu-item#biroul-tau-articole": {
+        "props": {
+          "id": "menu-item-biroul-tau",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 361,
+            "text": "Biroul Tau"
+          }
+        }
+      },
+      "flex-layout.col#administrativ":{
+        "children":[
+          "image#administrativ",
+          "menu-item#administrativ",
+          "menu-item#protocol",
+          "menu-item#ambalare-etichetare",
+          "menu-item#echipamente-protectie",
+          "menu-item#curatenie"
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+      },
+      "image#administrativ":{
+        "props":{
+          "src":"assets/imagini/menu-image2.jpg",
+          "blockClass":"menuImage"
+      }
+
+      },
+      "menu-item#administrativ": {
+        "props": {
+          "id": "menu-item-administrativ",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "departmentItem",
+          "itemProps": {
+            "categoryId": 10,
+            "text": "Administrativ"
+          }
+        }
+      },
+      "menu-item#protocol": {
+        "props": {
+          "id": "menu-item-protocol",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 11,
+            "text": "Protocol"
+          }
+        }
+      },
+      "menu-item#ambalare-etichetare": {
+        "props": {
+          "id": "menu-item-ambalare-etichetare",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 23,
+            "text": "Ambalare si etichetare"
+          }
+        }
+      },
+      "menu-item#echipamente-protectie": {
+        "props": {
+          "id": "menu-item-echipamente-protectie",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 120,
+            "text": "Echipamente de protectie"
+          }
+        }
+      },
+      "menu-item#curatenie": {
+        "props": {
+          "id": "menu-item-curatenie",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 266,
+            "text": "Curatenie"
+          }
+        }
+      },
+      "flex-layout.col#mobilier":{
+        "children":[
+          "image#mobilier",
+          "menu-item#mobilier",
+          "menu-item#mobilier-office",
+          "menu-item#mobilier-metalic",
+          "menu-item#accesorii-mobilier",
+          "menu-item#scaune-si-fotolii",
+          "menu-item#mobilier-industrial",
+          "menu-item#mobilier-horeca",
+          "menu-item#mobilier-scolar",
+          "menu-item#resigilate"
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+      },
+      "image#mobilier":{
+        "props":{
+          "src":"assets/imagini/menu-image3.jpg",
+          "blockClass":"menuImage"
+      }
+
+      },
+      "menu-item#mobilier": {
+        "props": {
+          "id": "menu-item-mobilier",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "departmentItem",
+          "itemProps": {
+            "categoryId": 166,
+            "text": "Mobilier"
+          }
+        }
+      },
+      "menu-item#mobilier-office": {
+        "props": {
+          "id": "menu-item-mobilier-office",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 313,
+            "text": "Mobilier Office"
+          }
+        }
+      },
+      "menu-item#mobilier-metalic": {
+        "props": {
+          "id": "menu-item-mobilier-metalic",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 321,
+            "text": "Mobilier metalic"
+          }
+        }
+      },
+      "menu-item#accesorii-mobilier": {
+        "props": {
+          "id": "menu-item-accesorii-mobilier",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 327,
+            "text": "Accesorii mobilier"
+          }
+        }
+      },
+      "menu-item#scaune-si-fotolii": {
+        "props": {
+          "id": "menu-item-scaune-si-fotolii",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 330,
+            "text": "Scaune si fotolii"
+          }
+        }
+      },
+      "menu-item#mobilier-industrial": {
+        "props": {
+          "id": "menu-item-mobilier-industrial",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 337,
+            "text": "Mobilier industrial"
+          }
+        }
+      },
+      "menu-item#mobilier-horeca": {
+        "props": {
+          "id": "menu-item-mobilier-horeca",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 366,
+            "text": "Mobilier Horeca"
+          }
+        }
+      },
+      "menu-item#mobilier-scolar": {
+        "props": {
+          "id": "menu-item-mobilier-scolar",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 371,
+            "text": "Mobilier Scolar"
+          }
+        }
+      },
+      "menu-item#resigilate": {
+        "props": {
+          "id": "menu-item-resigilate",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 386,
+            "text": "Resigilate"
+          }
+        }
+      },
+      "flex-layout.col#itc":{
+        "children":[
+          "image#itc",
+          "menu-item#itc",
+          "menu-item#imprimante",
+          "menu-item#laptopuri-si-accesorii",
+          "menu-item#electrocasnice",
+          "menu-item#aparate-incalzire",
+          "menu-item#sisteme-pc",
+          "menu-item#monitoare-led",
+          "menu-item#retelistica",
+          "menu-item#audio-video",
+          "menu-item#telefoane-mobile",
+          "menu-item#periferice",
+          "menu-item#consumabile",
+          "menu-item#tablete-si-accesorii"
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+      },
+      "image#itc":{
+        "props":{
+          "src":"assets/imagini/menu-image4.jpg",
+          "blockClass":"menuImage"
+      }
+
+    },
+    "menu-item#itc": {
+      "props": {
+        "id": "menu-item-itc",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "departmentItem",
+        "itemProps": {
+          "categoryId": 7,
+          "text": "IT&C"
+        }
+      }
+    },
+    "menu-item#imprimante": {
+      "props": {
+        "id": "menu-item-imprimante",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 155,
+          "text": "Imprimante"
+        }
+      }
+    },
+    "menu-item#laptopuri-si-accesorii": {
+      "props": {
+        "id": "menu-item-laptopuri-si-accesorii",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 156,
+          "text": "Laptopuri si accesorii"
+        }
+      }
+    },
+    "menu-item#electrocasnice": {
+      "props": {
+        "id": "menu-item-electrocasnice",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 157,
+          "text": "Electrocasnice si climatizare"
+        }
+      }
+    },
+    "menu-item#aparate-incalzire": {
+      "props": {
+        "id": "menu-item-aparate-incalzire",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 158,
+          "text": "Aparate incalzire"
+        }
+      }
+    },
+    "menu-item#sisteme-pc": {
+      "props": {
+        "id": "menu-item-sisteme-pc",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 177,
+          "text": "Sisteme PC"
+        }
+      }
+    },
+    "menu-item#monitoare-led": {
+      "props": {
+        "id": "menu-item-monitoare-led",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 194,
+          "text": "Monitoare LED"
+        }
+      }
+    },
+    "menu-item#retelistica": {
+      "props": {
+        "id": "menu-item-retelistica",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 198,
+          "text": "Retelistica"
+        }
+      }
+    },
+    "menu-item#audio-video": {
+      "props": {
+        "id": "menu-item-audio-video",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 221,
+          "text": "Audio Video"
+        }
+      }
+    },
+    "menu-item#telefoane-mobile": {
+        "props": {
+          "id": "menu-item-telefoane-mobileu",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 224,
+            "text": "Telefoane Mobile si Accesorii"
+          }
+        }
+      },
+      "menu-item#periferice": {
+        "props": {
+          "id": "menu-item-periferice",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 232,
+            "text": "Periferice si Software"
+          }
+        }
+      },
+      "menu-item#consumabile": {
+        "props": {
+          "id": "menu-item-consumabile",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 242,
+            "text": "Consumabile"
+          }
+        }
+      },
+      "menu-item#tablete-si-accesorii": {
+        "props": {
+          "id": "menu-item-tablete-si-accesorii",
+          "type": "category", 
+          "iconId": null,
+          "highlight": false,
+          "blockClass": "subcategoryItem",
+          "itemProps": {
+            "categoryId": 243,
+            "text": "Tablete si accesorii"
+          }
+        }
+      },
+      "flex-layout.col#produse-scoala":{
+        "children":[
+          "image#produse-scoala",
+          "menu-item#produse-scoala",
+          "menu-item#instrumente-scris",
+          "menu-item#coloriaj",
+          "menu-item#ghiozdane",
+          "menu-item#frixion",
+          "menu-item#birou-de-acasa",
+          "menu-item#caiete-scolare",
+          "menu-item#sala-de-clasa",
+          "menu-item#mobilier-scolar"
+        ],
+        "props":{
+            "preventVerticalStretch":true
+        }
+      },
+      "image#produse-scoala":{
+        "props":{
+          "src":"assets/imagini/menu-image1.jpg",
+          "blockClass":"menuImage"
+      }
+
+    },
+    "menu-item#produse-scoala": {
+      "props": {
+        "id": "menu-item-produse-scoala",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "departmentItem",
+        "itemProps": {
+          "categoryId": 12,
+          "text": "Produse pentru scoala"
+        }
+      }
+    },
+    "menu-item#instrumente-scris-scoala": {
+      "props": {
+        "id": "menu-item-instrumente-scris-scoala",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 136,
+          "text": "Instrumente de scris"
+        }
+      }
+    },
+    "menu-item#coloriaj": {
+      "props": {
+        "id": "menu-item-coloriaj",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 267,
+          "text": "Coloriaj si activitati creative"
+        }
+      }
+    },
+    "menu-item#ghiozdane": {
+      "props": {
+        "id": "menu-item-ghiozdane",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 268,
+          "text": "Ghiozdane, penare, genti"
+        }
+      }
+    },
+    "menu-item#frixion": {
+      "props": {
+        "id": "menu-item-frixion",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 274,
+          "text": "Frixion"
+        }
+      }
+    },
+    "menu-item#birou-de-acasa": {
+      "props": {
+        "id": "menu-item-birou-de-acasa",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 276,
+          "text": "Birou de acasa"
+        }
+      }
+    },
+    "menu-item#caiete-scolare": {
+      "props": {
+        "id": "menu-item-caiete-scolare",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 287,
+          "text": "Caiete scolare"
+        }
+      }
+    },
+    "menu-item#sala-de-clasa": {
+      "props": {
+        "id": "menu-item-sala-de-clasa",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 295,
+          "text": "Sala de clasa"
+        }
+      }
+    },
+    "menu-item#mobilier-scolar-scoala": {
+      "props": {
+        "id": "menu-item-mobilier-scolar-scoala",
+        "type": "category", 
+        "iconId": null,
+        "highlight": false,
+        "blockClass": "subcategoryItem",
+        "itemProps": {
+          "categoryId": 377,
+          "text": "Mobilier scolar"
+        }
+      }
+    }
+
+}

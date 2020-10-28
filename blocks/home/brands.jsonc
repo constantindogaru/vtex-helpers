@@ -1,0 +1,278 @@
+{
+  "flex-layout.row#brands": {
+    "props": {
+      "blockClass": "brands"
+    },
+    "children":[
+      "flex-layout.col#brands"
+    ],
+    "title":"Lista Branduri"
+  },
+
+  "flex-layout.row#brands-campanie": {
+    "props": {
+      "blockClass": ["brands","brandsCampanie"]
+    },
+    "children":[
+      "flex-layout.col#brands-campanie"
+    ],
+    "title":"Lista Branduri"
+  },
+  
+  "flex-layout.col#brands": {
+    "props": {
+      "blockClass": "brands"
+    },
+    "children":[
+      "flex-layout.row#brands-title",
+      "list-context.image-list#brands",
+      "flex-layout.row#brands-more"
+    ]
+  },
+
+  "flex-layout.col#brands-campanie": {
+    "props": {
+      "blockClass": "brands"
+    },
+    "children":[
+      //"flex-layout.row#brands-title-campanie",
+      "list-context.image-list#brands-campanie",
+      "flex-layout.row#brands-more-campanie"
+    ],
+    "title":"Lista Branduri Campanie"
+  },
+  
+  "flex-layout.row#brands-title": {
+    "children":[
+      "rich-text#brands"
+    ]
+  },
+
+  "flex-layout.row#brands-title-campanie": {
+    "children":[
+      "rich-text#brands-campanie"
+    ]
+  },
+
+  "flex-layout.row#brands-more": {
+    "children":[
+      "rich-text#brands-more"
+    ]
+  },
+
+  "flex-layout.row#brands-more-campanie": {
+    "children":[
+      "rich-text#brands-more-campanie"
+    ]
+  },
+
+  "rich-text#brands": {
+    "props": {
+      "text": "### Branduri comercializate de Dacris",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"brandsTitle"
+    }
+  },
+
+  "rich-text#brands-campanie": {
+    "props": {
+      "text": "",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass":"brandsTitle"
+    }
+  },
+  
+  "rich-text#brands-more": {
+    "props": {
+      "text": "[Vezi toate brandurile](/more)",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "brands-more"
+    }
+  },
+
+  "rich-text#brands-more-campanie": {
+    "props": {
+      "text": "",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "blockClass": "brands-more"
+    }
+  },
+
+  "list-context.image-list#brands": {
+    "children": ["slider-layout#brands-images"],
+    "props": {
+      "height": 80,
+      "sliderLayoutConfig": {
+        "showPaginationDots": "never",
+        "showNavigationArrows": "never"
+      },
+      "images": [
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        },
+        {
+          "image": "/arquivos/hp-logo.png",
+          "mobileImage": "/arquivos/hp-logo.png",
+          "description": "HP brand"
+        }
+      ]
+    }
+  },
+
+  "slider-layout#brands-images": {
+    "props": {
+        //"showPaginationDots": "never",
+        "showNavigationArrows": "never",
+        "blockClass": "brandsSlider",
+      "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 3
+      },
+      "infinite": true
+    }
+  },
+
+  "list-context.image-list#brands-campanie": {
+    "children": ["slider-layout#brands-images-campanie"],
+    "props": {
+      "height": 125,
+      "sliderLayoutConfig": {
+        "showPaginationDots": "never",
+        "showNavigationArrows": "never"
+      },
+      "images": [
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // },
+        // {
+        //   "image": "",
+        //   "mobileImage": "",
+        //   "description": ""
+        // }
+      ]
+    }
+  },
+
+  "slider-layout#brands-images-campanie": {
+    "props": {
+        //"showPaginationDots": "never",
+        "showNavigationArrows": "never",
+        "blockClass": ["brandsSlider","brandsSliderCampanie"],
+        "itemsPerPage": {
+        "desktop": 6,
+        "tablet": 6,
+        "phone": 3
+      },
+      "infinite": true
+    }
+  }
+}

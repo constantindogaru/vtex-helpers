@@ -1,0 +1,144 @@
+{
+  "flex-layout.row#footer-grid": {
+    "props":{
+      "blockClass":"row-footer-grid"
+    },
+    "children": [
+      "flex-layout.col#footer-grid-left",
+      "flex-layout.col#footer-grid-right"
+    ],
+    "title":"Bannere Footer Layout"
+  },
+  "flex-layout.col#footer-grid-left": {
+    "props":{
+      "rowGap": 6,
+      "blockClass":"footer-grid-left"
+    },
+    "children": [
+      "responsive-layout.desktop#bannere-footer",
+      "responsive-layout.tablet#bannere-footer",
+      "responsive-layout.mobile#bannere-footer"
+    ]
+  },
+
+"responsive-layout.desktop#bannere-footer":{
+  "children":[
+    "image#footer-banner1",
+    "image#footer-banner2"
+  ]
+},
+"responsive-layout.mobile#bannere-footer":{
+  "children":[
+    "image#footer-banner1-mobile",
+    "image#footer-banner2-mobile"
+  ]
+},
+
+"responsive-layout.tablet#bannere-footer":{
+  "children":[
+    "image#footer-banner1",
+    "image#footer-banner2"
+  ]
+},
+
+  "image#footer-banner1":{
+    "props":{
+      "src":"assets/imagini/banner_de_ce.jpg",
+      "blockClass":"footerBanner1"
+    },
+    "title":"Banner Footer 1"
+  },
+
+  "image#footer-banner2":{
+    "props":{
+      "src":"assets/imagini/banner_client.jpg"
+    },
+    "title":"Banner Footer 2"
+  },
+  "image#footer-banner1-mobile":{
+    "props":{
+      "src":"assets/imagini/banner_de_ce_mobile.jpg",
+      "blockClass":"footerBannerMobile"
+    },
+    "title":"Banner Footer 1 Mobile"
+  },
+
+  "image#footer-banner2-mobile":{
+    "props":{
+      "src":"assets/imagini/banner_client_mobile.jpg",
+      "blockClass":"footerBannerMobile"
+    },
+    "title":"Banner Footer 2 Mobile"
+  },
+
+  "flex-layout.col#footer-grid-right": {
+    "props": {
+      "blockClass": "footer-grid-right" // bg color is here
+    },
+    "children": [
+      "rich-text#purple-box",
+      "flex-layout.row#catalogs"
+    ]
+  },
+  "flex-layout.row#catalogs": {
+    "children":[
+      "flex-layout.col#catalog1",
+      "flex-layout.col#catalog2"
+    ],
+    "props":{
+      "blockClass":"rand-catalogs",
+      "preserveLayoutOnMobile":true,
+      "colSizing":"auto",
+      "colGap":6,
+      "preventHorizontalStretch":true,
+      "horizontalAlign":"left"
+    }
+  },
+
+  "flex-layout.col#catalog1":{
+    "children":[
+      "image#catalog1",
+      "rich-text#catalog1"
+    ]
+  },
+
+  "flex-layout.col#catalog2":{
+    "children":[
+      "image#catalog2",
+      "rich-text#catalog2"
+    ]
+  },
+  "image#catalog1":{
+    "props":{
+      "src":"assets/imagini/catalog1.jpg"
+    }
+  },
+  "image#catalog2":{
+    "props":{
+      "src":"assets/imagini/catalog2.jpg"
+    }
+  },
+
+  "rich-text#catalog1":{
+    "props":{
+      "text":"Descopera catalogul \n **2019 - 2020**",
+      "blockClass":"textCatalog"
+    }
+  },
+  "rich-text#catalog2":{
+    "props":{
+      "text":"Descopera catalogul \n **Office Gifts**",
+      "blockClass":"textCatalog"
+    }
+  },
+ 
+  
+  "rich-text#purple-box": {
+    "props": {
+      "text": "## Locul în care biroul tău se simte ca acasă \n Suntem prietenoși și ne place să râdem. În fiecare zi. Suntem departe de a fi perfecți, dar ne place să fim corecți. Căutăm tot timpul să fim mai buni, iar uneori chiar reușim. Învățăm de la toți oamenii cu care intrăm în contact. Și da, greșim. Dar căutăm de fiecare dată să ne îndreptăm. Rapid. Suntem oameni, la fel ca și tine și o să facem tot ce se poate să îți oferim cea mai bună soluție pentru tine și biroul tău. Vrei să vezi?",
+      "textColor": "c-on-base--inverted",
+      "preventVerticalStretch": true,
+      "blockClass": "purpleBox"
+    }
+  }
+}

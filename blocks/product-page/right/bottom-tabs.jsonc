@@ -1,0 +1,135 @@
+{
+  "flex-layout.row#pr-bottom": {
+    "children": [
+      "product-gifts",
+      "tab-layout#productRightTabs",
+      "flex-layout.col#share"
+    ],
+    "props": {
+      "blockClass": "whiteBackgroundRoundBottom"
+    }
+  },
+
+  "product-gifts": {
+    "children": ["flex-layout.row#product-gifts-text", "product-gift-list"]
+  },
+
+  "flex-layout.row#product-gifts-text": {
+    "props": {
+      "verticalAlign": "middle",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "rich-text#product-gifts"
+    ]
+  },
+  "flex-layout.col#product-gifts-text": {
+    "children": ["gift-text"],
+    "props": {
+      "verticalAlign": "middle"
+    }
+  },
+  "rich-text#product-gifts": {
+    "props": {
+      "text": "**Primești cadou**"
+    }
+  },
+  "product-gift-list": {
+    "children": ["flex-layout.row#gift"]
+  },
+  "flex-layout.row#gift": {
+    "props": {
+      "fullWidth": true,
+      "preserveLayoutOnMobile": true
+    },
+    "children": ["flex-layout.col#gift-name-description", "gift-image"]
+  },
+  "flex-layout.col#gift-name-description": {
+    "props": {
+      "verticalAlign": "middle",
+      "rowGap": 3
+    },
+    "children": ["gift-name"]
+  },
+  
+  "tab-layout#productRightTabs": {
+    "children": [
+      "tab-list#productRightTabs",
+      "tab-content#productRightTabs"
+    ],
+    "props": {
+      "blockClass": "productRightTabs",
+      "defaultActiveTabId": "productRightTabs2"
+    }
+  },
+  "tab-list#productRightTabs": {
+    "children": [
+      "tab-list.item#productRightTabs2",
+      "tab-list.item#reviews",
+      "tab-list.item#productRightTabs1"
+    ],
+    "props": {
+      "blockClass": "productRightTabsDescription"
+    }
+  },
+  "tab-list.item#productRightTabs1": {
+    "props": {
+      "tabId": "productRightTabs1",
+      "label": "Livrare"
+      
+    }
+  },
+  "tab-list.item#productRightTabs2": {
+    "props": {
+      "tabId": "productRightTabs2",
+      "label": "Specificatii",
+      "defaultActiveTab": true
+     
+    }
+  },
+  "tab-list.item#reviews": {
+    "props": {
+      "tabId": "reviews",
+      "label": "Review-uri"
+    }
+  },
+  "tab-content#productRightTabs": {
+    "children": [
+      "tab-content.item#productRightTabs1",
+      "tab-content.item#productRightTabs2",
+      "tab-content.item#reviews"
+    ]
+  },
+  "tab-content.item#productRightTabs1": {
+    "children": [
+      "shipping-simulator"
+    ],
+    "props": {
+      "tabId": "productRightTabs1"
+    }
+  },
+  "tab-content.item#productRightTabs2": {
+    "children": [
+      "product-specifications#product"
+    ],
+    "props": {
+      "tabId": "productRightTabs2"
+    }
+  },
+  "product-specifications#product": {
+    "props": {
+      "showSpecificationsTab": false
+      // "shoudCollapseOnTabChange": true,
+      // "collapsible": "desktopOnly"
+    }
+  },
+  "tab-content.item#reviews": {
+    "children": [
+      "product-reviews"
+    ],
+    "props": {
+      "tabId": "reviews"
+    }
+  }
+}
